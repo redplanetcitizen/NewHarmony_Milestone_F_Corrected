@@ -1,0 +1,711 @@
+year,target_definition,bea_code,sector_name,total_final_use_musd,imported_final_use_musd,domestic_final_use_musd,import_to_domestic_ratio,ratio_defined
+2019,legacy_core_except_inventory,111CA,Farms,217444.0,22647.0,194797.0,0.11625949064923997,1
+2019,social_core_no_fixed_investment,111CA,Farms,217444.0,22647.0,194797.0,0.11625949064923997,1
+2019,legacy_core_except_inventory,113FF,"Forestry, fishing, and related activities",15742.0,2814.0,12928.0,0.2176670792079208,1
+2019,social_core_no_fixed_investment,113FF,"Forestry, fishing, and related activities",15742.0,2814.0,12928.0,0.2176670792079208,1
+2019,legacy_core_except_inventory,211,Oil and gas extraction,88293.0,0.0,88293.0,0.0,1
+2019,social_core_no_fixed_investment,211,Oil and gas extraction,88293.0,0.0,88293.0,0.0,1
+2019,legacy_core_except_inventory,212,"Mining, except oil and gas",24585.0,43.0,24542.0,0.0017520984434846387,1
+2019,social_core_no_fixed_investment,212,"Mining, except oil and gas",24543.0,12.0,24531.0,0.0004891769597651951,1
+2019,legacy_core_except_inventory,213,Support activities for mining,122960.0,622.0,122338.0,0.005084274714316075,1
+2019,social_core_no_fixed_investment,213,Support activities for mining,2495.0,0.0,2495.0,0.0,1
+2019,legacy_core_except_inventory,22,Utilities,289048.0,773.0,288275.0,0.0026814673488856126,1
+2019,social_core_no_fixed_investment,22,Utilities,289048.0,773.0,288275.0,0.0026814673488856126,1
+2019,legacy_core_except_inventory,23,Construction,1525143.0,0.0,1525143.0,0.0,1
+2019,social_core_no_fixed_investment,23,Construction,104.0,0.0,104.0,0.0,1
+2019,legacy_core_except_inventory,321,Wood products,25132.0,1873.0,23259.0,0.08052796766842943,1
+2019,social_core_no_fixed_investment,321,Wood products,13650.0,1864.0,11786.0,0.15815374172747326,1
+2019,legacy_core_except_inventory,327,Nonmetallic mineral products,31729.0,5539.0,26190.0,0.21149293623520427,1
+2019,social_core_no_fixed_investment,327,Nonmetallic mineral products,31729.0,5539.0,26190.0,0.21149293623520427,1
+2019,legacy_core_except_inventory,331,Primary metals,32118.0,210.0,31908.0,0.006581421587062806,1
+2019,social_core_no_fixed_investment,331,Primary metals,32118.0,210.0,31908.0,0.006581421587062806,1
+2019,legacy_core_except_inventory,332,Fabricated metal products,111708.0,12652.0,99056.0,0.1277257308996931,1
+2019,social_core_no_fixed_investment,332,Fabricated metal products,90809.0,7671.0,83138.0,0.09226827684091511,1
+2019,legacy_core_except_inventory,333,Machinery,521496.0,99531.0,421965.0,0.2358750133304895,1
+2019,social_core_no_fixed_investment,333,Machinery,157960.0,5857.0,152103.0,0.03850680131226866,1
+2019,legacy_core_except_inventory,334,Computer and electronic products,636111.0,211688.0,424423.0,0.4987665607189054,1
+2019,social_core_no_fixed_investment,334,Computer and electronic products,287266.0,72259.0,215007.0,0.33607743003716156,1
+2019,legacy_core_except_inventory,335,"Electrical equipment, appliances, and components",189585.0,47020.0,142565.0,0.32981447059236135,1
+2019,social_core_no_fixed_investment,335,"Electrical equipment, appliances, and components",126775.0,26636.0,100139.0,0.2659902735198075,1
+2019,legacy_core_except_inventory,3361MV,"Motor vehicles, bodies and trailers, and parts",892293.0,229522.0,662771.0,0.3463066428675968,1
+2019,social_core_no_fixed_investment,3361MV,"Motor vehicles, bodies and trailers, and parts",478352.0,74187.0,404165.0,0.18355622085039525,1
+2019,legacy_core_except_inventory,3364OT,Other transportation equipment,247723.0,20983.0,226740.0,0.09254211872629443,1
+2019,social_core_no_fixed_investment,3364OT,Other transportation equipment,159912.0,6735.0,153177.0,0.043968742043518284,1
+2019,legacy_core_except_inventory,337,Furniture and related products,172788.0,39920.0,132868.0,0.3004485654935726,1
+2019,social_core_no_fixed_investment,337,Furniture and related products,124348.0,26332.0,98016.0,0.2686500163238655,1
+2019,legacy_core_except_inventory,339,Miscellaneous manufacturing,391531.0,73767.0,317764.0,0.23214398106771061,1
+2019,social_core_no_fixed_investment,339,Miscellaneous manufacturing,317202.0,58865.0,258337.0,0.2278612819689011,1
+2019,legacy_core_except_inventory,311FT,Food and beverage and tobacco products,1235118.0,61032.0,1174086.0,0.05198256345787276,1
+2019,social_core_no_fixed_investment,311FT,Food and beverage and tobacco products,1235118.0,61032.0,1174086.0,0.05198256345787276,1
+2019,legacy_core_except_inventory,313TT,Textile mills and textile product mills,92604.0,13091.0,79513.0,0.1646397444443047,1
+2019,social_core_no_fixed_investment,313TT,Textile mills and textile product mills,84672.0,12659.0,72013.0,0.17578770499770874,1
+2019,legacy_core_except_inventory,315AL,Apparel and leather and allied products,436868.0,139190.0,297678.0,0.46758578060857703,1
+2019,social_core_no_fixed_investment,315AL,Apparel and leather and allied products,436868.0,139190.0,297678.0,0.46758578060857703,1
+2019,legacy_core_except_inventory,322,Paper products,86149.0,1847.0,84302.0,0.021909325994638323,1
+2019,social_core_no_fixed_investment,322,Paper products,86149.0,1847.0,84302.0,0.021909325994638323,1
+2019,legacy_core_except_inventory,323,Printing and related support activities,10610.0,349.0,10261.0,0.03401227950492155,1
+2019,social_core_no_fixed_investment,323,Printing and related support activities,10610.0,349.0,10261.0,0.03401227950492155,1
+2019,legacy_core_except_inventory,324,Petroleum and coal products,464740.0,10233.0,454507.0,0.022514504727099913,1
+2019,social_core_no_fixed_investment,324,Petroleum and coal products,464740.0,10233.0,454507.0,0.022514504727099913,1
+2019,legacy_core_except_inventory,325,Chemical products,806296.0,119123.0,687173.0,0.17335227082554175,1
+2019,social_core_no_fixed_investment,325,Chemical products,804593.0,117941.0,686652.0,0.17176240657567443,1
+2019,legacy_core_except_inventory,326,Plastics and rubber products,108126.0,18446.0,89680.0,0.20568688670829616,1
+2019,social_core_no_fixed_investment,326,Plastics and rubber products,107083.0,18405.0,88678.0,0.2075486591939376,1
+2019,legacy_core_except_inventory,42,Wholesale trade,2544.0,0.0,2544.0,0.0,1
+2019,social_core_no_fixed_investment,42,Wholesale trade,2544.0,0.0,2544.0,0.0,1
+2019,legacy_core_except_inventory,441,Motor vehicle and parts dealers,0.0,0.0,0.0,0.0,1
+2019,social_core_no_fixed_investment,441,Motor vehicle and parts dealers,0.0,0.0,0.0,0.0,1
+2019,legacy_core_except_inventory,445,Food and beverage stores,0.0,0.0,0.0,0.0,1
+2019,social_core_no_fixed_investment,445,Food and beverage stores,0.0,0.0,0.0,0.0,1
+2019,legacy_core_except_inventory,452,General merchandise stores,0.0,0.0,0.0,0.0,1
+2019,social_core_no_fixed_investment,452,General merchandise stores,0.0,0.0,0.0,0.0,1
+2019,legacy_core_except_inventory,4A0,Other retail,7538.0,0.0,7538.0,0.0,1
+2019,social_core_no_fixed_investment,4A0,Other retail,7538.0,0.0,7538.0,0.0,1
+2019,legacy_core_except_inventory,481,Air transportation,202524.0,28342.0,174182.0,0.1627148614667417,1
+2019,social_core_no_fixed_investment,481,Air transportation,202524.0,28342.0,174182.0,0.1627148614667417,1
+2019,legacy_core_except_inventory,482,Rail transportation,2893.0,0.0,2893.0,0.0,1
+2019,social_core_no_fixed_investment,482,Rail transportation,2893.0,0.0,2893.0,0.0,1
+2019,legacy_core_except_inventory,483,Water transportation,30529.0,0.0,30529.0,0.0,1
+2019,social_core_no_fixed_investment,483,Water transportation,30529.0,0.0,30529.0,0.0,1
+2019,legacy_core_except_inventory,484,Truck transportation,14252.0,0.0,14252.0,0.0,1
+2019,social_core_no_fixed_investment,484,Truck transportation,14252.0,0.0,14252.0,0.0,1
+2019,legacy_core_except_inventory,485,Transit and ground passenger transportation,59465.0,0.0,59465.0,0.0,1
+2019,social_core_no_fixed_investment,485,Transit and ground passenger transportation,59465.0,0.0,59465.0,0.0,1
+2019,legacy_core_except_inventory,486,Pipeline transportation,311.0,0.0,311.0,0.0,1
+2019,social_core_no_fixed_investment,486,Pipeline transportation,311.0,0.0,311.0,0.0,1
+2019,legacy_core_except_inventory,487OS,Other transportation and support activities,30057.0,1.0,30056.0,3.327122704285334e-05,1
+2019,social_core_no_fixed_investment,487OS,Other transportation and support activities,30057.0,1.0,30056.0,3.327122704285334e-05,1
+2019,legacy_core_except_inventory,493,Warehousing and storage,438.0,0.0,438.0,0.0,1
+2019,social_core_no_fixed_investment,493,Warehousing and storage,438.0,0.0,438.0,0.0,1
+2019,legacy_core_except_inventory,511,"Publishing industries, except internet (includes software)",388548.0,2457.0,386091.0,0.006363784703606145,1
+2019,social_core_no_fixed_investment,511,"Publishing industries, except internet (includes software)",213959.0,2387.0,211572.0,0.01128221125668803,1
+2019,legacy_core_except_inventory,512,Motion picture and sound recording industries,92430.0,1159.0,91271.0,0.012698447480579812,1
+2019,social_core_no_fixed_investment,512,Motion picture and sound recording industries,50466.0,1159.0,49307.0,0.02350579025290527,1
+2019,legacy_core_except_inventory,513,Broadcasting and telecommunications,406621.0,66.0,406555.0,0.00016233965884074726,1
+2019,social_core_no_fixed_investment,513,Broadcasting and telecommunications,366812.0,66.0,366746.0,0.00017996106297001193,1
+2019,legacy_core_except_inventory,514,"Data processing, internet publishing, and other information services",135128.0,278.0,134850.0,0.0020615498702261773,1
+2019,social_core_no_fixed_investment,514,"Data processing, internet publishing, and other information services",76811.0,256.0,76555.0,0.0033440010450003265,1
+2019,legacy_core_except_inventory,521CI,"Federal Reserve banks, credit intermediation, and related activities",379050.0,2898.0,376152.0,0.007704332291201429,1
+2019,social_core_no_fixed_investment,521CI,"Federal Reserve banks, credit intermediation, and related activities",379050.0,2898.0,376152.0,0.007704332291201429,1
+2019,legacy_core_except_inventory,523,"Securities, commodity contracts, and investments",309865.0,10.0,309855.0,3.227316002646399e-05,1
+2019,social_core_no_fixed_investment,523,"Securities, commodity contracts, and investments",309865.0,10.0,309855.0,3.227316002646399e-05,1
+2019,legacy_core_except_inventory,524,Insurance carriers and related activities,446670.0,1011.0,445659.0,0.0022685506182978468,1
+2019,social_core_no_fixed_investment,524,Insurance carriers and related activities,441264.0,1011.0,440253.0,0.0022964068387949657,1
+2019,legacy_core_except_inventory,525,"Funds, trusts, and other financial vehicles",166451.0,0.0,166451.0,0.0,1
+2019,social_core_no_fixed_investment,525,"Funds, trusts, and other financial vehicles",166451.0,0.0,166451.0,0.0,1
+2019,legacy_core_except_inventory,HS,Housing,2208130.0,0.0,2208130.0,0.0,1
+2019,social_core_no_fixed_investment,HS,Housing,2208130.0,0.0,2208130.0,0.0,1
+2019,legacy_core_except_inventory,ORE,Other real estate,182180.0,0.0,182180.0,0.0,1
+2019,social_core_no_fixed_investment,ORE,Other real estate,9652.0,0.0,9652.0,0.0,1
+2019,legacy_core_except_inventory,532RL,Rental and leasing services and lessors of intangible assets,188170.0,0.0,188170.0,0.0,1
+2019,social_core_no_fixed_investment,532RL,Rental and leasing services and lessors of intangible assets,188170.0,0.0,188170.0,0.0,1
+2019,legacy_core_except_inventory,5411,Legal services,147664.0,1726.0,145938.0,0.01182694020748537,1
+2019,social_core_no_fixed_investment,5411,Legal services,124737.0,1499.0,123238.0,0.01216345607685941,1
+2019,legacy_core_except_inventory,5415,Computer systems design and related services,382506.0,15824.0,366682.0,0.04315455899116946,1
+2019,social_core_no_fixed_investment,5415,Computer systems design and related services,39187.0,0.0,39187.0,0.0,1
+2019,legacy_core_except_inventory,5412OP,"Miscellaneous professional, scientific, and technical services",1008131.0,35567.0,972564.0,0.03657034395679873,1
+2019,social_core_no_fixed_investment,5412OP,"Miscellaneous professional, scientific, and technical services",249519.0,491.0,249028.0,0.001971665836773375,1
+2019,legacy_core_except_inventory,55,Management of companies and enterprises,4440.0,0.0,4440.0,0.0,1
+2019,social_core_no_fixed_investment,55,Management of companies and enterprises,4440.0,0.0,4440.0,0.0,1
+2019,legacy_core_except_inventory,561,Administrative and support services,79900.0,117.0,79783.0,0.0014664778210897059,1
+2019,social_core_no_fixed_investment,561,Administrative and support services,79900.0,117.0,79783.0,0.0014664778210897059,1
+2019,legacy_core_except_inventory,562,Waste management and remediation services,30371.0,0.0,30371.0,0.0,1
+2019,social_core_no_fixed_investment,562,Waste management and remediation services,30371.0,0.0,30371.0,0.0,1
+2019,legacy_core_except_inventory,61,Educational services,385739.0,1380.0,384359.0,0.0035903933562112505,1
+2019,social_core_no_fixed_investment,61,Educational services,385739.0,1380.0,384359.0,0.0035903933562112505,1
+2019,legacy_core_except_inventory,621,Ambulatory health care services,1152162.0,403.0,1151759.0,0.00034989958836874726,1
+2019,social_core_no_fixed_investment,621,Ambulatory health care services,1152162.0,403.0,1151759.0,0.00034989958836874726,1
+2019,legacy_core_except_inventory,622,Hospitals,1149164.0,5557.0,1143607.0,0.004859186766083104,1
+2019,social_core_no_fixed_investment,622,Hospitals,1149164.0,5557.0,1143607.0,0.004859186766083104,1
+2019,legacy_core_except_inventory,623,Nursing and residential care facilities,258409.0,116.0,258293.0,0.0004491023759838633,1
+2019,social_core_no_fixed_investment,623,Nursing and residential care facilities,258409.0,116.0,258293.0,0.0004491023759838633,1
+2019,legacy_core_except_inventory,624,Social assistance,250523.0,0.0,250523.0,0.0,1
+2019,social_core_no_fixed_investment,624,Social assistance,250523.0,0.0,250523.0,0.0,1
+2019,legacy_core_except_inventory,711AS,"Performing arts, spectator sports, museums, and related activities",103236.0,936.0,102300.0,0.009149560117302053,1
+2019,social_core_no_fixed_investment,711AS,"Performing arts, spectator sports, museums, and related activities",96971.0,936.0,96035.0,0.009746446608007497,1
+2019,legacy_core_except_inventory,713,"Amusements, gambling, and recreation industries",229072.0,28.0,229044.0,0.0001222472538027628,1
+2019,social_core_no_fixed_investment,713,"Amusements, gambling, and recreation industries",229072.0,28.0,229044.0,0.0001222472538027628,1
+2019,legacy_core_except_inventory,721,Accommodation,175161.0,0.0,175161.0,0.0,1
+2019,social_core_no_fixed_investment,721,Accommodation,175161.0,0.0,175161.0,0.0,1
+2019,legacy_core_except_inventory,722,Food services and drinking places,813259.0,0.0,813259.0,0.0,1
+2019,social_core_no_fixed_investment,722,Food services and drinking places,813259.0,0.0,813259.0,0.0,1
+2019,legacy_core_except_inventory,81,"Other services, except government",670191.0,870.0,669321.0,0.0012998247477667667,1
+2019,social_core_no_fixed_investment,81,"Other services, except government",670191.0,870.0,669321.0,0.0012998247477667667,1
+2019,legacy_core_except_inventory,GFGD,Federal general government (defense),675256.0,0.0,675256.0,0.0,1
+2019,social_core_no_fixed_investment,GFGD,Federal general government (defense),675256.0,0.0,675256.0,0.0,1
+2019,legacy_core_except_inventory,GFGN,Federal general government (nondefense),411986.0,0.0,411986.0,0.0,1
+2019,social_core_no_fixed_investment,GFGN,Federal general government (nondefense),411986.0,0.0,411986.0,0.0,1
+2019,legacy_core_except_inventory,GFE,Federal government enterprises,7565.0,22.0,7543.0,0.002916611427813867,1
+2019,social_core_no_fixed_investment,GFE,Federal government enterprises,7565.0,22.0,7543.0,0.002916611427813867,1
+2019,legacy_core_except_inventory,GSLG,State and local general government,1924814.0,0.0,1924814.0,0.0,1
+2019,social_core_no_fixed_investment,GSLG,State and local general government,1924814.0,0.0,1924814.0,0.0,1
+2019,legacy_core_except_inventory,GSLE,State and local government enterprises,76961.0,0.0,76961.0,0.0,1
+2019,social_core_no_fixed_investment,GSLE,State and local government enterprises,76961.0,0.0,76961.0,0.0,1
+2020,legacy_core_except_inventory,111CA,Farms,247619.0,25163.0,222456.0,0.11311450354227352,1
+2020,social_core_no_fixed_investment,111CA,Farms,247619.0,25163.0,222456.0,0.11311450354227352,1
+2020,legacy_core_except_inventory,113FF,"Forestry, fishing, and related activities",16153.0,3532.0,12621.0,0.27985104191426985,1
+2020,social_core_no_fixed_investment,113FF,"Forestry, fishing, and related activities",16153.0,3532.0,12621.0,0.27985104191426985,1
+2020,legacy_core_except_inventory,211,Oil and gas extraction,70266.0,0.0,70266.0,0.0,1
+2020,social_core_no_fixed_investment,211,Oil and gas extraction,70266.0,0.0,70266.0,0.0,1
+2020,legacy_core_except_inventory,212,"Mining, except oil and gas",18937.0,46.0,18891.0,0.0024350219681329734,1
+2020,social_core_no_fixed_investment,212,"Mining, except oil and gas",18917.0,33.0,18884.0,0.0017475111205253124,1
+2020,legacy_core_except_inventory,213,Support activities for mining,71864.0,1229.0,70635.0,0.017399306292914276,1
+2020,social_core_no_fixed_investment,213,Support activities for mining,1948.0,0.0,1948.0,0.0,1
+2020,legacy_core_except_inventory,22,Utilities,289886.0,847.0,289039.0,0.0029304003957943392,1
+2020,social_core_no_fixed_investment,22,Utilities,289886.0,847.0,289039.0,0.0029304003957943392,1
+2020,legacy_core_except_inventory,23,Construction,1596224.0,0.0,1596224.0,0.0,1
+2020,social_core_no_fixed_investment,23,Construction,104.0,0.0,104.0,0.0,1
+2020,legacy_core_except_inventory,321,Wood products,25634.0,1862.0,23772.0,0.07832744405182568,1
+2020,social_core_no_fixed_investment,321,Wood products,13307.0,1850.0,11457.0,0.161473335078991,1
+2020,legacy_core_except_inventory,327,Nonmetallic mineral products,33663.0,5942.0,27721.0,0.2143501316691317,1
+2020,social_core_no_fixed_investment,327,Nonmetallic mineral products,33663.0,5942.0,27721.0,0.2143501316691317,1
+2020,legacy_core_except_inventory,331,Primary metals,29558.0,263.0,29295.0,0.008977641235705752,1
+2020,social_core_no_fixed_investment,331,Primary metals,29558.0,263.0,29295.0,0.008977641235705752,1
+2020,legacy_core_except_inventory,332,Fabricated metal products,110286.0,13434.0,96852.0,0.13870647999008798,1
+2020,social_core_no_fixed_investment,332,Fabricated metal products,91715.0,9180.0,82535.0,0.11122554067971163,1
+2020,legacy_core_except_inventory,333,Machinery,498124.0,91600.0,406524.0,0.22532495006444883,1
+2020,social_core_no_fixed_investment,333,Machinery,153320.0,6784.0,146536.0,0.046295790795435936,1
+2020,legacy_core_except_inventory,334,Computer and electronic products,618962.0,212150.0,406812.0,0.5214939578970138,1
+2020,social_core_no_fixed_investment,334,Computer and electronic products,280708.0,78114.0,202594.0,0.3855691678924351,1
+2020,legacy_core_except_inventory,335,"Electrical equipment, appliances, and components",192659.0,51190.0,141469.0,0.36184605814701454,1
+2020,social_core_no_fixed_investment,335,"Electrical equipment, appliances, and components",129170.0,31673.0,97497.0,0.32486127778290613,1
+2020,legacy_core_except_inventory,3361MV,"Motor vehicles, bodies and trailers, and parts",807147.0,192268.0,614879.0,0.31269241590621893,1
+2020,social_core_no_fixed_investment,3361MV,"Motor vehicles, bodies and trailers, and parts",467044.0,69261.0,397783.0,0.17411754650148448,1
+2020,legacy_core_except_inventory,3364OT,Other transportation equipment,222474.0,16412.0,206062.0,0.0796459318069319,1
+2020,social_core_no_fixed_investment,3364OT,Other transportation equipment,119402.0,8404.0,110998.0,0.07571307591127768,1
+2020,legacy_core_except_inventory,337,Furniture and related products,173703.0,41943.0,131760.0,0.3183287795992714,1
+2020,social_core_no_fixed_investment,337,Furniture and related products,131597.0,29484.0,102113.0,0.2887389460695504,1
+2020,legacy_core_except_inventory,339,Miscellaneous manufacturing,401318.0,78488.0,322830.0,0.24312486447975715,1
+2020,social_core_no_fixed_investment,339,Miscellaneous manufacturing,331567.0,63909.0,267658.0,0.23877111836746892,1
+2020,legacy_core_except_inventory,311FT,Food and beverage and tobacco products,1346382.0,71165.0,1275217.0,0.05580618828011233,1
+2020,social_core_no_fixed_investment,311FT,Food and beverage and tobacco products,1346382.0,71165.0,1275217.0,0.05580618828011233,1
+2020,legacy_core_except_inventory,313TT,Textile mills and textile product mills,106959.0,19592.0,87367.0,0.22424943056302724,1
+2020,social_core_no_fixed_investment,313TT,Textile mills and textile product mills,100066.0,19198.0,80868.0,0.23739921847949746,1
+2020,legacy_core_except_inventory,315AL,Apparel and leather and allied products,370941.0,116692.0,254249.0,0.4589673902355565,1
+2020,social_core_no_fixed_investment,315AL,Apparel and leather and allied products,370941.0,116692.0,254249.0,0.4589673902355565,1
+2020,legacy_core_except_inventory,322,Paper products,90535.0,2387.0,88148.0,0.027079457276398784,1
+2020,social_core_no_fixed_investment,322,Paper products,90535.0,2387.0,88148.0,0.027079457276398784,1
+2020,legacy_core_except_inventory,323,Printing and related support activities,9825.0,370.0,9455.0,0.03913273400317292,1
+2020,social_core_no_fixed_investment,323,Printing and related support activities,9825.0,370.0,9455.0,0.03913273400317292,1
+2020,legacy_core_except_inventory,324,Petroleum and coal products,337523.0,5173.0,332350.0,0.015564916503685874,1
+2020,social_core_no_fixed_investment,324,Petroleum and coal products,337523.0,5173.0,332350.0,0.015564916503685874,1
+2020,legacy_core_except_inventory,325,Chemical products,838833.0,127413.0,711420.0,0.17909673610525428,1
+2020,social_core_no_fixed_investment,325,Chemical products,837562.0,126461.0,711101.0,0.17783830988846872,1
+2020,legacy_core_except_inventory,326,Plastics and rubber products,110532.0,21605.0,88927.0,0.242952084293859,1
+2020,social_core_no_fixed_investment,326,Plastics and rubber products,109630.0,21569.0,88061.0,0.24493248997853762,1
+2020,legacy_core_except_inventory,42,Wholesale trade,2263.0,0.0,2263.0,0.0,1
+2020,social_core_no_fixed_investment,42,Wholesale trade,2263.0,0.0,2263.0,0.0,1
+2020,legacy_core_except_inventory,441,Motor vehicle and parts dealers,0.0,0.0,0.0,0.0,1
+2020,social_core_no_fixed_investment,441,Motor vehicle and parts dealers,0.0,0.0,0.0,0.0,1
+2020,legacy_core_except_inventory,445,Food and beverage stores,0.0,0.0,0.0,0.0,1
+2020,social_core_no_fixed_investment,445,Food and beverage stores,0.0,0.0,0.0,0.0,1
+2020,legacy_core_except_inventory,452,General merchandise stores,0.0,0.0,0.0,0.0,1
+2020,social_core_no_fixed_investment,452,General merchandise stores,0.0,0.0,0.0,0.0,1
+2020,legacy_core_except_inventory,4A0,Other retail,10061.0,0.0,10061.0,0.0,1
+2020,social_core_no_fixed_investment,4A0,Other retail,10061.0,0.0,10061.0,0.0,1
+2020,legacy_core_except_inventory,481,Air transportation,78201.0,5256.0,72945.0,0.07205428747686614,1
+2020,social_core_no_fixed_investment,481,Air transportation,78201.0,5256.0,72945.0,0.07205428747686614,1
+2020,legacy_core_except_inventory,482,Rail transportation,1846.0,0.0,1846.0,0.0,1
+2020,social_core_no_fixed_investment,482,Rail transportation,1846.0,0.0,1846.0,0.0,1
+2020,legacy_core_except_inventory,483,Water transportation,14391.0,0.0,14391.0,0.0,1
+2020,social_core_no_fixed_investment,483,Water transportation,14391.0,0.0,14391.0,0.0,1
+2020,legacy_core_except_inventory,484,Truck transportation,15114.0,0.0,15114.0,0.0,1
+2020,social_core_no_fixed_investment,484,Truck transportation,15114.0,0.0,15114.0,0.0,1
+2020,legacy_core_except_inventory,485,Transit and ground passenger transportation,34317.0,0.0,34317.0,0.0,1
+2020,social_core_no_fixed_investment,485,Transit and ground passenger transportation,34317.0,0.0,34317.0,0.0,1
+2020,legacy_core_except_inventory,486,Pipeline transportation,309.0,0.0,309.0,0.0,1
+2020,social_core_no_fixed_investment,486,Pipeline transportation,309.0,0.0,309.0,0.0,1
+2020,legacy_core_except_inventory,487OS,Other transportation and support activities,30503.0,2.0,30501.0,6.557162060260319e-05,1
+2020,social_core_no_fixed_investment,487OS,Other transportation and support activities,30503.0,2.0,30501.0,6.557162060260319e-05,1
+2020,legacy_core_except_inventory,493,Warehousing and storage,421.0,0.0,421.0,0.0,1
+2020,social_core_no_fixed_investment,493,Warehousing and storage,421.0,0.0,421.0,0.0,1
+2020,legacy_core_except_inventory,511,"Publishing industries, except internet (includes software)",414555.0,1993.0,412562.0,0.004830789069279284,1
+2020,social_core_no_fixed_investment,511,"Publishing industries, except internet (includes software)",228892.0,1928.0,226964.0,0.008494739253802366,1
+2020,legacy_core_except_inventory,512,Motion picture and sound recording industries,74110.0,1003.0,73107.0,0.013719616452596879,1
+2020,social_core_no_fixed_investment,512,Motion picture and sound recording industries,32677.0,1003.0,31674.0,0.031666350950306246,1
+2020,legacy_core_except_inventory,513,Broadcasting and telecommunications,404770.0,53.0,404717.0,0.0001309557048505499,1
+2020,social_core_no_fixed_investment,513,Broadcasting and telecommunications,366009.0,53.0,365956.0,0.0001448261539638645,1
+2020,legacy_core_except_inventory,514,"Data processing, internet publishing, and other information services",162096.0,435.0,161661.0,0.002690815966745226,1
+2020,social_core_no_fixed_investment,514,"Data processing, internet publishing, and other information services",99393.0,417.0,98976.0,0.004213142580019398,1
+2020,legacy_core_except_inventory,521CI,"Federal Reserve banks, credit intermediation, and related activities",368481.0,2724.0,365757.0,0.007447567647372436,1
+2020,social_core_no_fixed_investment,521CI,"Federal Reserve banks, credit intermediation, and related activities",368481.0,2724.0,365757.0,0.007447567647372436,1
+2020,legacy_core_except_inventory,523,"Securities, commodity contracts, and investments",336518.0,9.0,336509.0,2.6745198493948155e-05,1
+2020,social_core_no_fixed_investment,523,"Securities, commodity contracts, and investments",336518.0,9.0,336509.0,2.6745198493948155e-05,1
+2020,legacy_core_except_inventory,524,Insurance carriers and related activities,453625.0,1223.0,452402.0,0.002703347907392098,1
+2020,social_core_no_fixed_investment,524,Insurance carriers and related activities,448355.0,1223.0,447132.0,0.0027352101840172477,1
+2020,legacy_core_except_inventory,525,"Funds, trusts, and other financial vehicles",172595.0,0.0,172595.0,0.0,1
+2020,social_core_no_fixed_investment,525,"Funds, trusts, and other financial vehicles",172595.0,0.0,172595.0,0.0,1
+2020,legacy_core_except_inventory,HS,Housing,2329467.0,0.0,2329467.0,0.0,1
+2020,social_core_no_fixed_investment,HS,Housing,2329467.0,0.0,2329467.0,0.0,1
+2020,legacy_core_except_inventory,ORE,Other real estate,201301.0,0.0,201301.0,0.0,1
+2020,social_core_no_fixed_investment,ORE,Other real estate,8710.0,0.0,8710.0,0.0,1
+2020,legacy_core_except_inventory,532RL,Rental and leasing services and lessors of intangible assets,182201.0,0.0,182201.0,0.0,1
+2020,social_core_no_fixed_investment,532RL,Rental and leasing services and lessors of intangible assets,182201.0,0.0,182201.0,0.0,1
+2020,legacy_core_except_inventory,5411,Legal services,152495.0,1841.0,150654.0,0.012220053898336585,1
+2020,social_core_no_fixed_investment,5411,Legal services,123918.0,1549.0,122369.0,0.012658434734287278,1
+2020,legacy_core_except_inventory,5415,Computer systems design and related services,404980.0,18587.0,386393.0,0.04810387351737738,1
+2020,social_core_no_fixed_investment,5415,Computer systems design and related services,47110.0,0.0,47110.0,0.0,1
+2020,legacy_core_except_inventory,5412OP,"Miscellaneous professional, scientific, and technical services",1062515.0,31523.0,1030992.0,0.03057540698666915,1
+2020,social_core_no_fixed_investment,5412OP,"Miscellaneous professional, scientific, and technical services",254046.0,607.0,253439.0,0.0023950536420992825,1
+2020,legacy_core_except_inventory,55,Management of companies and enterprises,2728.0,0.0,2728.0,0.0,1
+2020,social_core_no_fixed_investment,55,Management of companies and enterprises,2728.0,0.0,2728.0,0.0,1
+2020,legacy_core_except_inventory,561,Administrative and support services,65061.0,127.0,64934.0,0.0019558320756460404,1
+2020,social_core_no_fixed_investment,561,Administrative and support services,65061.0,127.0,64934.0,0.0019558320756460404,1
+2020,legacy_core_except_inventory,562,Waste management and remediation services,31417.0,0.0,31417.0,0.0,1
+2020,social_core_no_fixed_investment,562,Waste management and remediation services,31417.0,0.0,31417.0,0.0,1
+2020,legacy_core_except_inventory,61,Educational services,380276.0,1570.0,378706.0,0.004145696133676256,1
+2020,social_core_no_fixed_investment,61,Educational services,380276.0,1570.0,378706.0,0.004145696133676256,1
+2020,legacy_core_except_inventory,621,Ambulatory health care services,1096202.0,497.0,1095705.0,0.00045358924162981827,1
+2020,social_core_no_fixed_investment,621,Ambulatory health care services,1096202.0,497.0,1095705.0,0.00045358924162981827,1
+2020,legacy_core_except_inventory,622,Hospitals,1140040.0,6239.0,1133801.0,0.005502729314932691,1
+2020,social_core_no_fixed_investment,622,Hospitals,1140040.0,6239.0,1133801.0,0.005502729314932691,1
+2020,legacy_core_except_inventory,623,Nursing and residential care facilities,254326.0,143.0,254183.0,0.000562586797700869,1
+2020,social_core_no_fixed_investment,623,Nursing and residential care facilities,254326.0,143.0,254183.0,0.000562586797700869,1
+2020,legacy_core_except_inventory,624,Social assistance,256166.0,0.0,256166.0,0.0,1
+2020,social_core_no_fixed_investment,624,Social assistance,256166.0,0.0,256166.0,0.0,1
+2020,legacy_core_except_inventory,711AS,"Performing arts, spectator sports, museums, and related activities",65291.0,124.0,65167.0,0.0019028035662221677,1
+2020,social_core_no_fixed_investment,711AS,"Performing arts, spectator sports, museums, and related activities",59322.0,124.0,59198.0,0.002094665360316227,1
+2020,legacy_core_except_inventory,713,"Amusements, gambling, and recreation industries",162624.0,20.0,162604.0,0.0001229982042262183,1
+2020,social_core_no_fixed_investment,713,"Amusements, gambling, and recreation industries",162624.0,20.0,162604.0,0.0001229982042262183,1
+2020,legacy_core_except_inventory,721,Accommodation,98237.0,0.0,98237.0,0.0,1
+2020,social_core_no_fixed_investment,721,Accommodation,98237.0,0.0,98237.0,0.0,1
+2020,legacy_core_except_inventory,722,Food services and drinking places,709079.0,0.0,709079.0,0.0,1
+2020,social_core_no_fixed_investment,722,Food services and drinking places,709079.0,0.0,709079.0,0.0,1
+2020,legacy_core_except_inventory,81,"Other services, except government",632425.0,757.0,631668.0,0.0011984143569090092,1
+2020,social_core_no_fixed_investment,81,"Other services, except government",632425.0,757.0,631668.0,0.0011984143569090092,1
+2020,legacy_core_except_inventory,GFGD,Federal general government (defense),697104.0,0.0,697104.0,0.0,1
+2020,social_core_no_fixed_investment,GFGD,Federal general government (defense),697104.0,0.0,697104.0,0.0,1
+2020,legacy_core_except_inventory,GFGN,Federal general government (nondefense),461595.0,0.0,461595.0,0.0,1
+2020,social_core_no_fixed_investment,GFGN,Federal general government (nondefense),461595.0,0.0,461595.0,0.0,1
+2020,legacy_core_except_inventory,GFE,Federal government enterprises,7491.0,21.0,7470.0,0.002811244979919679,1
+2020,social_core_no_fixed_investment,GFE,Federal government enterprises,7491.0,21.0,7470.0,0.002811244979919679,1
+2020,legacy_core_except_inventory,GSLG,State and local general government,2021409.0,0.0,2021409.0,0.0,1
+2020,social_core_no_fixed_investment,GSLG,State and local general government,2021409.0,0.0,2021409.0,0.0,1
+2020,legacy_core_except_inventory,GSLE,State and local government enterprises,78073.0,0.0,78073.0,0.0,1
+2020,social_core_no_fixed_investment,GSLE,State and local government enterprises,78073.0,0.0,78073.0,0.0,1
+2021,legacy_core_except_inventory,111CA,Farms,286844.0,28559.0,258285.0,0.11057165534196721,1
+2021,social_core_no_fixed_investment,111CA,Farms,286844.0,28559.0,258285.0,0.11057165534196721,1
+2021,legacy_core_except_inventory,113FF,"Forestry, fishing, and related activities",19560.0,4201.0,15359.0,0.27352041148512274,1
+2021,social_core_no_fixed_investment,113FF,"Forestry, fishing, and related activities",19560.0,4201.0,15359.0,0.27352041148512274,1
+2021,legacy_core_except_inventory,211,Oil and gas extraction,103002.0,0.0,103002.0,0.0,1
+2021,social_core_no_fixed_investment,211,Oil and gas extraction,103002.0,0.0,103002.0,0.0,1
+2021,legacy_core_except_inventory,212,"Mining, except oil and gas",23974.0,74.0,23900.0,0.003096234309623431,1
+2021,social_core_no_fixed_investment,212,"Mining, except oil and gas",23946.0,54.0,23892.0,0.0022601707684580612,1
+2021,legacy_core_except_inventory,213,Support activities for mining,73865.0,1267.0,72598.0,0.017452271412435605,1
+2021,social_core_no_fixed_investment,213,Support activities for mining,1594.0,0.0,1594.0,0.0,1
+2021,legacy_core_except_inventory,22,Utilities,310038.0,1023.0,309015.0,0.0033105189068491823,1
+2021,social_core_no_fixed_investment,22,Utilities,310038.0,1023.0,309015.0,0.0033105189068491823,1
+2021,legacy_core_except_inventory,23,Construction,1746875.0,0.0,1746875.0,0.0,1
+2021,social_core_no_fixed_investment,23,Construction,101.0,0.0,101.0,0.0,1
+2021,legacy_core_except_inventory,321,Wood products,34265.0,2590.0,31675.0,0.08176795580110498,1
+2021,social_core_no_fixed_investment,321,Wood products,16827.0,2566.0,14261.0,0.17993128111633125,1
+2021,legacy_core_except_inventory,327,Nonmetallic mineral products,37679.0,7420.0,30259.0,0.24521629928285799,1
+2021,social_core_no_fixed_investment,327,Nonmetallic mineral products,37679.0,7420.0,30259.0,0.24521629928285799,1
+2021,legacy_core_except_inventory,331,Primary metals,37171.0,247.0,36924.0,0.006689416097930885,1
+2021,social_core_no_fixed_investment,331,Primary metals,37171.0,247.0,36924.0,0.006689416097930885,1
+2021,legacy_core_except_inventory,332,Fabricated metal products,120462.0,16709.0,103753.0,0.1610459456594026,1
+2021,social_core_no_fixed_investment,332,Fabricated metal products,100118.0,11208.0,88910.0,0.1260600607355753,1
+2021,legacy_core_except_inventory,333,Machinery,570120.0,107594.0,462526.0,0.23262259851338088,1
+2021,social_core_no_fixed_investment,333,Machinery,181377.0,7805.0,173572.0,0.0449669301500242,1
+2021,legacy_core_except_inventory,334,Computer and electronic products,690171.0,242252.0,447919.0,0.540838857025489,1
+2021,social_core_no_fixed_investment,334,Computer and electronic products,326414.0,94745.0,231669.0,0.40896710392844965,1
+2021,legacy_core_except_inventory,335,"Electrical equipment, appliances, and components",224731.0,65305.0,159426.0,0.4096257824946997,1
+2021,social_core_no_fixed_investment,335,"Electrical equipment, appliances, and components",151929.0,41377.0,110552.0,0.37427635863665965,1
+2021,legacy_core_except_inventory,3361MV,"Motor vehicles, bodies and trailers, and parts",931275.0,202162.0,729113.0,0.2772711500137839,1
+2021,social_core_no_fixed_investment,3361MV,"Motor vehicles, bodies and trailers, and parts",558509.0,77076.0,481433.0,0.16009704361769966,1
+2021,legacy_core_except_inventory,3364OT,Other transportation equipment,237788.0,19183.0,218605.0,0.08775188124699801,1
+2021,social_core_no_fixed_investment,3364OT,Other transportation equipment,132267.0,11882.0,120385.0,0.09870000415334136,1
+2021,legacy_core_except_inventory,337,Furniture and related products,203407.0,52412.0,150995.0,0.34711083148448624,1
+2021,social_core_no_fixed_investment,337,Furniture and related products,157126.0,36974.0,120152.0,0.30772687928623743,1
+2021,legacy_core_except_inventory,339,Miscellaneous manufacturing,492170.0,102236.0,389934.0,0.2621879600137459,1
+2021,social_core_no_fixed_investment,339,Miscellaneous manufacturing,415890.0,86230.0,329660.0,0.2615725292725839,1
+2021,legacy_core_except_inventory,311FT,Food and beverage and tobacco products,1440434.0,81224.0,1359210.0,0.05975824191993879,1
+2021,social_core_no_fixed_investment,311FT,Food and beverage and tobacco products,1440434.0,81224.0,1359210.0,0.05975824191993879,1
+2021,legacy_core_except_inventory,313TT,Textile mills and textile product mills,116825.0,19430.0,97395.0,0.19949689409107244,1
+2021,social_core_no_fixed_investment,313TT,Textile mills and textile product mills,109755.0,19130.0,90625.0,0.2110896551724138,1
+2021,legacy_core_except_inventory,315AL,Apparel and leather and allied products,484773.0,142254.0,342519.0,0.41531710649628195,1
+2021,social_core_no_fixed_investment,315AL,Apparel and leather and allied products,484773.0,142254.0,342519.0,0.41531710649628195,1
+2021,legacy_core_except_inventory,322,Paper products,93643.0,2113.0,91530.0,0.023085327215120726,1
+2021,social_core_no_fixed_investment,322,Paper products,93643.0,2113.0,91530.0,0.023085327215120726,1
+2021,legacy_core_except_inventory,323,Printing and related support activities,11508.0,384.0,11124.0,0.034519956850053934,1
+2021,social_core_no_fixed_investment,323,Printing and related support activities,11508.0,384.0,11124.0,0.034519956850053934,1
+2021,legacy_core_except_inventory,324,Petroleum and coal products,515472.0,9787.0,505685.0,0.019353945638094863,1
+2021,social_core_no_fixed_investment,324,Petroleum and coal products,515472.0,9787.0,505685.0,0.019353945638094863,1
+2021,legacy_core_except_inventory,325,Chemical products,909492.0,124587.0,784905.0,0.15872876335352687,1
+2021,social_core_no_fixed_investment,325,Chemical products,907840.0,123229.0,784611.0,0.1570574463014156,1
+2021,legacy_core_except_inventory,326,Plastics and rubber products,129972.0,25015.0,104957.0,0.23833569938165153,1
+2021,social_core_no_fixed_investment,326,Plastics and rubber products,129014.0,24978.0,104036.0,0.24008996885693415,1
+2021,legacy_core_except_inventory,42,Wholesale trade,3221.0,0.0,3221.0,0.0,1
+2021,social_core_no_fixed_investment,42,Wholesale trade,3221.0,0.0,3221.0,0.0,1
+2021,legacy_core_except_inventory,441,Motor vehicle and parts dealers,0.0,0.0,0.0,0.0,1
+2021,social_core_no_fixed_investment,441,Motor vehicle and parts dealers,0.0,0.0,0.0,0.0,1
+2021,legacy_core_except_inventory,445,Food and beverage stores,0.0,0.0,0.0,0.0,1
+2021,social_core_no_fixed_investment,445,Food and beverage stores,0.0,0.0,0.0,0.0,1
+2021,legacy_core_except_inventory,452,General merchandise stores,0.0,0.0,0.0,0.0,1
+2021,social_core_no_fixed_investment,452,General merchandise stores,0.0,0.0,0.0,0.0,1
+2021,legacy_core_except_inventory,4A0,Other retail,11650.0,0.0,11650.0,0.0,1
+2021,social_core_no_fixed_investment,4A0,Other retail,11650.0,0.0,11650.0,0.0,1
+2021,legacy_core_except_inventory,481,Air transportation,138526.0,8162.0,130364.0,0.06260930931852351,1
+2021,social_core_no_fixed_investment,481,Air transportation,138526.0,8162.0,130364.0,0.06260930931852351,1
+2021,legacy_core_except_inventory,482,Rail transportation,2182.0,0.0,2182.0,0.0,1
+2021,social_core_no_fixed_investment,482,Rail transportation,2182.0,0.0,2182.0,0.0,1
+2021,legacy_core_except_inventory,483,Water transportation,12087.0,0.0,12087.0,0.0,1
+2021,social_core_no_fixed_investment,483,Water transportation,12087.0,0.0,12087.0,0.0,1
+2021,legacy_core_except_inventory,484,Truck transportation,16744.0,0.0,16744.0,0.0,1
+2021,social_core_no_fixed_investment,484,Truck transportation,16744.0,0.0,16744.0,0.0,1
+2021,legacy_core_except_inventory,485,Transit and ground passenger transportation,40798.0,0.0,40798.0,0.0,1
+2021,social_core_no_fixed_investment,485,Transit and ground passenger transportation,40798.0,0.0,40798.0,0.0,1
+2021,legacy_core_except_inventory,486,Pipeline transportation,304.0,0.0,304.0,0.0,1
+2021,social_core_no_fixed_investment,486,Pipeline transportation,304.0,0.0,304.0,0.0,1
+2021,legacy_core_except_inventory,487OS,Other transportation and support activities,38931.0,2.0,38929.0,5.137558118626217e-05,1
+2021,social_core_no_fixed_investment,487OS,Other transportation and support activities,38931.0,2.0,38929.0,5.137558118626217e-05,1
+2021,legacy_core_except_inventory,493,Warehousing and storage,460.0,0.0,460.0,0.0,1
+2021,social_core_no_fixed_investment,493,Warehousing and storage,460.0,0.0,460.0,0.0,1
+2021,legacy_core_except_inventory,511,"Publishing industries, except internet (includes software)",473266.0,2371.0,470895.0,0.005035092748914302,1
+2021,social_core_no_fixed_investment,511,"Publishing industries, except internet (includes software)",260089.0,2361.0,257728.0,0.00916082071020611,1
+2021,legacy_core_except_inventory,512,Motion picture and sound recording industries,83020.0,1274.0,81746.0,0.015584860421305018,1
+2021,social_core_no_fixed_investment,512,Motion picture and sound recording industries,40521.0,1274.0,39247.0,0.03246107982775753,1
+2021,legacy_core_except_inventory,513,Broadcasting and telecommunications,422798.0,65.0,422733.0,0.0001537613576418212,1
+2021,social_core_no_fixed_investment,513,Broadcasting and telecommunications,383702.0,65.0,383637.0,0.00016943099857417298,1
+2021,legacy_core_except_inventory,514,"Data processing, internet publishing, and other information services",189530.0,590.0,188940.0,0.003122684450089976,1
+2021,social_core_no_fixed_investment,514,"Data processing, internet publishing, and other information services",121098.0,571.0,120527.0,0.004737527690890838,1
+2021,legacy_core_except_inventory,521CI,"Federal Reserve banks, credit intermediation, and related activities",391815.0,2542.0,389273.0,0.006530121534244605,1
+2021,social_core_no_fixed_investment,521CI,"Federal Reserve banks, credit intermediation, and related activities",391815.0,2542.0,389273.0,0.006530121534244605,1
+2021,legacy_core_except_inventory,523,"Securities, commodity contracts, and investments",388453.0,10.0,388443.0,2.5743802823065416e-05,1
+2021,social_core_no_fixed_investment,523,"Securities, commodity contracts, and investments",388453.0,10.0,388443.0,2.5743802823065416e-05,1
+2021,legacy_core_except_inventory,524,Insurance carriers and related activities,486893.0,1517.0,485376.0,0.0031254120516877636,1
+2021,social_core_no_fixed_investment,524,Insurance carriers and related activities,479960.0,1517.0,478443.0,0.0031707016300792363,1
+2021,legacy_core_except_inventory,525,"Funds, trusts, and other financial vehicles",200841.0,0.0,200841.0,0.0,1
+2021,social_core_no_fixed_investment,525,"Funds, trusts, and other financial vehicles",200841.0,0.0,200841.0,0.0,1
+2021,legacy_core_except_inventory,HS,Housing,2461872.0,0.0,2461872.0,0.0,1
+2021,social_core_no_fixed_investment,HS,Housing,2461872.0,0.0,2461872.0,0.0,1
+2021,legacy_core_except_inventory,ORE,Other real estate,225237.0,0.0,225237.0,0.0,1
+2021,social_core_no_fixed_investment,ORE,Other real estate,9345.0,0.0,9345.0,0.0,1
+2021,legacy_core_except_inventory,532RL,Rental and leasing services and lessors of intangible assets,206524.0,0.0,206524.0,0.0,1
+2021,social_core_no_fixed_investment,532RL,Rental and leasing services and lessors of intangible assets,206524.0,0.0,206524.0,0.0,1
+2021,legacy_core_except_inventory,5411,Legal services,179557.0,2052.0,177505.0,0.011560237739781978,1
+2021,social_core_no_fixed_investment,5411,Legal services,135189.0,1597.0,133592.0,0.011954308641236002,1
+2021,legacy_core_except_inventory,5415,Computer systems design and related services,450959.0,22418.0,428541.0,0.05231238084570671,1
+2021,social_core_no_fixed_investment,5415,Computer systems design and related services,51577.0,0.0,51577.0,0.0,1
+2021,legacy_core_except_inventory,5412OP,"Miscellaneous professional, scientific, and technical services",1176555.0,34857.0,1141698.0,0.03053084090538829,1
+2021,social_core_no_fixed_investment,5412OP,"Miscellaneous professional, scientific, and technical services",284890.0,644.0,284246.0,0.0022656431400969583,1
+2021,legacy_core_except_inventory,55,Management of companies and enterprises,3028.0,0.0,3028.0,0.0,1
+2021,social_core_no_fixed_investment,55,Management of companies and enterprises,3028.0,0.0,3028.0,0.0,1
+2021,legacy_core_except_inventory,561,Administrative and support services,72656.0,175.0,72481.0,0.002414425849532981,1
+2021,social_core_no_fixed_investment,561,Administrative and support services,72656.0,175.0,72481.0,0.002414425849532981,1
+2021,legacy_core_except_inventory,562,Waste management and remediation services,33531.0,0.0,33531.0,0.0,1
+2021,social_core_no_fixed_investment,562,Waste management and remediation services,33531.0,0.0,33531.0,0.0,1
+2021,legacy_core_except_inventory,61,Educational services,399870.0,1985.0,397885.0,0.004988878696105659,1
+2021,social_core_no_fixed_investment,61,Educational services,399870.0,1985.0,397885.0,0.004988878696105659,1
+2021,legacy_core_except_inventory,621,Ambulatory health care services,1233044.0,412.0,1232632.0,0.00033424412152207634,1
+2021,social_core_no_fixed_investment,621,Ambulatory health care services,1233044.0,412.0,1232632.0,0.00033424412152207634,1
+2021,legacy_core_except_inventory,622,Hospitals,1259361.0,8457.0,1250904.0,0.006760710654054988,1
+2021,social_core_no_fixed_investment,622,Hospitals,1259361.0,8457.0,1250904.0,0.006760710654054988,1
+2021,legacy_core_except_inventory,623,Nursing and residential care facilities,260349.0,118.0,260231.0,0.0004534432869258467,1
+2021,social_core_no_fixed_investment,623,Nursing and residential care facilities,260349.0,118.0,260231.0,0.0004534432869258467,1
+2021,legacy_core_except_inventory,624,Social assistance,281396.0,0.0,281396.0,0.0,1
+2021,social_core_no_fixed_investment,624,Social assistance,281396.0,0.0,281396.0,0.0,1
+2021,legacy_core_except_inventory,711AS,"Performing arts, spectator sports, museums, and related activities",79716.0,143.0,79573.0,0.0017970919784348963,1
+2021,social_core_no_fixed_investment,711AS,"Performing arts, spectator sports, museums, and related activities",73622.0,143.0,73479.0,0.0019461342696552757,1
+2021,legacy_core_except_inventory,713,"Amusements, gambling, and recreation industries",216530.0,18.0,216512.0,8.313626958321016e-05,1
+2021,social_core_no_fixed_investment,713,"Amusements, gambling, and recreation industries",216530.0,18.0,216512.0,8.313626958321016e-05,1
+2021,legacy_core_except_inventory,721,Accommodation,135675.0,0.0,135675.0,0.0,1
+2021,social_core_no_fixed_investment,721,Accommodation,135675.0,0.0,135675.0,0.0,1
+2021,legacy_core_except_inventory,722,Food services and drinking places,894770.0,0.0,894770.0,0.0,1
+2021,social_core_no_fixed_investment,722,Food services and drinking places,894770.0,0.0,894770.0,0.0,1
+2021,legacy_core_except_inventory,81,"Other services, except government",699429.0,605.0,698824.0,0.0008657401577507355,1
+2021,social_core_no_fixed_investment,81,"Other services, except government",699429.0,605.0,698824.0,0.0008657401577507355,1
+2021,legacy_core_except_inventory,GFGD,Federal general government (defense),719261.0,0.0,719261.0,0.0,1
+2021,social_core_no_fixed_investment,GFGD,Federal general government (defense),719261.0,0.0,719261.0,0.0,1
+2021,legacy_core_except_inventory,GFGN,Federal general government (nondefense),504358.0,0.0,504358.0,0.0,1
+2021,social_core_no_fixed_investment,GFGN,Federal general government (nondefense),504358.0,0.0,504358.0,0.0,1
+2021,legacy_core_except_inventory,GFE,Federal government enterprises,7383.0,20.0,7363.0,0.002716284123319299,1
+2021,social_core_no_fixed_investment,GFE,Federal government enterprises,7383.0,20.0,7363.0,0.002716284123319299,1
+2021,legacy_core_except_inventory,GSLG,State and local general government,2152771.0,0.0,2152771.0,0.0,1
+2021,social_core_no_fixed_investment,GSLG,State and local general government,2152771.0,0.0,2152771.0,0.0,1
+2021,legacy_core_except_inventory,GSLE,State and local government enterprises,82836.0,0.0,82836.0,0.0,1
+2021,social_core_no_fixed_investment,GSLE,State and local government enterprises,82836.0,0.0,82836.0,0.0,1
+2022,legacy_core_except_inventory,111CA,Farms,320479.0,31014.0,289465.0,0.10714248700188278,1
+2022,social_core_no_fixed_investment,111CA,Farms,320479.0,31014.0,289465.0,0.10714248700188278,1
+2022,legacy_core_except_inventory,113FF,"Forestry, fishing, and related activities",20315.0,4365.0,15950.0,0.2736677115987461,1
+2022,social_core_no_fixed_investment,113FF,"Forestry, fishing, and related activities",20315.0,4365.0,15950.0,0.2736677115987461,1
+2022,legacy_core_except_inventory,211,Oil and gas extraction,173833.0,0.0,173833.0,0.0,1
+2022,social_core_no_fixed_investment,211,Oil and gas extraction,173833.0,0.0,173833.0,0.0,1
+2022,legacy_core_except_inventory,212,"Mining, except oil and gas",32620.0,136.0,32484.0,0.004186676517670238,1
+2022,social_core_no_fixed_investment,212,"Mining, except oil and gas",32523.0,64.0,32459.0,0.001971718167534428,1
+2022,legacy_core_except_inventory,213,Support activities for mining,98237.0,1121.0,97116.0,0.011542897153919025,1
+2022,social_core_no_fixed_investment,213,Support activities for mining,1890.0,0.0,1890.0,0.0,1
+2022,legacy_core_except_inventory,22,Utilities,364109.0,1717.0,362392.0,0.004737963310448354,1
+2022,social_core_no_fixed_investment,22,Utilities,364109.0,1717.0,362392.0,0.004737963310448354,1
+2022,legacy_core_except_inventory,23,Construction,1938643.0,0.0,1938643.0,0.0,1
+2022,social_core_no_fixed_investment,23,Construction,104.0,0.0,104.0,0.0,1
+2022,legacy_core_except_inventory,321,Wood products,40064.0,2696.0,37368.0,0.072147291800471,1
+2022,social_core_no_fixed_investment,321,Wood products,17335.0,2674.0,14661.0,0.1823886501602892,1
+2022,legacy_core_except_inventory,327,Nonmetallic mineral products,39125.0,7364.0,31761.0,0.23185667957558012,1
+2022,social_core_no_fixed_investment,327,Nonmetallic mineral products,39125.0,7364.0,31761.0,0.23185667957558012,1
+2022,legacy_core_except_inventory,331,Primary metals,43669.0,378.0,43291.0,0.008731607031484604,1
+2022,social_core_no_fixed_investment,331,Primary metals,43669.0,378.0,43291.0,0.008731607031484604,1
+2022,legacy_core_except_inventory,332,Fabricated metal products,142047.0,19845.0,122202.0,0.1623950508174989,1
+2022,social_core_no_fixed_investment,332,Fabricated metal products,120730.0,13116.0,107614.0,0.12188005278123665,1
+2022,legacy_core_except_inventory,333,Machinery,622315.0,120682.0,501633.0,0.24057827136571955,1
+2022,social_core_no_fixed_investment,333,Machinery,197148.0,9403.0,187745.0,0.05008389038323258,1
+2022,legacy_core_except_inventory,334,Computer and electronic products,719989.0,256164.0,463825.0,0.5522858836845793,1
+2022,social_core_no_fixed_investment,334,Computer and electronic products,340381.0,99138.0,241243.0,0.41094663886620547,1
+2022,legacy_core_except_inventory,335,"Electrical equipment, appliances, and components",268569.0,77543.0,191026.0,0.40592903583805345,1
+2022,social_core_no_fixed_investment,335,"Electrical equipment, appliances, and components",185142.0,48765.0,136377.0,0.35757495765414987,1
+2022,legacy_core_except_inventory,3361MV,"Motor vehicles, bodies and trailers, and parts",1003098.0,217828.0,785270.0,0.27739248920753373,1
+2022,social_core_no_fixed_investment,3361MV,"Motor vehicles, bodies and trailers, and parts",596382.0,76991.0,519391.0,0.14823321928951408,1
+2022,legacy_core_except_inventory,3364OT,Other transportation equipment,253955.0,25039.0,228916.0,0.10938073354418215,1
+2022,social_core_no_fixed_investment,3364OT,Other transportation equipment,153216.0,12566.0,140650.0,0.0893423391397085,1
+2022,legacy_core_except_inventory,337,Furniture and related products,221271.0,55962.0,165309.0,0.3385296626317986,1
+2022,social_core_no_fixed_investment,337,Furniture and related products,168082.0,38130.0,129952.0,0.29341603053435117,1
+2022,legacy_core_except_inventory,339,Miscellaneous manufacturing,500063.0,106945.0,393118.0,0.27204299981176133,1
+2022,social_core_no_fixed_investment,339,Miscellaneous manufacturing,421294.0,89699.0,331595.0,0.2705076976432093,1
+2022,legacy_core_except_inventory,311FT,Food and beverage and tobacco products,1543772.0,90727.0,1453045.0,0.06243922246041932,1
+2022,social_core_no_fixed_investment,311FT,Food and beverage and tobacco products,1543772.0,90727.0,1453045.0,0.06243922246041932,1
+2022,legacy_core_except_inventory,313TT,Textile mills and textile product mills,118042.0,18243.0,99799.0,0.18279742281986794,1
+2022,social_core_no_fixed_investment,313TT,Textile mills and textile product mills,111916.0,18006.0,93910.0,0.19173676924715152,1
+2022,legacy_core_except_inventory,315AL,Apparel and leather and allied products,527163.0,171734.0,355429.0,0.4831738546939051,1
+2022,social_core_no_fixed_investment,315AL,Apparel and leather and allied products,527163.0,171734.0,355429.0,0.4831738546939051,1
+2022,legacy_core_except_inventory,322,Paper products,98485.0,2216.0,96269.0,0.023018832646023123,1
+2022,social_core_no_fixed_investment,322,Paper products,98485.0,2216.0,96269.0,0.023018832646023123,1
+2022,legacy_core_except_inventory,323,Printing and related support activities,13648.0,410.0,13238.0,0.03097144583773984,1
+2022,social_core_no_fixed_investment,323,Printing and related support activities,13648.0,410.0,13238.0,0.03097144583773984,1
+2022,legacy_core_except_inventory,324,Petroleum and coal products,720815.0,11902.0,708913.0,0.01678908413303184,1
+2022,social_core_no_fixed_investment,324,Petroleum and coal products,720815.0,11902.0,708913.0,0.01678908413303184,1
+2022,legacy_core_except_inventory,325,Chemical products,987594.0,136521.0,851073.0,0.16041044657743814,1
+2022,social_core_no_fixed_investment,325,Chemical products,985287.0,134616.0,850671.0,0.15824684278645915,1
+2022,legacy_core_except_inventory,326,Plastics and rubber products,140252.0,26407.0,113845.0,0.23195572928104002,1
+2022,social_core_no_fixed_investment,326,Plastics and rubber products,139316.0,26373.0,112943.0,0.23350716733219412,1
+2022,legacy_core_except_inventory,42,Wholesale trade,2762.0,0.0,2762.0,0.0,1
+2022,social_core_no_fixed_investment,42,Wholesale trade,2762.0,0.0,2762.0,0.0,1
+2022,legacy_core_except_inventory,441,Motor vehicle and parts dealers,0.0,0.0,0.0,0.0,1
+2022,social_core_no_fixed_investment,441,Motor vehicle and parts dealers,0.0,0.0,0.0,0.0,1
+2022,legacy_core_except_inventory,445,Food and beverage stores,0.0,0.0,0.0,0.0,1
+2022,social_core_no_fixed_investment,445,Food and beverage stores,0.0,0.0,0.0,0.0,1
+2022,legacy_core_except_inventory,452,General merchandise stores,0.0,0.0,0.0,0.0,1
+2022,social_core_no_fixed_investment,452,General merchandise stores,0.0,0.0,0.0,0.0,1
+2022,legacy_core_except_inventory,4A0,Other retail,12967.0,0.0,12967.0,0.0,1
+2022,social_core_no_fixed_investment,4A0,Other retail,12967.0,0.0,12967.0,0.0,1
+2022,legacy_core_except_inventory,481,Air transportation,236097.0,26984.0,209113.0,0.1290402796574101,1
+2022,social_core_no_fixed_investment,481,Air transportation,236097.0,26984.0,209113.0,0.1290402796574101,1
+2022,legacy_core_except_inventory,482,Rail transportation,2616.0,0.0,2616.0,0.0,1
+2022,social_core_no_fixed_investment,482,Rail transportation,2616.0,0.0,2616.0,0.0,1
+2022,legacy_core_except_inventory,483,Water transportation,29801.0,0.0,29801.0,0.0,1
+2022,social_core_no_fixed_investment,483,Water transportation,29801.0,0.0,29801.0,0.0,1
+2022,legacy_core_except_inventory,484,Truck transportation,16629.0,0.0,16629.0,0.0,1
+2022,social_core_no_fixed_investment,484,Truck transportation,16629.0,0.0,16629.0,0.0,1
+2022,legacy_core_except_inventory,485,Transit and ground passenger transportation,58116.0,0.0,58116.0,0.0,1
+2022,social_core_no_fixed_investment,485,Transit and ground passenger transportation,58116.0,0.0,58116.0,0.0,1
+2022,legacy_core_except_inventory,486,Pipeline transportation,286.0,0.0,286.0,0.0,1
+2022,social_core_no_fixed_investment,486,Pipeline transportation,286.0,0.0,286.0,0.0,1
+2022,legacy_core_except_inventory,487OS,Other transportation and support activities,44104.0,2.0,44102.0,4.534941725998821e-05,1
+2022,social_core_no_fixed_investment,487OS,Other transportation and support activities,44104.0,2.0,44102.0,4.534941725998821e-05,1
+2022,legacy_core_except_inventory,493,Warehousing and storage,413.0,0.0,413.0,0.0,1
+2022,social_core_no_fixed_investment,493,Warehousing and storage,413.0,0.0,413.0,0.0,1
+2022,legacy_core_except_inventory,511,"Publishing industries, except internet (includes software)",514934.0,2694.0,512240.0,0.005259253474933625,1
+2022,social_core_no_fixed_investment,511,"Publishing industries, except internet (includes software)",271944.0,2763.0,269181.0,0.010264468888963188,1
+2022,legacy_core_except_inventory,512,Motion picture and sound recording industries,96239.0,1074.0,95165.0,0.011285661745389586,1
+2022,social_core_no_fixed_investment,512,Motion picture and sound recording industries,47549.0,1074.0,46475.0,0.02310919849381388,1
+2022,legacy_core_except_inventory,513,Broadcasting and telecommunications,439779.0,60.0,439719.0,0.00013645077879281996,1
+2022,social_core_no_fixed_investment,513,Broadcasting and telecommunications,397446.0,60.0,397386.0,0.00015098669807189985,1
+2022,legacy_core_except_inventory,514,"Data processing, internet publishing, and other information services",212772.0,483.0,212289.0,0.0022752003165496092,1
+2022,social_core_no_fixed_investment,514,"Data processing, internet publishing, and other information services",132156.0,465.0,131691.0,0.0035309930063557875,1
+2022,legacy_core_except_inventory,521CI,"Federal Reserve banks, credit intermediation, and related activities",439342.0,4083.0,435259.0,0.009380621652854967,1
+2022,social_core_no_fixed_investment,521CI,"Federal Reserve banks, credit intermediation, and related activities",439342.0,4083.0,435259.0,0.009380621652854967,1
+2022,legacy_core_except_inventory,523,"Securities, commodity contracts, and investments",369199.0,8.0,369191.0,2.166900059860614e-05,1
+2022,social_core_no_fixed_investment,523,"Securities, commodity contracts, and investments",369199.0,8.0,369191.0,2.166900059860614e-05,1
+2022,legacy_core_except_inventory,524,Insurance carriers and related activities,505234.0,1569.0,503665.0,0.0031151658344336017,1
+2022,social_core_no_fixed_investment,524,Insurance carriers and related activities,499178.0,1569.0,497609.0,0.0031530780190872753,1
+2022,legacy_core_except_inventory,525,"Funds, trusts, and other financial vehicles",209693.0,0.0,209693.0,0.0,1
+2022,social_core_no_fixed_investment,525,"Funds, trusts, and other financial vehicles",209693.0,0.0,209693.0,0.0,1
+2022,legacy_core_except_inventory,HS,Housing,2676404.0,0.0,2676404.0,0.0,1
+2022,social_core_no_fixed_investment,HS,Housing,2676404.0,0.0,2676404.0,0.0,1
+2022,legacy_core_except_inventory,ORE,Other real estate,226523.0,0.0,226523.0,0.0,1
+2022,social_core_no_fixed_investment,ORE,Other real estate,11250.0,0.0,11250.0,0.0,1
+2022,legacy_core_except_inventory,532RL,Rental and leasing services and lessors of intangible assets,214626.0,0.0,214626.0,0.0,1
+2022,social_core_no_fixed_investment,532RL,Rental and leasing services and lessors of intangible assets,214626.0,0.0,214626.0,0.0,1
+2022,legacy_core_except_inventory,5411,Legal services,168350.0,1889.0,166461.0,0.01134800343624032,1
+2022,social_core_no_fixed_investment,5411,Legal services,143313.0,1660.0,141653.0,0.011718777576189703,1
+2022,legacy_core_except_inventory,5415,Computer systems design and related services,498039.0,23561.0,474478.0,0.04965667533584276,1
+2022,social_core_no_fixed_investment,5415,Computer systems design and related services,56788.0,0.0,56788.0,0.0,1
+2022,legacy_core_except_inventory,5412OP,"Miscellaneous professional, scientific, and technical services",1302558.0,36930.0,1265628.0,0.02917919009377163,1
+2022,social_core_no_fixed_investment,5412OP,"Miscellaneous professional, scientific, and technical services",313001.0,746.0,312255.0,0.0023890730332580745,1
+2022,legacy_core_except_inventory,55,Management of companies and enterprises,3976.0,0.0,3976.0,0.0,1
+2022,social_core_no_fixed_investment,55,Management of companies and enterprises,3976.0,0.0,3976.0,0.0,1
+2022,legacy_core_except_inventory,561,Administrative and support services,90161.0,161.0,90000.0,0.001788888888888889,1
+2022,social_core_no_fixed_investment,561,Administrative and support services,90161.0,161.0,90000.0,0.001788888888888889,1
+2022,legacy_core_except_inventory,562,Waste management and remediation services,35312.0,0.0,35312.0,0.0,1
+2022,social_core_no_fixed_investment,562,Waste management and remediation services,35312.0,0.0,35312.0,0.0,1
+2022,legacy_core_except_inventory,61,Educational services,431787.0,1726.0,430061.0,0.004013384147830192,1
+2022,social_core_no_fixed_investment,61,Educational services,431787.0,1726.0,430061.0,0.004013384147830192,1
+2022,legacy_core_except_inventory,621,Ambulatory health care services,1336641.0,206.0,1336435.0,0.00015414142850194736,1
+2022,social_core_no_fixed_investment,621,Ambulatory health care services,1336641.0,206.0,1336435.0,0.00015414142850194736,1
+2022,legacy_core_except_inventory,622,Hospitals,1359151.0,8590.0,1350561.0,0.006360319896694781,1
+2022,social_core_no_fixed_investment,622,Hospitals,1359151.0,8590.0,1350561.0,0.006360319896694781,1
+2022,legacy_core_except_inventory,623,Nursing and residential care facilities,281931.0,59.0,281872.0,0.00020931486632230233,1
+2022,social_core_no_fixed_investment,623,Nursing and residential care facilities,281931.0,59.0,281872.0,0.00020931486632230233,1
+2022,legacy_core_except_inventory,624,Social assistance,306360.0,0.0,306360.0,0.0,1
+2022,social_core_no_fixed_investment,624,Social assistance,306360.0,0.0,306360.0,0.0,1
+2022,legacy_core_except_inventory,711AS,"Performing arts, spectator sports, museums, and related activities",108938.0,261.0,108677.0,0.0024016121166392152,1
+2022,social_core_no_fixed_investment,711AS,"Performing arts, spectator sports, museums, and related activities",101095.0,261.0,100834.0,0.002588412638594125,1
+2022,legacy_core_except_inventory,713,"Amusements, gambling, and recreation industries",260675.0,5.0,260670.0,1.91813403920666e-05,1
+2022,social_core_no_fixed_investment,713,"Amusements, gambling, and recreation industries",260675.0,5.0,260670.0,1.91813403920666e-05,1
+2022,legacy_core_except_inventory,721,Accommodation,185754.0,0.0,185754.0,0.0,1
+2022,social_core_no_fixed_investment,721,Accommodation,185754.0,0.0,185754.0,0.0,1
+2022,legacy_core_except_inventory,722,Food services and drinking places,1028957.0,0.0,1028957.0,0.0,1
+2022,social_core_no_fixed_investment,722,Food services and drinking places,1028957.0,0.0,1028957.0,0.0,1
+2022,legacy_core_except_inventory,81,"Other services, except government",799491.0,0.0,799491.0,0.0,1
+2022,social_core_no_fixed_investment,81,"Other services, except government",799491.0,0.0,799491.0,0.0,1
+2022,legacy_core_except_inventory,GFGD,Federal general government (defense),729399.0,0.0,729399.0,0.0,1
+2022,social_core_no_fixed_investment,GFGD,Federal general government (defense),729399.0,0.0,729399.0,0.0,1
+2022,legacy_core_except_inventory,GFGN,Federal general government (nondefense),501126.0,0.0,501126.0,0.0,1
+2022,social_core_no_fixed_investment,GFGN,Federal general government (nondefense),501126.0,0.0,501126.0,0.0,1
+2022,legacy_core_except_inventory,GFE,Federal government enterprises,7148.0,22.0,7126.0,0.0030872859949480774,1
+2022,social_core_no_fixed_investment,GFE,Federal government enterprises,7148.0,22.0,7126.0,0.0030872859949480774,1
+2022,legacy_core_except_inventory,GSLG,State and local general government,2332963.0,0.0,2332963.0,0.0,1
+2022,social_core_no_fixed_investment,GSLG,State and local general government,2332963.0,0.0,2332963.0,0.0,1
+2022,legacy_core_except_inventory,GSLE,State and local government enterprises,87050.0,0.0,87050.0,0.0,1
+2022,social_core_no_fixed_investment,GSLE,State and local government enterprises,87050.0,0.0,87050.0,0.0,1
+2023,legacy_core_except_inventory,111CA,Farms,314364.0,32115.0,282249.0,0.11378251118693068,1
+2023,social_core_no_fixed_investment,111CA,Farms,314364.0,32115.0,282249.0,0.11378251118693068,1
+2023,legacy_core_except_inventory,113FF,"Forestry, fishing, and related activities",19914.0,4228.0,15686.0,0.2695397169450465,1
+2023,social_core_no_fixed_investment,113FF,"Forestry, fishing, and related activities",19914.0,4228.0,15686.0,0.2695397169450465,1
+2023,legacy_core_except_inventory,211,Oil and gas extraction,151551.0,0.0,151551.0,0.0,1
+2023,social_core_no_fixed_investment,211,Oil and gas extraction,151551.0,0.0,151551.0,0.0,1
+2023,legacy_core_except_inventory,212,"Mining, except oil and gas",28649.0,203.0,28446.0,0.007136328482036138,1
+2023,social_core_no_fixed_investment,212,"Mining, except oil and gas",28488.0,73.0,28415.0,0.0025690656343480556,1
+2023,legacy_core_except_inventory,213,Support activities for mining,107586.0,1644.0,105942.0,0.015517924902305035,1
+2023,social_core_no_fixed_investment,213,Support activities for mining,2277.0,0.0,2277.0,0.0,1
+2023,legacy_core_except_inventory,22,Utilities,359084.0,1364.0,357720.0,0.0038130381303813038,1
+2023,social_core_no_fixed_investment,22,Utilities,359084.0,1364.0,357720.0,0.0038130381303813038,1
+2023,legacy_core_except_inventory,23,Construction,2137875.0,0.0,2137875.0,0.0,1
+2023,social_core_no_fixed_investment,23,Construction,118.0,0.0,118.0,0.0,1
+2023,legacy_core_except_inventory,321,Wood products,32387.0,1996.0,30391.0,0.06567733868579513,1
+2023,social_core_no_fixed_investment,321,Wood products,15424.0,1986.0,13438.0,0.1477898496800119,1
+2023,legacy_core_except_inventory,327,Nonmetallic mineral products,41443.0,6500.0,34943.0,0.1860172280571216,1
+2023,social_core_no_fixed_investment,327,Nonmetallic mineral products,41443.0,6500.0,34943.0,0.1860172280571216,1
+2023,legacy_core_except_inventory,331,Primary metals,43579.0,486.0,43093.0,0.011277933771146127,1
+2023,social_core_no_fixed_investment,331,Primary metals,43579.0,486.0,43093.0,0.011277933771146127,1
+2023,legacy_core_except_inventory,332,Fabricated metal products,157381.0,18678.0,138703.0,0.13466183139513926,1
+2023,social_core_no_fixed_investment,332,Fabricated metal products,137385.0,13049.0,124336.0,0.10494949169990993,1
+2023,legacy_core_except_inventory,333,Machinery,645943.0,128816.0,517127.0,0.2490993508364483,1
+2023,social_core_no_fixed_investment,333,Machinery,198062.0,8507.0,189555.0,0.0448787950726702,1
+2023,legacy_core_except_inventory,334,Computer and electronic products,689607.0,230776.0,458831.0,0.5029651440290651,1
+2023,social_core_no_fixed_investment,334,Computer and electronic products,354002.0,103033.0,250969.0,0.4105407440759616,1
+2023,legacy_core_except_inventory,335,"Electrical equipment, appliances, and components",296151.0,83041.0,213110.0,0.38966261555065457,1
+2023,social_core_no_fixed_investment,335,"Electrical equipment, appliances, and components",209843.0,54266.0,155577.0,0.3488047719135862,1
+2023,legacy_core_except_inventory,3361MV,"Motor vehicles, bodies and trailers, and parts",1130013.0,265868.0,864145.0,0.3076659588379265,1
+2023,social_core_no_fixed_investment,3361MV,"Motor vehicles, bodies and trailers, and parts",629270.0,82863.0,546407.0,0.15165069261557776,1
+2023,legacy_core_except_inventory,3364OT,Other transportation equipment,289782.0,27340.0,262442.0,0.10417539875477248,1
+2023,social_core_no_fixed_investment,3364OT,Other transportation equipment,174177.0,10721.0,163456.0,0.06558951644479248,1
+2023,legacy_core_except_inventory,337,Furniture and related products,203578.0,42748.0,160830.0,0.26579618230429647,1
+2023,social_core_no_fixed_investment,337,Furniture and related products,156329.0,29299.0,127030.0,0.2306463040226718,1
+2023,legacy_core_except_inventory,339,Miscellaneous manufacturing,488687.0,97388.0,391299.0,0.2488838458570045,1
+2023,social_core_no_fixed_investment,339,Miscellaneous manufacturing,410803.0,78632.0,332171.0,0.23672144768808837,1
+2023,legacy_core_except_inventory,311FT,Food and beverage and tobacco products,1584572.0,90441.0,1494131.0,0.06053083698818912,1
+2023,social_core_no_fixed_investment,311FT,Food and beverage and tobacco products,1584572.0,90441.0,1494131.0,0.06053083698818912,1
+2023,legacy_core_except_inventory,313TT,Textile mills and textile product mills,118705.0,18164.0,100541.0,0.18066261525148944,1
+2023,social_core_no_fixed_investment,313TT,Textile mills and textile product mills,114397.0,18037.0,96360.0,0.1871834786218348,1
+2023,legacy_core_except_inventory,315AL,Apparel and leather and allied products,528447.0,156660.0,371787.0,0.42137030073671217,1
+2023,social_core_no_fixed_investment,315AL,Apparel and leather and allied products,528447.0,156660.0,371787.0,0.42137030073671217,1
+2023,legacy_core_except_inventory,322,Paper products,98446.0,2789.0,95657.0,0.029156256207073187,1
+2023,social_core_no_fixed_investment,322,Paper products,98446.0,2789.0,95657.0,0.029156256207073187,1
+2023,legacy_core_except_inventory,323,Printing and related support activities,16926.0,375.0,16551.0,0.022657241254304877,1
+2023,social_core_no_fixed_investment,323,Printing and related support activities,16926.0,375.0,16551.0,0.022657241254304877,1
+2023,legacy_core_except_inventory,324,Petroleum and coal products,641767.0,12983.0,628784.0,0.020647790020102294,1
+2023,social_core_no_fixed_investment,324,Petroleum and coal products,641767.0,12983.0,628784.0,0.020647790020102294,1
+2023,legacy_core_except_inventory,325,Chemical products,1041596.0,140857.0,900739.0,0.15637937293711052,1
+2023,social_core_no_fixed_investment,325,Chemical products,1038893.0,138379.0,900514.0,0.1536666836939792,1
+2023,legacy_core_except_inventory,326,Plastics and rubber products,149538.0,25655.0,123883.0,0.20709056125537806,1
+2023,social_core_no_fixed_investment,326,Plastics and rubber products,148517.0,25625.0,122892.0,0.20851642092243597,1
+2023,legacy_core_except_inventory,42,Wholesale trade,3319.0,0.0,3319.0,0.0,1
+2023,social_core_no_fixed_investment,42,Wholesale trade,3319.0,0.0,3319.0,0.0,1
+2023,legacy_core_except_inventory,441,Motor vehicle and parts dealers,0.0,0.0,0.0,0.0,1
+2023,social_core_no_fixed_investment,441,Motor vehicle and parts dealers,0.0,0.0,0.0,0.0,1
+2023,legacy_core_except_inventory,445,Food and beverage stores,0.0,0.0,0.0,0.0,1
+2023,social_core_no_fixed_investment,445,Food and beverage stores,0.0,0.0,0.0,0.0,1
+2023,legacy_core_except_inventory,452,General merchandise stores,0.0,0.0,0.0,0.0,1
+2023,social_core_no_fixed_investment,452,General merchandise stores,0.0,0.0,0.0,0.0,1
+2023,legacy_core_except_inventory,4A0,Other retail,14570.0,0.0,14570.0,0.0,1
+2023,social_core_no_fixed_investment,4A0,Other retail,14570.0,0.0,14570.0,0.0,1
+2023,legacy_core_except_inventory,481,Air transportation,281910.0,47537.0,234373.0,0.2028262641174538,1
+2023,social_core_no_fixed_investment,481,Air transportation,281910.0,47537.0,234373.0,0.2028262641174538,1
+2023,legacy_core_except_inventory,482,Rail transportation,2857.0,0.0,2857.0,0.0,1
+2023,social_core_no_fixed_investment,482,Rail transportation,2857.0,0.0,2857.0,0.0,1
+2023,legacy_core_except_inventory,483,Water transportation,34112.0,0.0,34112.0,0.0,1
+2023,social_core_no_fixed_investment,483,Water transportation,34112.0,0.0,34112.0,0.0,1
+2023,legacy_core_except_inventory,484,Truck transportation,14923.0,0.0,14923.0,0.0,1
+2023,social_core_no_fixed_investment,484,Truck transportation,14923.0,0.0,14923.0,0.0,1
+2023,legacy_core_except_inventory,485,Transit and ground passenger transportation,69899.0,0.0,69899.0,0.0,1
+2023,social_core_no_fixed_investment,485,Transit and ground passenger transportation,69899.0,0.0,69899.0,0.0,1
+2023,legacy_core_except_inventory,486,Pipeline transportation,267.0,0.0,267.0,0.0,1
+2023,social_core_no_fixed_investment,486,Pipeline transportation,267.0,0.0,267.0,0.0,1
+2023,legacy_core_except_inventory,487OS,Other transportation and support activities,41557.0,1.0,41556.0,2.40639137549331e-05,1
+2023,social_core_no_fixed_investment,487OS,Other transportation and support activities,41557.0,1.0,41556.0,2.40639137549331e-05,1
+2023,legacy_core_except_inventory,493,Warehousing and storage,362.0,0.0,362.0,0.0,1
+2023,social_core_no_fixed_investment,493,Warehousing and storage,362.0,0.0,362.0,0.0,1
+2023,legacy_core_except_inventory,511,"Publishing industries, except internet (includes software)",556461.0,2452.0,554009.0,0.004425920878541685,1
+2023,social_core_no_fixed_investment,511,"Publishing industries, except internet (includes software)",286918.0,2499.0,284419.0,0.008786332839929821,1
+2023,legacy_core_except_inventory,512,Motion picture and sound recording industries,104959.0,1100.0,103859.0,0.01059128241173129,1
+2023,social_core_no_fixed_investment,512,Motion picture and sound recording industries,52087.0,1100.0,50987.0,0.021574126738188166,1
+2023,legacy_core_except_inventory,513,Broadcasting and telecommunications,442652.0,67.0,442585.0,0.000151383350090943,1
+2023,social_core_no_fixed_investment,513,Broadcasting and telecommunications,399266.0,67.0,399199.0,0.00016783609177377698,1
+2023,legacy_core_except_inventory,514,"Data processing, internet publishing, and other information services",228566.0,617.0,227949.0,0.0027067458071761666,1
+2023,social_core_no_fixed_investment,514,"Data processing, internet publishing, and other information services",146599.0,600.0,145999.0,0.0041096171891588295,1
+2023,legacy_core_except_inventory,521CI,"Federal Reserve banks, credit intermediation, and related activities",486799.0,4225.0,482574.0,0.00875513392764633,1
+2023,social_core_no_fixed_investment,521CI,"Federal Reserve banks, credit intermediation, and related activities",486799.0,4225.0,482574.0,0.00875513392764633,1
+2023,legacy_core_except_inventory,523,"Securities, commodity contracts, and investments",380286.0,7.0,380279.0,1.8407537623692078e-05,1
+2023,social_core_no_fixed_investment,523,"Securities, commodity contracts, and investments",380286.0,7.0,380279.0,1.8407537623692078e-05,1
+2023,legacy_core_except_inventory,524,Insurance carriers and related activities,521310.0,1941.0,519369.0,0.003737227289268324,1
+2023,social_core_no_fixed_investment,524,Insurance carriers and related activities,517634.0,1941.0,515693.0,0.0037638672621113723,1
+2023,legacy_core_except_inventory,525,"Funds, trusts, and other financial vehicles",243320.0,0.0,243320.0,0.0,1
+2023,social_core_no_fixed_investment,525,"Funds, trusts, and other financial vehicles",243320.0,0.0,243320.0,0.0,1
+2023,legacy_core_except_inventory,HS,Housing,2937507.0,0.0,2937507.0,0.0,1
+2023,social_core_no_fixed_investment,HS,Housing,2937507.0,0.0,2937507.0,0.0,1
+2023,legacy_core_except_inventory,ORE,Other real estate,212511.0,0.0,212511.0,0.0,1
+2023,social_core_no_fixed_investment,ORE,Other real estate,11564.0,0.0,11564.0,0.0,1
+2023,legacy_core_except_inventory,532RL,Rental and leasing services and lessors of intangible assets,217208.0,0.0,217208.0,0.0,1
+2023,social_core_no_fixed_investment,532RL,Rental and leasing services and lessors of intangible assets,217208.0,0.0,217208.0,0.0,1
+2023,legacy_core_except_inventory,5411,Legal services,160827.0,1881.0,158946.0,0.011834207844173493,1
+2023,social_core_no_fixed_investment,5411,Legal services,148477.0,1777.0,146700.0,0.012113156100886162,1
+2023,legacy_core_except_inventory,5415,Computer systems design and related services,552332.0,27001.0,525331.0,0.05139807093051809,1
+2023,social_core_no_fixed_investment,5415,Computer systems design and related services,62268.0,0.0,62268.0,0.0,1
+2023,legacy_core_except_inventory,5412OP,"Miscellaneous professional, scientific, and technical services",1372690.0,34966.0,1337724.0,0.026138426162646406,1
+2023,social_core_no_fixed_investment,5412OP,"Miscellaneous professional, scientific, and technical services",331564.0,869.0,330695.0,0.0026277990293170446,1
+2023,legacy_core_except_inventory,55,Management of companies and enterprises,4280.0,0.0,4280.0,0.0,1
+2023,social_core_no_fixed_investment,55,Management of companies and enterprises,4280.0,0.0,4280.0,0.0,1
+2023,legacy_core_except_inventory,561,Administrative and support services,101287.0,198.0,101089.0,0.0019586700827983264,1
+2023,social_core_no_fixed_investment,561,Administrative and support services,101287.0,198.0,101089.0,0.0019586700827983264,1
+2023,legacy_core_except_inventory,562,Waste management and remediation services,38631.0,0.0,38631.0,0.0,1
+2023,social_core_no_fixed_investment,562,Waste management and remediation services,38631.0,0.0,38631.0,0.0,1
+2023,legacy_core_except_inventory,61,Educational services,458840.0,1955.0,456885.0,0.004278976109962025,1
+2023,social_core_no_fixed_investment,61,Educational services,458840.0,1955.0,456885.0,0.004278976109962025,1
+2023,legacy_core_except_inventory,621,Ambulatory health care services,1459057.0,158.0,1458899.0,0.00010830084879076619,1
+2023,social_core_no_fixed_investment,621,Ambulatory health care services,1459057.0,158.0,1458899.0,0.00010830084879076619,1
+2023,legacy_core_except_inventory,622,Hospitals,1445784.0,9598.0,1436186.0,0.006682978388593121,1
+2023,social_core_no_fixed_investment,622,Hospitals,1445784.0,9598.0,1436186.0,0.006682978388593121,1
+2023,legacy_core_except_inventory,623,Nursing and residential care facilities,311570.0,45.0,311525.0,0.00014445068614075916,1
+2023,social_core_no_fixed_investment,623,Nursing and residential care facilities,311570.0,45.0,311525.0,0.00014445068614075916,1
+2023,legacy_core_except_inventory,624,Social assistance,336990.0,0.0,336990.0,0.0,1
+2023,social_core_no_fixed_investment,624,Social assistance,336990.0,0.0,336990.0,0.0,1
+2023,legacy_core_except_inventory,711AS,"Performing arts, spectator sports, museums, and related activities",129800.0,289.0,129511.0,0.0022314706858876853,1
+2023,social_core_no_fixed_investment,711AS,"Performing arts, spectator sports, museums, and related activities",119972.0,289.0,119683.0,0.002414712198056533,1
+2023,legacy_core_except_inventory,713,"Amusements, gambling, and recreation industries",280090.0,2.0,280088.0,7.140612950215647e-06,1
+2023,social_core_no_fixed_investment,713,"Amusements, gambling, and recreation industries",280090.0,2.0,280088.0,7.140612950215647e-06,1
+2023,legacy_core_except_inventory,721,Accommodation,206632.0,0.0,206632.0,0.0,1
+2023,social_core_no_fixed_investment,721,Accommodation,206632.0,0.0,206632.0,0.0,1
+2023,legacy_core_except_inventory,722,Food services and drinking places,1132992.0,0.0,1132992.0,0.0,1
+2023,social_core_no_fixed_investment,722,Food services and drinking places,1132992.0,0.0,1132992.0,0.0,1
+2023,legacy_core_except_inventory,81,"Other services, except government",867190.0,0.0,867190.0,0.0,1
+2023,social_core_no_fixed_investment,81,"Other services, except government",867190.0,0.0,867190.0,0.0,1
+2023,legacy_core_except_inventory,GFGD,Federal general government (defense),789194.0,0.0,789194.0,0.0,1
+2023,social_core_no_fixed_investment,GFGD,Federal general government (defense),789194.0,0.0,789194.0,0.0,1
+2023,legacy_core_except_inventory,GFGN,Federal general government (nondefense),550500.0,0.0,550500.0,0.0,1
+2023,social_core_no_fixed_investment,GFGN,Federal general government (nondefense),550500.0,0.0,550500.0,0.0,1
+2023,legacy_core_except_inventory,GFE,Federal government enterprises,7101.0,16.0,7085.0,0.0022582921665490474,1
+2023,social_core_no_fixed_investment,GFE,Federal government enterprises,7101.0,16.0,7085.0,0.0022582921665490474,1
+2023,legacy_core_except_inventory,GSLG,State and local general government,2426184.0,0.0,2426184.0,0.0,1
+2023,social_core_no_fixed_investment,GSLG,State and local general government,2426184.0,0.0,2426184.0,0.0,1
+2023,legacy_core_except_inventory,GSLE,State and local government enterprises,94768.0,0.0,94768.0,0.0,1
+2023,social_core_no_fixed_investment,GSLE,State and local government enterprises,94768.0,0.0,94768.0,0.0,1

@@ -1,0 +1,72 @@
+bea_code,sector_name,fte_thousands_per_million_2019price_output_2022
+111CA,Farms,0.0018210014154633727
+113FF,"Forestry, fishing, and related activities",0.008977488361155628
+211,Oil and gas extraction,0.0003187604379914876
+212,"Mining, except oil and gas",0.0017302803122794086
+213,Support activities for mining,0.0025810182807648268
+22,Utilities,0.001026147132719716
+23,Construction,0.004440894406730564
+321,Wood products,0.0033920416668072836
+327,Nonmetallic mineral products,0.0029480696834519376
+331,Primary metals,0.001536087958645955
+332,Fabricated metal products,0.004027603337031866
+333,Machinery,0.002970188242731271
+334,Computer and electronic products,0.002714271783524142
+335,"Electrical equipment, appliances, and components",0.0029535823568129214
+3361MV,"Motor vehicles, bodies and trailers, and parts",0.0015016163955239113
+3364OT,Other transportation equipment,0.0024159357024591474
+337,Furniture and related products,0.005367617753959374
+339,Miscellaneous manufacturing,0.003806288691935093
+311FT,Food and beverage and tobacco products,0.001963848881462539
+313TT,Textile mills and textile product mills,0.004601354457247524
+315AL,Apparel and leather and allied products,0.006919783279583747
+322,Paper products,0.0020117969705673888
+323,Printing and related support activities,0.005004574627973849
+324,Petroleum and coal products,0.00020697319871275073
+325,Chemical products,0.0011599254845413977
+326,Plastics and rubber products,0.0031445711620375735
+42,Wholesale trade,0.002421067458019807
+441,Motor vehicle and parts dealers,0.005960874461289395
+445,Food and beverage stores,0.009717628104584685
+452,General merchandise stores,0.011070563721092384
+4A0,Other retail,0.004972972510763515
+481,Air transportation,0.001798749624964183
+482,Rail transportation,0.0017064078907406924
+483,Water transportation,0.0011125659640812743
+484,Truck transportation,0.0034524480221966507
+485,Transit and ground passenger transportation,0.0034092371158838727
+486,Pipeline transportation,0.0008204175453958817
+487OS,Other transportation and support activities,0.005865511552919244
+493,Warehousing and storage,0.012132828091492506
+511,"Publishing industries, except internet (includes software)",0.0014475630281578838
+512,Motion picture and sound recording industries,0.0021167421990124103
+513,Broadcasting and telecommunications,0.0009479985249799027
+514,"Data processing, internet publishing, and other information services",0.0010456536911234338
+521CI,"Federal Reserve banks, credit intermediation, and related activities",0.002450567569809202
+523,"Securities, commodity contracts, and investments",0.0015160689135927197
+524,Insurance carriers and related activities,0.0022437915115200613
+525,"Funds, trusts, and other financial vehicles",0.000180098924069385
+HS,Housing,0.0
+ORE,Other real estate,0.001014074624619113
+532RL,Rental and leasing services and lessors of intangible assets,0.0010079512986175888
+5411,Legal services,0.0029855542074572064
+5415,Computer systems design and related services,0.003300792451818223
+5412OP,"Miscellaneous professional, scientific, and technical services",0.003515573443130114
+55,Management of companies and enterprises,0.0032484809605610615
+561,Administrative and support services,0.00706225829010423
+562,Waste management and remediation services,0.0034413317052009893
+61,Educational services,0.009041643941511043
+621,Ambulatory health care services,0.005871949132441623
+622,Hospitals,0.004967835719984184
+623,Nursing and residential care facilities,0.010631445234017324
+624,Social assistance,0.014466590674694604
+711AS,"Performing arts, spectator sports, museums, and related activities",0.002139790449202645
+713,"Amusements, gambling, and recreation industries",0.007223001558342505
+721,Accommodation,0.005515916423463514
+722,Food services and drinking places,0.009359396711146556
+81,"Other services, except government",0.007528499655007432
+GFGD,Federal general government (defense),0.0030998835446996663
+GFGN,Federal general government (nondefense),0.0030998835446996663
+GFE,Federal government enterprises,0.006324168136376542
+GSLG,State and local general government,0.0058723758026692306
+GSLE,State and local government enterprises,0.0028647464619355476

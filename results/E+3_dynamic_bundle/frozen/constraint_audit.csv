@@ -1,0 +1,6 @@
+year,flow_balance_error,stock_recurrence_error,max_capital_excess,labour_excess,max_import_excess,min_net_output,min_investment,flow_balance_ok,stock_recurrence_ok,capital_ok,labour_ok,imports_ok,net_output_ok,investment_ok,compliant
+2019,5.820766091346741e-10,0.0,4.3655745685100555e-11,-20440.54749331667,0.0,-4.547473508864641e-11,0.0,True,True,True,True,True,True,True,True
+2020,9.313225746154785e-10,0.0,2.3283064365386963e-10,-13775.023465953942,7.275957614183426e-12,-2.8194335754960775e-11,0.0,True,True,True,True,True,True,True,True
+2021,4.656612873077393e-10,0.0,3.4924596548080444e-10,-17665.54011522008,0.0,-2.000888343900442e-11,0.0,True,True,True,True,True,True,True,True
+2022,9.313225746154785e-10,0.0,2.3283064365386963e-10,-29079.747888820217,1.1641532182693481e-10,-1.1095835361629725e-10,0.0,True,True,True,True,True,True,True,True
+2023,9.313225746154785e-10,0.0,1.862645149230957e-09,-40429.45280436288,0.0,-3.2378011383116245e-10,0.0,True,True,True,True,True,True,True,True

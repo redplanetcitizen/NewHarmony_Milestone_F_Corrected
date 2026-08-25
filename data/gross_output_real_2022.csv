@@ -1,0 +1,72 @@
+bea_code,sector_name,gross_output_real_2019_price_musd_2022
+111CA,Farms,383305.5779489258
+113FF,"Forestry, fishing, and related activities",58034.04906146091
+211,Oil and gas extraction,348223.8909552641
+212,"Mining, except oil and gas",103451.44583202932
+213,Support activities for mining,99960.54732458055
+22,Utilities,533061.9582303201
+23,Construction,1729606.537898936
+321,Wood products,123524.42604113954
+327,Nonmetallic mineral products,138395.64318651616
+331,Primary metals,233710.57495721447
+332,Fabricated metal products,348097.8345382942
+333,Machinery,366980.10729369725
+334,Computer and electronic products,383159.8612610894
+335,"Electrical equipment, appliances, and components",135090.18940326522
+3361MV,"Motor vehicles, bodies and trailers, and parts",651964.1120849834
+3364OT,Other transportation equipment,289328.8920265956
+337,Furniture and related products,68745.58079844835
+339,Miscellaneous manufacturing,160523.81977610098
+311FT,Food and beverage and tobacco products,987346.8464416501
+313TT,Textile mills and textile product mills,42161.49870706734
+315AL,Apparel and leather and allied products,16329.991191111032
+322,Paper products,176459.1582518782
+323,Printing and related support activities,73332.90584750129
+324,Petroleum and coal products,502480.517510565
+325,Chemical products,759531.5490014628
+326,Plastics and rubber products,235008.1972770982
+42,Wholesale trade,2404311.3630386
+441,Motor vehicle and parts dealers,295426.4531883932
+445,Food and beverage stores,284019.92443998327
+452,General merchandise stores,247593.53444465183
+4A0,Other retail,1320135.992264324
+481,Air transportation,270187.68663241685
+482,Rail transportation,83215.74271340408
+483,Water transportation,53929.38660454737
+484,Truck transportation,433895.01894568256
+485,Transit and ground passenger transportation,115568.3769146847
+486,Pipeline transportation,57287.902073475
+487OS,Other transportation and support activities,309265.4380839432
+493,Warehousing and storage,146791.82681643948
+511,"Publishing industries, except internet (includes software)",562324.3922137655
+512,Motion picture and sound recording industries,188497.21056544245
+513,Broadcasting and telecommunications,933545.7563277979
+514,"Data processing, internet publishing, and other information services",736381.4679147971
+521CI,"Federal Reserve banks, credit intermediation, and related activities",1083422.4824931945
+523,"Securities, commodity contracts, and investments",668835.03177772
+524,Insurance carriers and related activities,1273736.880332452
+525,"Funds, trusts, and other financial vehicles",149917.60855605092
+HS,Housing,2410573.645255803
+ORE,Other real estate,1682321.9500643502
+532RL,Rental and leasing services and lessors of intangible assets,521850.6099663864
+5411,Legal services,382508.54636889684
+5415,Computer systems design and related services,718918.2702756262
+5412OP,"Miscellaneous professional, scientific, and technical services",1897556.7166818825
+55,Management of companies and enterprises,749273.284821596
+561,Administrative and support services,1197492.310901473
+562,Waste management and remediation services,133959.76891831632
+61,Educational services,381678.3786581257
+621,Ambulatory health care services,1264827.0331510466
+622,Hospitals,982319.1174315918
+623,Nursing and residential care facilities,258290.3772305248
+624,Social assistance,265508.3071313266
+711AS,"Performing arts, spectator sports, museums, and related activities",251893.82455690872
+713,"Amusements, gambling, and recreation industries",187041.35518835747
+721,Accommodation,294783.2916908146
+722,Food services and drinking places,995790.6783564761
+81,"Other services, except government",806933.6890995717
+GFGD,Federal general government (defense),683345.154407803
+GFGN,Federal general government (nondefense),519280.6688668547
+GFE,Federal government enterprises,96929.74424162303
+GSLG,State and local general government,2586517.026566316
+GSLE,State and local government enterprises,378742.06824813626

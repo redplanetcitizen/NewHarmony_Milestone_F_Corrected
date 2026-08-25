@@ -1,0 +1,27 @@
+{
+  "source_archive": "sources/BEA_FixedAssets_Milestone_B.zip",
+  "source_archive_sha256": "09e71560dd27ac6aa9ea9d06b539ae2b1cadab45509e55b23d7171d0131df519",
+  "source_workbooks": [
+    "Section3All_xls.xlsx",
+    "Section7All_xls.xlsx"
+  ],
+  "extraction_note": "Values extracted from BEA fixed-assets tables using current-cost flows and chain-type quantity indexes. Component real volumes are expressed at 2019-price reference by current_cost_2019 * QI_t / QI_2019.",
+  "scope_note": "Section 3 private fixed assets already contains residential private fixed assets in the accepted aggregate; Section 5 residential tables are therefore not added separately, avoiding double counting. Government components come from Section 7.",
+  "chain_nonadditivity_note": "BEA chain-type quantity indexes are not strictly additive away from the reference year. Component real sums are therefore diagnostic and are reconciled to the accepted 71-sector real totals with an explicit residual.",
+  "asset_types": [
+    "equipment",
+    "structures",
+    "ipp"
+  ],
+  "owners": [
+    "private",
+    "government"
+  ],
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ]
+}

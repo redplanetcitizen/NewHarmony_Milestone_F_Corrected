@@ -1,0 +1,72 @@
+bea_code,sector_name,depreciation_rate_on_beginning_real_stock_2023
+111CA,Farms,0.07603141863334092
+113FF,"Forestry, fishing, and related activities",0.09725436266539675
+211,Oil and gas extraction,0.07392472928761976
+212,"Mining, except oil and gas",0.06649989938250059
+213,Support activities for mining,0.09341065850490567
+22,Utilities,0.04132226145154448
+23,Construction,0.14301499412960272
+321,Wood products,0.09677734090056685
+327,Nonmetallic mineral products,0.10043297500303158
+331,Primary metals,0.07042333748261784
+332,Fabricated metal products,0.08513303626470206
+333,Machinery,0.1024233986441094
+334,Computer and electronic products,0.20270847966466163
+335,"Electrical equipment, appliances, and components",0.11419748988184465
+3361MV,"Motor vehicles, bodies and trailers, and parts",0.17444732480915065
+3364OT,Other transportation equipment,0.13627652445647867
+337,Furniture and related products,0.1048398603379868
+339,Miscellaneous manufacturing,0.1369239199424895
+311FT,Food and beverage and tobacco products,0.0848788261312143
+313TT,Textile mills and textile product mills,0.07785907536210328
+315AL,Apparel and leather and allied products,0.08419137006558845
+322,Paper products,0.09414453093357653
+323,Printing and related support activities,0.1032725078523797
+324,Petroleum and coal products,0.09052938754396787
+325,Chemical products,0.10475792322397905
+326,Plastics and rubber products,0.10676782557707154
+42,Wholesale trade,0.12114811485570424
+441,Motor vehicle and parts dealers,0.060998145565897464
+445,Food and beverage stores,0.06895061564073103
+452,General merchandise stores,0.08586367038481667
+4A0,Other retail,0.09247727443193463
+481,Air transportation,0.06466261711855378
+482,Rail transportation,0.030687228644317367
+483,Water transportation,0.09664631198156838
+484,Truck transportation,0.1681989316852909
+485,Transit and ground passenger transportation,0.1027835486928302
+486,Pipeline transportation,0.04059545032753496
+487OS,Other transportation and support activities,0.09542965016670518
+493,Warehousing and storage,0.07647457888927463
+511,"Publishing industries, except internet (includes software)",0.22355500649731008
+512,Motion picture and sound recording industries,0.12294533464281346
+513,Broadcasting and telecommunications,0.09309776113952362
+514,"Data processing, internet publishing, and other information services",0.2596438572782638
+521CI,"Federal Reserve banks, credit intermediation, and related activities",0.14558998635888507
+523,"Securities, commodity contracts, and investments",0.20779779888976344
+524,Insurance carriers and related activities,0.1829063651838415
+525,"Funds, trusts, and other financial vehicles",0.0818605763222304
+HS,Housing,0.023821087208835325
+ORE,Other real estate,0.043560567931961135
+532RL,Rental and leasing services and lessors of intangible assets,0.13759882494588963
+5411,Legal services,0.11335284681345459
+5415,Computer systems design and related services,0.33609749805507044
+5412OP,"Miscellaneous professional, scientific, and technical services",0.1658995467747409
+55,Management of companies and enterprises,0.104880832746101
+561,Administrative and support services,0.21821396467390708
+562,Waste management and remediation services,0.07483136196780005
+61,Educational services,0.045545886184748106
+621,Ambulatory health care services,0.09885640681238998
+622,Hospitals,0.06957963626641511
+623,Nursing and residential care facilities,0.05700621903791139
+624,Social assistance,0.05997358509185786
+711AS,"Performing arts, spectator sports, museums, and related activities",0.08719699850800613
+713,"Amusements, gambling, and recreation industries",0.05770590192335218
+721,Accommodation,0.042186918755129164
+722,Food services and drinking places,0.07957052570827801
+81,"Other services, except government",0.06314509975921904
+GFGD,Federal general government (defense),0.09512409327146018
+GFGN,Federal general government (nondefense),0.1257167998639183
+GFE,Federal government enterprises,0.02321817213600385
+GSLG,State and local general government,0.02707778765236839
+GSLE,State and local government enterprises,0.023218172136003846

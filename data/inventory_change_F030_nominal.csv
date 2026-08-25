@@ -1,0 +1,356 @@
+year,bea_code,sector_name,inventory_change_total_musd,inventory_change_import_musd,inventory_change_domestic_musd
+2019,111CA,Farms,-12861.0,213.0,-13074.0
+2019,113FF,"Forestry, fishing, and related activities",1377.0,64.0,1313.0
+2019,211,Oil and gas extraction,6792.0,723.0,6069.0
+2019,212,"Mining, except oil and gas",1038.0,42.0,996.0
+2019,213,Support activities for mining,-6.0,0.0,-6.0
+2019,22,Utilities,0.0,0.0,0.0
+2019,23,Construction,0.0,0.0,0.0
+2019,321,Wood products,554.0,57.0,497.0
+2019,327,Nonmetallic mineral products,1421.0,124.0,1297.0
+2019,331,Primary metals,1966.0,475.0,1491.0
+2019,332,Fabricated metal products,4642.0,639.0,4003.0
+2019,333,Machinery,4508.0,1098.0,3410.0
+2019,334,Computer and electronic products,2432.0,908.0,1524.0
+2019,335,"Electrical equipment, appliances, and components",1912.0,480.0,1432.0
+2019,3361MV,"Motor vehicles, bodies and trailers, and parts",8601.0,3232.0,5369.0
+2019,3364OT,Other transportation equipment,17746.0,-7621.0,25367.0
+2019,337,Furniture and related products,666.0,128.0,538.0
+2019,339,Miscellaneous manufacturing,2529.0,685.0,1844.0
+2019,311FT,Food and beverage and tobacco products,8959.0,481.0,8478.0
+2019,313TT,Textile mills and textile product mills,474.0,144.0,330.0
+2019,315AL,Apparel and leather and allied products,-551.0,-430.0,-121.0
+2019,322,Paper products,876.0,53.0,823.0
+2019,323,Printing and related support activities,148.0,13.0,135.0
+2019,324,Petroleum and coal products,4765.0,849.0,3916.0
+2019,325,Chemical products,9467.0,1174.0,8293.0
+2019,326,Plastics and rubber products,1880.0,304.0,1576.0
+2019,42,Wholesale trade,0.0,0.0,0.0
+2019,441,Motor vehicle and parts dealers,0.0,0.0,0.0
+2019,445,Food and beverage stores,0.0,0.0,0.0
+2019,452,General merchandise stores,0.0,0.0,0.0
+2019,4A0,Other retail,0.0,0.0,0.0
+2019,481,Air transportation,0.0,0.0,0.0
+2019,482,Rail transportation,0.0,0.0,0.0
+2019,483,Water transportation,0.0,0.0,0.0
+2019,484,Truck transportation,0.0,0.0,0.0
+2019,485,Transit and ground passenger transportation,0.0,0.0,0.0
+2019,486,Pipeline transportation,0.0,0.0,0.0
+2019,487OS,Other transportation and support activities,0.0,0.0,0.0
+2019,493,Warehousing and storage,0.0,0.0,0.0
+2019,511,"Publishing industries, except internet (includes software)",510.0,24.0,486.0
+2019,512,Motion picture and sound recording industries,-95.0,-2.0,-93.0
+2019,513,Broadcasting and telecommunications,0.0,0.0,0.0
+2019,514,"Data processing, internet publishing, and other information services",0.0,0.0,0.0
+2019,521CI,"Federal Reserve banks, credit intermediation, and related activities",0.0,0.0,0.0
+2019,523,"Securities, commodity contracts, and investments",0.0,0.0,0.0
+2019,524,Insurance carriers and related activities,0.0,0.0,0.0
+2019,525,"Funds, trusts, and other financial vehicles",0.0,0.0,0.0
+2019,HS,Housing,0.0,0.0,0.0
+2019,ORE,Other real estate,0.0,0.0,0.0
+2019,532RL,Rental and leasing services and lessors of intangible assets,0.0,0.0,0.0
+2019,5411,Legal services,0.0,0.0,0.0
+2019,5415,Computer systems design and related services,0.0,0.0,0.0
+2019,5412OP,"Miscellaneous professional, scientific, and technical services",0.0,0.0,0.0
+2019,55,Management of companies and enterprises,0.0,0.0,0.0
+2019,561,Administrative and support services,0.0,0.0,0.0
+2019,562,Waste management and remediation services,0.0,0.0,0.0
+2019,61,Educational services,0.0,0.0,0.0
+2019,621,Ambulatory health care services,0.0,0.0,0.0
+2019,622,Hospitals,0.0,0.0,0.0
+2019,623,Nursing and residential care facilities,0.0,0.0,0.0
+2019,624,Social assistance,0.0,0.0,0.0
+2019,711AS,"Performing arts, spectator sports, museums, and related activities",0.0,0.0,0.0
+2019,713,"Amusements, gambling, and recreation industries",0.0,0.0,0.0
+2019,721,Accommodation,0.0,0.0,0.0
+2019,722,Food services and drinking places,0.0,0.0,0.0
+2019,81,"Other services, except government",0.0,0.0,0.0
+2019,GFGD,Federal general government (defense),0.0,0.0,0.0
+2019,GFGN,Federal general government (nondefense),0.0,0.0,0.0
+2019,GFE,Federal government enterprises,0.0,0.0,0.0
+2019,GSLG,State and local general government,0.0,0.0,0.0
+2019,GSLE,State and local government enterprises,0.0,0.0,0.0
+2020,111CA,Farms,-10477.0,26.0,-10503.0
+2020,113FF,"Forestry, fishing, and related activities",1005.0,26.0,979.0
+2020,211,Oil and gas extraction,1809.0,84.0,1725.0
+2020,212,"Mining, except oil and gas",-87.0,-5.0,-82.0
+2020,213,Support activities for mining,-5.0,0.0,-5.0
+2020,22,Utilities,0.0,0.0,0.0
+2020,23,Construction,0.0,0.0,0.0
+2020,321,Wood products,487.0,37.0,450.0
+2020,327,Nonmetallic mineral products,-930.0,0.0,-930.0
+2020,331,Primary metals,-4503.0,-469.0,-4034.0
+2020,332,Fabricated metal products,-1523.0,-70.0,-1453.0
+2020,333,Machinery,-5812.0,-1315.0,-4497.0
+2020,334,Computer and electronic products,376.0,-25.0,401.0
+2020,335,"Electrical equipment, appliances, and components",-950.0,-246.0,-704.0
+2020,3361MV,"Motor vehicles, bodies and trailers, and parts",-14103.0,-5344.0,-8759.0
+2020,3364OT,Other transportation equipment,5536.0,-4921.0,10457.0
+2020,337,Furniture and related products,-537.0,-476.0,-61.0
+2020,339,Miscellaneous manufacturing,-2299.0,-781.0,-1518.0
+2020,311FT,Food and beverage and tobacco products,1006.0,72.0,934.0
+2020,313TT,Textile mills and textile product mills,-70.0,-43.0,-27.0
+2020,315AL,Apparel and leather and allied products,-5170.0,-3219.0,-1951.0
+2020,322,Paper products,327.0,101.0,226.0
+2020,323,Printing and related support activities,242.0,33.0,209.0
+2020,324,Petroleum and coal products,1002.0,504.0,498.0
+2020,325,Chemical products,6277.0,1018.0,5259.0
+2020,326,Plastics and rubber products,-238.0,-234.0,-4.0
+2020,42,Wholesale trade,0.0,0.0,0.0
+2020,441,Motor vehicle and parts dealers,0.0,0.0,0.0
+2020,445,Food and beverage stores,0.0,0.0,0.0
+2020,452,General merchandise stores,0.0,0.0,0.0
+2020,4A0,Other retail,0.0,0.0,0.0
+2020,481,Air transportation,0.0,0.0,0.0
+2020,482,Rail transportation,0.0,0.0,0.0
+2020,483,Water transportation,0.0,0.0,0.0
+2020,484,Truck transportation,0.0,0.0,0.0
+2020,485,Transit and ground passenger transportation,0.0,0.0,0.0
+2020,486,Pipeline transportation,0.0,0.0,0.0
+2020,487OS,Other transportation and support activities,0.0,0.0,0.0
+2020,493,Warehousing and storage,0.0,0.0,0.0
+2020,511,"Publishing industries, except internet (includes software)",3912.0,54.0,3858.0
+2020,512,Motion picture and sound recording industries,250.0,14.0,236.0
+2020,513,Broadcasting and telecommunications,0.0,0.0,0.0
+2020,514,"Data processing, internet publishing, and other information services",0.0,0.0,0.0
+2020,521CI,"Federal Reserve banks, credit intermediation, and related activities",0.0,0.0,0.0
+2020,523,"Securities, commodity contracts, and investments",0.0,0.0,0.0
+2020,524,Insurance carriers and related activities,0.0,0.0,0.0
+2020,525,"Funds, trusts, and other financial vehicles",0.0,0.0,0.0
+2020,HS,Housing,0.0,0.0,0.0
+2020,ORE,Other real estate,0.0,0.0,0.0
+2020,532RL,Rental and leasing services and lessors of intangible assets,0.0,0.0,0.0
+2020,5411,Legal services,0.0,0.0,0.0
+2020,5415,Computer systems design and related services,0.0,0.0,0.0
+2020,5412OP,"Miscellaneous professional, scientific, and technical services",0.0,0.0,0.0
+2020,55,Management of companies and enterprises,0.0,0.0,0.0
+2020,561,Administrative and support services,0.0,0.0,0.0
+2020,562,Waste management and remediation services,0.0,0.0,0.0
+2020,61,Educational services,0.0,0.0,0.0
+2020,621,Ambulatory health care services,0.0,0.0,0.0
+2020,622,Hospitals,0.0,0.0,0.0
+2020,623,Nursing and residential care facilities,0.0,0.0,0.0
+2020,624,Social assistance,0.0,0.0,0.0
+2020,711AS,"Performing arts, spectator sports, museums, and related activities",0.0,0.0,0.0
+2020,713,"Amusements, gambling, and recreation industries",0.0,0.0,0.0
+2020,721,Accommodation,0.0,0.0,0.0
+2020,722,Food services and drinking places,0.0,0.0,0.0
+2020,81,"Other services, except government",0.0,0.0,0.0
+2020,GFGD,Federal general government (defense),0.0,0.0,0.0
+2020,GFGN,Federal general government (nondefense),0.0,0.0,0.0
+2020,GFE,Federal government enterprises,0.0,0.0,0.0
+2020,GSLG,State and local general government,0.0,0.0,0.0
+2020,GSLE,State and local government enterprises,0.0,0.0,0.0
+2021,111CA,Farms,-184.0,400.0,-584.0
+2021,113FF,"Forestry, fishing, and related activities",607.0,68.0,539.0
+2021,211,Oil and gas extraction,-9648.0,-961.0,-8687.0
+2021,212,"Mining, except oil and gas",-546.0,-17.0,-529.0
+2021,213,Support activities for mining,0.0,0.0,0.0
+2021,22,Utilities,0.0,0.0,0.0
+2021,23,Construction,0.0,0.0,0.0
+2021,321,Wood products,2191.0,253.0,1938.0
+2021,327,Nonmetallic mineral products,1776.0,251.0,1525.0
+2021,331,Primary metals,1184.0,491.0,693.0
+2021,332,Fabricated metal products,1022.0,1059.0,-37.0
+2021,333,Machinery,6773.0,2459.0,4314.0
+2021,334,Computer and electronic products,11448.0,4962.0,6486.0
+2021,335,"Electrical equipment, appliances, and components",3935.0,1459.0,2476.0
+2021,3361MV,"Motor vehicles, bodies and trailers, and parts",-13302.0,-4896.0,-8406.0
+2021,3364OT,Other transportation equipment,-7343.0,-4737.0,-2606.0
+2021,337,Furniture and related products,3168.0,1248.0,1920.0
+2021,339,Miscellaneous manufacturing,9970.0,4502.0,5468.0
+2021,311FT,Food and beverage and tobacco products,10821.0,965.0,9856.0
+2021,313TT,Textile mills and textile product mills,2734.0,1153.0,1581.0
+2021,315AL,Apparel and leather and allied products,7992.0,4932.0,3060.0
+2021,322,Paper products,2594.0,356.0,2238.0
+2021,323,Printing and related support activities,1372.0,60.0,1312.0
+2021,324,Petroleum and coal products,-5495.0,-1334.0,-4161.0
+2021,325,Chemical products,3321.0,2740.0,581.0
+2021,326,Plastics and rubber products,2705.0,336.0,2369.0
+2021,42,Wholesale trade,0.0,0.0,0.0
+2021,441,Motor vehicle and parts dealers,0.0,0.0,0.0
+2021,445,Food and beverage stores,0.0,0.0,0.0
+2021,452,General merchandise stores,0.0,0.0,0.0
+2021,4A0,Other retail,0.0,0.0,0.0
+2021,481,Air transportation,0.0,0.0,0.0
+2021,482,Rail transportation,0.0,0.0,0.0
+2021,483,Water transportation,0.0,0.0,0.0
+2021,484,Truck transportation,0.0,0.0,0.0
+2021,485,Transit and ground passenger transportation,0.0,0.0,0.0
+2021,486,Pipeline transportation,0.0,0.0,0.0
+2021,487OS,Other transportation and support activities,0.0,0.0,0.0
+2021,493,Warehousing and storage,0.0,0.0,0.0
+2021,511,"Publishing industries, except internet (includes software)",595.0,105.0,490.0
+2021,512,Motion picture and sound recording industries,759.0,81.0,678.0
+2021,513,Broadcasting and telecommunications,0.0,0.0,0.0
+2021,514,"Data processing, internet publishing, and other information services",0.0,0.0,0.0
+2021,521CI,"Federal Reserve banks, credit intermediation, and related activities",0.0,0.0,0.0
+2021,523,"Securities, commodity contracts, and investments",0.0,0.0,0.0
+2021,524,Insurance carriers and related activities,0.0,0.0,0.0
+2021,525,"Funds, trusts, and other financial vehicles",0.0,0.0,0.0
+2021,HS,Housing,0.0,0.0,0.0
+2021,ORE,Other real estate,0.0,0.0,0.0
+2021,532RL,Rental and leasing services and lessors of intangible assets,0.0,0.0,0.0
+2021,5411,Legal services,0.0,0.0,0.0
+2021,5415,Computer systems design and related services,0.0,0.0,0.0
+2021,5412OP,"Miscellaneous professional, scientific, and technical services",0.0,0.0,0.0
+2021,55,Management of companies and enterprises,0.0,0.0,0.0
+2021,561,Administrative and support services,0.0,0.0,0.0
+2021,562,Waste management and remediation services,0.0,0.0,0.0
+2021,61,Educational services,0.0,0.0,0.0
+2021,621,Ambulatory health care services,0.0,0.0,0.0
+2021,622,Hospitals,0.0,0.0,0.0
+2021,623,Nursing and residential care facilities,0.0,0.0,0.0
+2021,624,Social assistance,0.0,0.0,0.0
+2021,711AS,"Performing arts, spectator sports, museums, and related activities",0.0,0.0,0.0
+2021,713,"Amusements, gambling, and recreation industries",0.0,0.0,0.0
+2021,721,Accommodation,0.0,0.0,0.0
+2021,722,Food services and drinking places,0.0,0.0,0.0
+2021,81,"Other services, except government",0.0,0.0,0.0
+2021,GFGD,Federal general government (defense),0.0,0.0,0.0
+2021,GFGN,Federal general government (nondefense),0.0,0.0,0.0
+2021,GFE,Federal government enterprises,0.0,0.0,0.0
+2021,GSLG,State and local general government,0.0,0.0,0.0
+2021,GSLE,State and local government enterprises,0.0,0.0,0.0
+2022,111CA,Farms,-8426.0,485.0,-8911.0
+2022,113FF,"Forestry, fishing, and related activities",-2543.0,148.0,-2691.0
+2022,211,Oil and gas extraction,1230.0,496.0,734.0
+2022,212,"Mining, except oil and gas",1226.0,22.0,1204.0
+2022,213,Support activities for mining,8.0,0.0,8.0
+2022,22,Utilities,0.0,0.0,0.0
+2022,23,Construction,0.0,0.0,0.0
+2022,321,Wood products,3661.0,481.0,3180.0
+2022,327,Nonmetallic mineral products,4113.0,436.0,3677.0
+2022,331,Primary metals,11366.0,2863.0,8503.0
+2022,332,Fabricated metal products,15130.0,2370.0,12760.0
+2022,333,Machinery,24126.0,5523.0,18603.0
+2022,334,Computer and electronic products,15748.0,4851.0,10897.0
+2022,335,"Electrical equipment, appliances, and components",8124.0,2950.0,5174.0
+2022,3361MV,"Motor vehicles, bodies and trailers, and parts",30771.0,10417.0,20354.0
+2022,3364OT,Other transportation equipment,5744.0,-4609.0,10353.0
+2022,337,Furniture and related products,2681.0,847.0,1834.0
+2022,339,Miscellaneous manufacturing,10228.0,3663.0,6565.0
+2022,311FT,Food and beverage and tobacco products,13588.0,1288.0,12300.0
+2022,313TT,Textile mills and textile product mills,1864.0,760.0,1104.0
+2022,315AL,Apparel and leather and allied products,5779.0,3594.0,2185.0
+2022,322,Paper products,2699.0,299.0,2400.0
+2022,323,Printing and related support activities,-19.0,-1.0,-18.0
+2022,324,Petroleum and coal products,2429.0,-217.0,2646.0
+2022,325,Chemical products,12031.0,3255.0,8776.0
+2022,326,Plastics and rubber products,7551.0,1334.0,6217.0
+2022,42,Wholesale trade,0.0,0.0,0.0
+2022,441,Motor vehicle and parts dealers,0.0,0.0,0.0
+2022,445,Food and beverage stores,0.0,0.0,0.0
+2022,452,General merchandise stores,0.0,0.0,0.0
+2022,4A0,Other retail,0.0,0.0,0.0
+2022,481,Air transportation,0.0,0.0,0.0
+2022,482,Rail transportation,0.0,0.0,0.0
+2022,483,Water transportation,0.0,0.0,0.0
+2022,484,Truck transportation,0.0,0.0,0.0
+2022,485,Transit and ground passenger transportation,0.0,0.0,0.0
+2022,486,Pipeline transportation,0.0,0.0,0.0
+2022,487OS,Other transportation and support activities,0.0,0.0,0.0
+2022,493,Warehousing and storage,0.0,0.0,0.0
+2022,511,"Publishing industries, except internet (includes software)",2406.0,11.0,2395.0
+2022,512,Motion picture and sound recording industries,198.0,37.0,161.0
+2022,513,Broadcasting and telecommunications,0.0,0.0,0.0
+2022,514,"Data processing, internet publishing, and other information services",0.0,0.0,0.0
+2022,521CI,"Federal Reserve banks, credit intermediation, and related activities",0.0,0.0,0.0
+2022,523,"Securities, commodity contracts, and investments",0.0,0.0,0.0
+2022,524,Insurance carriers and related activities,0.0,0.0,0.0
+2022,525,"Funds, trusts, and other financial vehicles",0.0,0.0,0.0
+2022,HS,Housing,0.0,0.0,0.0
+2022,ORE,Other real estate,0.0,0.0,0.0
+2022,532RL,Rental and leasing services and lessors of intangible assets,0.0,0.0,0.0
+2022,5411,Legal services,0.0,0.0,0.0
+2022,5415,Computer systems design and related services,0.0,0.0,0.0
+2022,5412OP,"Miscellaneous professional, scientific, and technical services",0.0,0.0,0.0
+2022,55,Management of companies and enterprises,0.0,0.0,0.0
+2022,561,Administrative and support services,0.0,0.0,0.0
+2022,562,Waste management and remediation services,0.0,0.0,0.0
+2022,61,Educational services,0.0,0.0,0.0
+2022,621,Ambulatory health care services,0.0,0.0,0.0
+2022,622,Hospitals,0.0,0.0,0.0
+2022,623,Nursing and residential care facilities,0.0,0.0,0.0
+2022,624,Social assistance,0.0,0.0,0.0
+2022,711AS,"Performing arts, spectator sports, museums, and related activities",0.0,0.0,0.0
+2022,713,"Amusements, gambling, and recreation industries",0.0,0.0,0.0
+2022,721,Accommodation,0.0,0.0,0.0
+2022,722,Food services and drinking places,0.0,0.0,0.0
+2022,81,"Other services, except government",0.0,0.0,0.0
+2022,GFGD,Federal general government (defense),0.0,0.0,0.0
+2022,GFGN,Federal general government (nondefense),0.0,0.0,0.0
+2022,GFE,Federal government enterprises,0.0,0.0,0.0
+2022,GSLG,State and local general government,0.0,0.0,0.0
+2022,GSLE,State and local government enterprises,0.0,0.0,0.0
+2023,111CA,Farms,2717.0,-19.0,2736.0
+2023,113FF,"Forestry, fishing, and related activities",2506.0,-57.0,2563.0
+2023,211,Oil and gas extraction,5116.0,850.0,4266.0
+2023,212,"Mining, except oil and gas",1825.0,40.0,1785.0
+2023,213,Support activities for mining,25.0,0.0,25.0
+2023,22,Utilities,0.0,0.0,0.0
+2023,23,Construction,0.0,0.0,0.0
+2023,321,Wood products,-220.0,-1.0,-219.0
+2023,327,Nonmetallic mineral products,-550.0,-69.0,-481.0
+2023,331,Primary metals,937.0,308.0,629.0
+2023,332,Fabricated metal products,957.0,-230.0,1187.0
+2023,333,Machinery,1686.0,-156.0,1842.0
+2023,334,Computer and electronic products,-5383.0,-2294.0,-3089.0
+2023,335,"Electrical equipment, appliances, and components",-1247.0,-535.0,-712.0
+2023,3361MV,"Motor vehicles, bodies and trailers, and parts",26665.0,10448.0,16217.0
+2023,3364OT,Other transportation equipment,7471.0,-7414.0,14885.0
+2023,337,Furniture and related products,-2366.0,-668.0,-1698.0
+2023,339,Miscellaneous manufacturing,-2289.0,-1071.0,-1218.0
+2023,311FT,Food and beverage and tobacco products,-2750.0,-115.0,-2635.0
+2023,313TT,Textile mills and textile product mills,-1489.0,-460.0,-1029.0
+2023,315AL,Apparel and leather and allied products,-3029.0,-1810.0,-1219.0
+2023,322,Paper products,-1394.0,-243.0,-1151.0
+2023,323,Printing and related support activities,-796.0,7.0,-803.0
+2023,324,Petroleum and coal products,10422.0,1245.0,9177.0
+2023,325,Chemical products,5358.0,-1164.0,6522.0
+2023,326,Plastics and rubber products,1168.0,-36.0,1204.0
+2023,42,Wholesale trade,0.0,0.0,0.0
+2023,441,Motor vehicle and parts dealers,0.0,0.0,0.0
+2023,445,Food and beverage stores,0.0,0.0,0.0
+2023,452,General merchandise stores,0.0,0.0,0.0
+2023,4A0,Other retail,0.0,0.0,0.0
+2023,481,Air transportation,0.0,0.0,0.0
+2023,482,Rail transportation,0.0,0.0,0.0
+2023,483,Water transportation,0.0,0.0,0.0
+2023,484,Truck transportation,0.0,0.0,0.0
+2023,485,Transit and ground passenger transportation,0.0,0.0,0.0
+2023,486,Pipeline transportation,0.0,0.0,0.0
+2023,487OS,Other transportation and support activities,0.0,0.0,0.0
+2023,493,Warehousing and storage,0.0,0.0,0.0
+2023,511,"Publishing industries, except internet (includes software)",-4417.0,-43.0,-4374.0
+2023,512,Motion picture and sound recording industries,286.0,-49.0,335.0
+2023,513,Broadcasting and telecommunications,0.0,0.0,0.0
+2023,514,"Data processing, internet publishing, and other information services",0.0,0.0,0.0
+2023,521CI,"Federal Reserve banks, credit intermediation, and related activities",0.0,0.0,0.0
+2023,523,"Securities, commodity contracts, and investments",0.0,0.0,0.0
+2023,524,Insurance carriers and related activities,0.0,0.0,0.0
+2023,525,"Funds, trusts, and other financial vehicles",0.0,0.0,0.0
+2023,HS,Housing,0.0,0.0,0.0
+2023,ORE,Other real estate,0.0,0.0,0.0
+2023,532RL,Rental and leasing services and lessors of intangible assets,0.0,0.0,0.0
+2023,5411,Legal services,0.0,0.0,0.0
+2023,5415,Computer systems design and related services,0.0,0.0,0.0
+2023,5412OP,"Miscellaneous professional, scientific, and technical services",0.0,0.0,0.0
+2023,55,Management of companies and enterprises,0.0,0.0,0.0
+2023,561,Administrative and support services,0.0,0.0,0.0
+2023,562,Waste management and remediation services,0.0,0.0,0.0
+2023,61,Educational services,0.0,0.0,0.0
+2023,621,Ambulatory health care services,0.0,0.0,0.0
+2023,622,Hospitals,0.0,0.0,0.0
+2023,623,Nursing and residential care facilities,0.0,0.0,0.0
+2023,624,Social assistance,0.0,0.0,0.0
+2023,711AS,"Performing arts, spectator sports, museums, and related activities",0.0,0.0,0.0
+2023,713,"Amusements, gambling, and recreation industries",0.0,0.0,0.0
+2023,721,Accommodation,0.0,0.0,0.0
+2023,722,Food services and drinking places,0.0,0.0,0.0
+2023,81,"Other services, except government",0.0,0.0,0.0
+2023,GFGD,Federal general government (defense),0.0,0.0,0.0
+2023,GFGN,Federal general government (nondefense),0.0,0.0,0.0
+2023,GFE,Federal government enterprises,0.0,0.0,0.0
+2023,GSLG,State and local general government,0.0,0.0,0.0
+2023,GSLE,State and local government enterprises,0.0,0.0,0.0

@@ -1,0 +1,25 @@
+Milestone F Corrected acceptance report
+Generated: 2026-08-25 UTC
+
+Command:
+python -m unittest -v tests.test_milestone_f
+
+Result:
+Ran 14 tests in 0.013s
+OK
+
+Covered conditions:
+- accepted Milestone E Corrected baseline locks
+- explicit separation of the legacy E+1 diagnostic
+- Frozen and Historical final fulfillment thresholds
+- endogenous investment and 2023 stock bounds
+- three stationary shadow years
+- zero investment in the final computational year
+- annual flow-balance and stock-recurrence audits
+- annual capital, labour and import constraints
+- nonnegative net output and investment
+- improved worst-year fulfillment and gross output versus E Corrected
+- no double counting of terminal equation and shadow years
+- absence of a 70% replacement floor
+- preservation of corrected and legacy predecessor archives
+- unchanged Harmony function

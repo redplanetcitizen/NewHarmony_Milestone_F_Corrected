@@ -1,0 +1,72 @@
+bea_code,sector_name,gross_output_price_relative_to_2019_2022
+111CA,Farms,1.5044808545306418
+113FF,"Forestry, fishing, and related activities",1.1296383049325605
+211,Oil and gas extraction,1.8775317408410934
+212,"Mining, except oil and gas",1.334661430350979
+213,Support activities for mining,0.9875079503895692
+22,Utilities,1.3115817918855144
+23,Construction,1.2742746939460003
+321,Wood products,1.4515507834155166
+327,Nonmetallic mineral products,1.2057459381016968
+331,Primary metals,1.3569702689948087
+332,Fabricated metal products,1.3012322328133485
+333,Machinery,1.1890931606020194
+334,Computer and electronic products,1.0508303161471713
+335,"Electrical equipment, appliances, and components",1.2517534905934242
+3361MV,"Motor vehicles, bodies and trailers, and parts",1.099463681027227
+3364OT,Other transportation equipment,1.0732683825311424
+337,Furniture and related products,1.219642533375321
+339,Miscellaneous manufacturing,1.0999227650125507
+311FT,Food and beverage and tobacco products,1.2262142120512693
+313TT,Textile mills and textile product mills,1.1932340380812259
+315AL,Apparel and leather and allied products,1.0649592572669495
+322,Paper products,1.2319298818871154
+323,Printing and related support activities,1.1967587462784355
+324,Petroleum and coal products,1.754531464536164
+325,Chemical products,1.256101132370168
+326,Plastics and rubber products,1.2814917446022398
+42,Wholesale trade,1.1993447793558563
+441,Motor vehicle and parts dealers,1.7725889838934183
+445,Food and beverage stores,1.1793771059795541
+452,General merchandise stores,1.1925752026184537
+4A0,Other retail,1.163118295228387
+481,Air transportation,1.0974565505819918
+482,Rail transportation,1.1448303804928357
+483,Water transportation,1.2398723141220211
+484,Truck transportation,1.3304744676357425
+485,Transit and ground passenger transportation,1.0308569182389937
+486,Pipeline transportation,1.2150114300228598
+487OS,Other transportation and support activities,1.2817659391262028
+493,Warehousing and storage,1.215953607750053
+511,"Publishing industries, except internet (includes software)",0.9835848904314137
+512,Motion picture and sound recording industries,1.035646307313622
+513,Broadcasting and telecommunications,1.0266196087814798
+514,"Data processing, internet publishing, and other information services",1.0076288512984304
+521CI,"Federal Reserve banks, credit intermediation, and related activities",1.1498854280823467
+523,"Securities, commodity contracts, and investments",1.077512553398786
+524,Insurance carriers and related activities,1.0453638599957387
+525,"Funds, trusts, and other financial vehicles",1.2339406713072094
+HS,Housing,1.117827514286516
+ORE,Other real estate,1.0953517347134367
+532RL,Rental and leasing services and lessors of intangible assets,1.1316249102447165
+5411,Legal services,1.1454198437397165
+5415,Computer systems design and related services,0.9414710159983378
+5412OP,"Miscellaneous professional, scientific, and technical services",1.052398509588186
+55,Management of companies and enterprises,1.0015326597696976
+561,Administrative and support services,1.0955357835155461
+562,Waste management and remediation services,1.1547989919373587
+61,Educational services,1.0947499163999426
+621,Ambulatory health care services,1.0703158636345846
+622,Hospitals,1.1051277374014727
+623,Nursing and residential care facilities,1.1106880634759475
+624,Social assistance,1.1427604097125525
+711AS,"Performing arts, spectator sports, museums, and related activities",1.065889970146939
+713,"Amusements, gambling, and recreation industries",1.1375050532589994
+721,Accommodation,1.1394712853236098
+722,Food services and drinking places,1.1783565803207134
+81,"Other services, except government",1.1534209428452231
+GFGD,Federal general government (defense),1.1228135645118078
+GFGN,Federal general government (nondefense),1.1028301528889564
+GFE,Federal government enterprises,1.1877922322775265
+GSLG,State and local general government,1.1646448622101473
+GSLE,State and local government enterprises,1.1761350062591378

@@ -1,0 +1,72 @@
+bea_code,sector_name,fte_thousands_2023
+111CA,Farms,696.0
+113FF,"Forestry, fishing, and related activities",514.0
+211,Oil and gas extraction,114.0
+212,"Mining, except oil and gas",185.0
+213,Support activities for mining,275.0
+22,Utilities,568.0
+23,Construction,7900.0
+321,Wood products,406.0
+327,Nonmetallic mineral products,406.0
+331,Primary metals,366.0
+332,Fabricated metal products,1417.0
+333,Machinery,1103.0
+334,Computer and electronic products,1036.0
+335,"Electrical equipment, appliances, and components",409.0
+3361MV,"Motor vehicles, bodies and trailers, and parts",994.0
+3364OT,Other transportation equipment,738.0
+337,Furniture and related products,349.0
+339,Miscellaneous manufacturing,611.0
+311FT,Food and beverage and tobacco products,1995.0
+313TT,Textile mills and textile product mills,184.0
+315AL,Apparel and leather and allied products,110.0
+322,Paper products,350.0
+323,Printing and related support activities,358.0
+324,Petroleum and coal products,107.0
+325,Chemical products,883.0
+326,Plastics and rubber products,724.0
+42,Wholesale trade,5922.0
+441,Motor vehicle and parts dealers,1775.0
+445,Food and beverage stores,2784.0
+452,General merchandise stores,2752.0
+4A0,Other retail,6498.0
+481,Air transportation,529.0
+482,Rail transportation,151.0
+483,Water transportation,63.0
+484,Truck transportation,1493.0
+485,Transit and ground passenger transportation,427.0
+486,Pipeline transportation,50.0
+487OS,Other transportation and support activities,1823.0
+493,Warehousing and storage,1747.0
+511,"Publishing industries, except internet (includes software)",820.0
+512,Motion picture and sound recording industries,341.0
+513,Broadcasting and telecommunications,870.0
+514,"Data processing, internet publishing, and other information services",804.0
+521CI,"Federal Reserve banks, credit intermediation, and related activities",2583.0
+523,"Securities, commodity contracts, and investments",1052.0
+524,Insurance carriers and related activities,2912.0
+525,"Funds, trusts, and other financial vehicles",29.0
+HS,Housing,0.0
+ORE,Other real estate,1742.0
+532RL,Rental and leasing services and lessors of intangible assets,552.0
+5411,Legal services,1151.0
+5415,Computer systems design and related services,2369.0
+5412OP,"Miscellaneous professional, scientific, and technical services",6885.0
+55,Management of companies and enterprises,2501.0
+561,Administrative and support services,8226.0
+562,Waste management and remediation services,481.0
+61,Educational services,3532.0
+621,Ambulatory health care services,7735.0
+622,Hospitals,5063.0
+623,Nursing and residential care facilities,2907.0
+624,Social assistance,4059.0
+711AS,"Performing arts, spectator sports, museums, and related activities",603.0
+713,"Amusements, gambling, and recreation industries",1499.0
+721,Accommodation,1740.0
+722,Food services and drinking places,9640.0
+81,"Other services, except government",6159.0
+GFGD,Federal general government (defense),2152.182746920607
+GFGN,Federal general government (nondefense),1575.8172530793934
+GFE,Federal government enterprises,548.0
+GSLG,State and local general government,15580.0
+GSLE,State and local government enterprises,1138.0

@@ -1,0 +1,72 @@
+bea_code,sector_name,gross_output_nominal_musd_2020
+111CA,Farms,390908.0
+113FF,"Forestry, fishing, and related activities",53844.0
+211,Oil and gas extraction,211097.0
+212,"Mining, except oil and gas",96699.0
+213,Support activities for mining,76300.0
+22,Utilities,494044.0
+23,Construction,1804387.0
+321,Wood products,123724.0
+327,Nonmetallic mineral products,133291.0
+331,Primary metals,198978.0
+332,Fabricated metal products,346220.0
+333,Machinery,352285.0
+334,Computer and electronic products,366339.0
+335,"Electrical equipment, appliances, and components",127162.0
+3361MV,"Motor vehicles, bodies and trailers, and parts",576386.0
+3364OT,Other transportation equipment,282850.0
+337,Furniture and related products,70027.0
+339,Miscellaneous manufacturing,157350.0
+311FT,Food and beverage and tobacco products,1002814.0
+313TT,Textile mills and textile product mills,45839.0
+315AL,Apparel and leather and allied products,17144.0
+322,Paper products,180179.0
+323,Printing and related support activities,74173.0
+324,Petroleum and coal products,354116.0
+325,Chemical products,766945.0
+326,Plastics and rubber products,234587.0
+42,Wholesale trade,2125948.0
+441,Motor vehicle and parts dealers,357499.0
+445,Food and beverage stores,289896.0
+452,General merchandise stores,251900.0
+4A0,Other retail,1170448.0
+481,Air transportation,126719.0
+482,Rail transportation,73945.0
+483,Water transportation,39492.0
+484,Truck transportation,413595.0
+485,Transit and ground passenger transportation,73183.0
+486,Pipeline transportation,59335.0
+487OS,Other transportation and support activities,287462.0
+493,Warehousing and storage,137488.0
+511,"Publishing industries, except internet (includes software)",445181.0
+512,Motion picture and sound recording industries,147262.0
+513,Broadcasting and telecommunications,894158.0
+514,"Data processing, internet publishing, and other information services",537426.0
+521CI,"Federal Reserve banks, credit intermediation, and related activities",1148195.0
+523,"Securities, commodity contracts, and investments",631959.0
+524,Insurance carriers and related activities,1186085.0
+525,"Funds, trusts, and other financial vehicles",155935.0
+HS,Housing,2343789.0
+ORE,Other real estate,1408856.0
+532RL,Rental and leasing services and lessors of intangible assets,403552.0
+5411,Legal services,374800.0
+5415,Computer systems design and related services,551232.0
+5412OP,"Miscellaneous professional, scientific, and technical services",1594765.0
+55,Management of companies and enterprises,640074.0
+561,Administrative and support services,1021709.0
+562,Waste management and remediation services,128477.0
+61,Educational services,353408.0
+621,Ambulatory health care services,1109167.0
+622,Hospitals,920193.0
+623,Nursing and residential care facilities,257738.0
+624,Social assistance,253683.0
+711AS,"Performing arts, spectator sports, museums, and related activities",168158.0
+713,"Amusements, gambling, and recreation industries",137398.0
+721,Accommodation,182727.0
+722,Food services and drinking places,774254.0
+81,"Other services, except government",732247.0
+GFGD,Federal general government (defense),725989.0
+GFGN,Federal general government (nondefense),495826.0
+GFE,Federal government enterprises,100534.0
+GSLG,State and local general government,2596601.0
+GSLE,State and local government enterprises,348655.0
