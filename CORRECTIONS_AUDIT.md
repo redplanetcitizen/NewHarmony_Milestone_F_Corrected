@@ -1,35 +1,58 @@
-# Milestone F Corrected — correction audit
+# Milestone F Corrected — reconciliation audit
 
 ## Scope
 
-The package updates Milestone F to use Milestone E Corrected as its empirical baseline. It does not collapse the two algorithms into one: E remains an iterative Harmony-directed solver with a terminal equation, while F remains a simultaneous lexicographic program with three stationary shadow years.
+The package uses Milestone E Corrected as its empirical baseline but does not collapse E, F and `csvplan` into one algorithm. After the source/code reconciliation in `csvplan-corrected` and the Milestone E provenance alignment, the relevant question is which physical identities F inherits and which rules are deliberate F extensions.
+
+The result is **provenance/core alignment without a numerical solver change**.
 
 ## Rule-by-rule disposition
 
-| E Corrected rule | Disposition in F Corrected | Evidence |
+| Reconciled / E-aligned rule | Disposition in F Corrected | Evidence / status |
 |---|---|---|
-| Consumption net of investment | Incorporated | LP identity `(I-A_t)x_t=f_t g_t+p_t`; `p_t` equals the row sum of the investment tensor |
-| Harmony on positive targets | Incorporated by construction | The common annual plan-ray factor applies only to the social target vector; zero components contribute neither output nor Harmony |
+| Consumption net of investment | Incorporated | LP identity `(I-A_t)x_t=f_t g_t+p_t`; `p_t` equals the source-row sum of the investment tensor |
+| Harmony on positive targets | Equivalent specialization | A common annual plan-ray factor makes fulfillment identical across every positive-target component, so robust annual Harmony equals `H(f_t)` |
 | Exact stock recurrence | Incorporated and audited | `S_end=S_start*(1-delta_t)+I_t` is reconstructed and checked annually |
-| Exact inverse depreciation | Incorporated in forward form | Every investment cohort is propagated with the product of the relevant cell-specific survival factors |
-| Full admissibility | Incorporated and strengthened | Flow, stock, capital, labour, imports, net-output positivity and investment positivity are exported in `constraint_audit.csv` |
-| Weakest admissible year search | Not applicable | F solves all years simultaneously instead of selecting one destination year at a time |
-| Actual capital gap | Incorporated in LP constraints | Required capital is compared directly with surviving initial stock plus surviving investment cohorts |
-| Plan-ray scaling | Incorporated | Annual fulfillment `f_t` scales the social target ray and is bounded by physical resources |
+| Exact inverse depreciation | Incorporated in forward form | Every earlier investment cohort is propagated with the product of the relevant cell-specific survival factors |
+| Candidate-state admissibility | Structural equivalent | F has no candidate loop; feasibility is imposed by the LP and independently checked in `constraint_audit.csv` |
+| Weakest-year destination search | Not applicable | F solves all years simultaneously instead of selecting one destination year at a time |
+| Earlier-source search | Not applicable | Investment cohorts are simultaneous LP decisions |
+| C26 epsilon-sized capital update | Not applicable | Capital additions are endogenous LP quantities |
+| Preliminary 70% schedule | Not imported, but not replaced by a `0% warm start` | Final F has no iterative initialization state. There is simply no preliminary schedule; investment is endogenous and nonnegative |
+| Epsilon / CV stopping / max iterations | Not applicable to final F | Final F is a three-stage lexicographic LP |
+| Positive total-Harmony acceptance rule | Replaced intentionally | F first maximizes worst annual fulfillment, then approximate mean Harmony, then minimizes capital-goods output. This is an F objective extension |
 | Terminal equation | Intentional divergence | F uses three stationary shadow years; adding E's terminal equation would double count the boundary condition |
-| Adaptive epsilon | Not applicable | F uses a linear program and has no epsilon-sized iterative transfer |
+
+## F-specific extensions
+
+The following are not attributed to Cockshott's printed New Harmony controller or to `reconciled.py`:
+
+- full-horizon simultaneous lexicographic optimization;
+- 81-point tangent approximation to fractional Harmony inside stage 2;
+- effective capital bundle by user sector;
+- restriction of new capital-goods output to selected structures/equipment/IPP-producing source sectors;
+- ex-post dynamic `C_t` in Historical mode;
+- three stationary shadow years as the terminal boundary.
+
+These choices may be evaluated empirically, but their numerical performance does not turn them into recovered Cockshott rules.
 
 ## Investment policy
 
-F Corrected has no preliminary replacement investment and no 70% depreciation-replacement floor. Investment is chosen only by the lexicographic objective: maximize minimum fulfillment, then Harmony, then minimize capital-goods output. The final computational-year investment is fixed to zero because it has no modeled future use.
+F Corrected imposes no preliminary replacement schedule. It does not import the historical code-only 70% csvplan warm start. It also does not conceptually replace that schedule with a 0% warm start, because a simultaneous LP has no iterative warm-start policy of that kind. Investment is selected endogenously by the lexicographic optimization subject to physical constraints.
+
+The final computational-year investment is fixed to zero because it has no modeled future use.
 
 ## Baseline separation
 
-`E_corrected_baseline` is generated by `new_harmony_empirical_e_corrected.py` and reproduces the accepted E Corrected locks. `E+1_legacy_maxmin_diagnostic` is retained only to document the old development sequence and is not used as the corrected baseline or final solver.
+`E_corrected_baseline` is generated by the embedded `new_harmony_empirical_e_corrected.py`. That file has Git blob `193fce86af7a7497035bb3407e3ec972a8598bc2`, identical to the numerical E solver in the aligned Milestone E branch. The Milestone E alignment gate is pinned to `eecbc29ec6b82a677545eca4f9540d1623328d98`.
 
-## Empirical acceptance
+`E+1_legacy_maxmin_diagnostic` remains only a development-history diagnostic and is not used as the aligned E baseline or final F solver.
+
+## Empirical acceptance remains unchanged
 
 - Frozen F: minimum fulfillment 0.898779888; mean Harmony 0.449985650; investment/BEA 71.8267%; 2023 stock/BEA 91.2640%.
 - Historical F: minimum fulfillment 0.967334949; mean Harmony 0.467913992; investment/BEA 70.8837%; 2023 stock/BEA 91.4697%.
 - All 8 annual constraint reports pass in both final modes.
-- The 14-test corrected F suite passes.
+- The pre-alignment F numerical solver is unchanged by this reconciliation audit.
+
+The detailed provenance matrix is in `CSVPLAN_RECONCILED_ALIGNMENT.md` and the machine-readable contract is in `code/csvplan_reconciled_alignment.py`.
