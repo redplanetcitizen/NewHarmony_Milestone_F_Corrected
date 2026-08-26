@@ -2,7 +2,7 @@ from __future__ import annotations
 
 """Machine-readable provenance contract for Milestone F csvplan alignment.
 
-This module does not change the numerical solver.  It records which parts of
+This module does not change the numerical solver. It records which parts of
 Milestone F remain inherited physical/accounting core and which parts are
 Milestone-F-specific research extensions.
 """
@@ -17,6 +17,7 @@ E_NUMERICAL_BASELINE_COMMIT = "3faf1657bf0df93906477ed3ba85766406f323ba"
 E_ALIGNMENT_GATE_COMMIT = "eecbc29ec6b82a677545eca4f9540d1623328d98"
 F_PRE_ALIGNMENT_COMMIT = "d71a68c6f02cde756ed814b8e209b23177ab56e0"
 EXPECTED_EMBEDDED_E_GIT_BLOB = "193fce86af7a7497035bb3407e3ec972a8598bc2"
+EXPECTED_F_SOLVER_GIT_BLOB = "8595c488031c334e5558e1b3be5960cee3ca3fa5"
 
 
 @dataclass(frozen=True)
@@ -85,6 +86,10 @@ def validate_contract(root: Path | None = None) -> None:
     if git_blob_sha(embedded_e) != EXPECTED_EMBEDDED_E_GIT_BLOB:
         raise AssertionError("embedded E solver no longer matches the aligned E numerical solver blob")
 
+    f_solver = root / "code" / "new_harmony_empirical_f.py"
+    if git_blob_sha(f_solver) != EXPECTED_F_SOLVER_GIT_BLOB:
+        raise AssertionError("Milestone F numerical solver changed during provenance-only alignment")
+
 
 def provenance(root: Path | None = None) -> dict:
     root = root or Path(__file__).resolve().parents[1]
@@ -96,6 +101,7 @@ def provenance(root: Path | None = None) -> dict:
         "milestone_e_alignment_gate_commit": E_ALIGNMENT_GATE_COMMIT,
         "milestone_f_pre_alignment_commit": F_PRE_ALIGNMENT_COMMIT,
         "embedded_e_git_blob": git_blob_sha(root / "code" / "new_harmony_empirical_e_corrected.py"),
+        "milestone_f_solver_git_blob": git_blob_sha(root / "code" / "new_harmony_empirical_f.py"),
         "numerical_solver_change_required": False,
         "alignment_scope": "provenance_and_documentation",
         "rules": [asdict(rule) for rule in RULES],
