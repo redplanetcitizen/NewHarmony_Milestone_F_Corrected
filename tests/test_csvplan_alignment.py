@@ -33,6 +33,10 @@ class CsvplanReconciledAlignmentTests(unittest.TestCase):
         path = CODE / "new_harmony_empirical_e_corrected.py"
         self.assertEqual(a.git_blob_sha(path), a.EXPECTED_EMBEDDED_E_GIT_BLOB)
 
+    def test_f_solver_is_exactly_the_pre_alignment_numerical_blob(self):
+        path = CODE / "new_harmony_empirical_f.py"
+        self.assertEqual(a.git_blob_sha(path), a.EXPECTED_F_SOLVER_GIT_BLOB)
+
     def test_physical_core_is_recorded_as_aligned(self):
         for key in ("vector_accounting", "robust_harmony", "stock_recurrence", "cohort_depreciation"):
             self.assertTrue(self.rules[key].status.startswith("aligned"))
