@@ -1,0 +1,30 @@
+name: Milestone F csvplan alignment
+
+on:
+  push:
+    branches: [align-csvplan-reconciled]
+  pull_request:
+    branches: [main]
+
+jobs:
+  alignment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install requirements
+        run: python -m pip install -r requirements.txt
+      - name: Run full Milestone F test suite
+        run: python -m unittest discover -s tests -v
+      - name: Validate csvplan alignment contract directly
+        run: |
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+          sys.path.insert(0, str(Path('code').resolve()))
+          import csvplan_reconciled_alignment as a
+          a.validate_contract()
+          print(a.provenance()['profile'])
+          PY
