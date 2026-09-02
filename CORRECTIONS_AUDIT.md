@@ -33,3 +33,43 @@ F Corrected has no preliminary replacement investment and no 70% depreciation-re
 - Historical F: minimum fulfillment 0.967334949; mean Harmony 0.467913992; investment/BEA 70.8837%; 2023 stock/BEA 91.4697%.
 - All 8 annual constraint reports pass in both final modes.
 - The 14-test corrected F suite passes.
+
+## LP vs. heuristic engine: outcomes and computational cost
+
+F's lexicographic LP (`solve_lexicographic_lp` / `_build_lp` in `code/new_harmony_empirical_f.py`) was compared against a fully heuristic, non-LP continuation of the New Harmony search — `E+1_legacy_maxmin_diagnostic` (embedded in this repository) and, more thoroughly, `E+1_final_heuristic_lexicographic` from the standalone `redplanetcitizen/NewHarmony_Eplus1_Final_Economic` repository, which shares `new_harmony_empirical_c.py`/`d.py`/`e_corrected.py` with this package but contains no LP solver (`code/new_harmony_empirical_eplus1_final.py`; verified free of `linprog`/`scipy.optimize` both by inspection and by that repository's own guard test and `verify_package.py` check).
+
+### Economic outcome
+
+| Indicator | F Corrected LP — Frozen | F Corrected LP — Historical | E+1 Final (greedy) — Frozen | E+1 Final (greedy) — Historical |
+|---|---:|---:|---:|---:|
+| Minimum fulfillment | 89.88% | 96.73% | 62.44% | 63.05% |
+| Mean Harmony | 0.4500 | 0.4679 | 0.3960 | 0.4166 |
+| Gross output/BEA | 86.58% | 92.53% | 63.15% | 69.51% |
+| Terminal stock/BEA | 91.26% | 91.47% | 77.60% | 78.33% |
+| Investment/BEA | 71.83% | 70.88% | 22.86% | 25.63% |
+
+A near-apples-to-apples check holds the capital representation fixed: `E+2_forward_cell` (LP, `cap_mode='cell'`, the same source×user cell minimum used by `E_corrected_baseline`) reaches 86.52%/85.38% minimum fulfillment (Frozen/Historical) against the heuristic baseline's 62.44%/63.05% under the *identical* capital constraint — isolating the search method, not the capital model, as the source of the gap. Independently, `E+1_final_heuristic_lexicographic`'s minimum fulfillment (Frozen) is bit-identical to `E_corrected_baseline`'s (`0.6244433352664022`) despite exploring 9,457 simulated candidates: the heuristic's max-min phase never improved the top-priority objective past the simple baseline's value, while the LP proves under the same constraints that 86.52% is reachable. Every LP variant's per-year constraint audit (flow balance, stock recurrence, capital, labour, imports, non-negativity) is compliant, so this is not an artifact of an infeasible LP plan.
+
+### Computational cost (measured, this environment)
+
+| | LP (F Corrected, 3-stage) | Greedy (E+1 Final) |
+|---|---:|---:|
+| Wall time, both modes | ~4.7 s | ~24-25 s |
+| Peak RSS, both modes | ~164 MB | ~35.5 MB |
+| Peak RSS net of library import baseline (numpy: 24.7 MB; numpy+scipy: 75.0 MB) | ~89 MB | ~10.8 MB |
+| Problem/search size | 3 `linprog` calls/mode; 40,913 variables, 2,368 constraints each; 6,376-6,755 total HiGHS iterations/mode | 659-1,230 accepted transfers/mode; 5,436-9,457 `evaluate()` calls/mode (run-to-run variable — see below) |
+
+Net of the fixed library-import cost, the LP's memory disadvantage is larger, not smaller, than the raw figures suggest (~8.2x vs ~4.6x) — `_build_lp`'s scipy dependency does not bias the comparison in the LP's favor.
+
+### Scaling
+
+Both engines share the same dominant cost per model evaluation — a dense Leontief `L @ vector` product, O(N²) per year — confirmed empirically for the greedy engine via block-diagonal synthetic economies (N=71→1,136: per-call time 0.00201s→0.25106s, consistent with the O(N²) trend derived analytically for `_build_lp`'s variable count, `nvar ≈ T·N²` dominated by the `I[T,N,N]` investment tensor). The asymptotic exponent is not what separates the two engines; the multiplier is: the LP pays this cost O(1) times per lexicographic stage (3 stages), the greedy heuristic pays it once per simulated candidate (thousands, and the count is data-dependent, not a closed-form function of N, and not shown to be independent of N).
+
+| Scale | Sectors (N) | LP, current code | Greedy, optimistic extrapolation (constant ~7,000 calls) |
+|---|---:|---|---|
+| National accounts (BEA) | 71 | ~4.7 s (measured) | ~25 s (measured) |
+| Multi-region trade (GTAP-scale) | ~4,000 | heavy but tractable (~1.3×10^8 variables) | ~6 hours |
+| Global multi-region (EORA-scale) | ~15,000-20,000 | at the edge; tractable if the investment tensor is restricted to asset-bearing source sectors only (`nvar≈T·18·N`, linear in N) | ~3.5-6 days |
+| Hypothetical extreme | 2,000,000 | infeasible: ~3.2×10^13 variables (~512 PB for bounds alone) regardless of parallel hardware, unless restructured to the linear-in-N form (~2.9×10^8 variables, comparable to large HPC power-grid LPs) | infeasible: ~9 days per single `evaluate()` call, ~1.7×10^5 years at constant call count — and call count plausibly grows with N, not shrinks |
+
+The greedy engine's extrapolation assumes the number of accepted transfers stays at its N=71 order of magnitude, which is optimistic and not established: unlike the LP's variable count, the heuristic's iteration count has no closed-form dependence on N in this codebase, and block-diagonal replication (used to measure the O(N²) per-call cost above) cannot validly stress-test iteration-count growth, because a single transfer already spans the full N×N gap matrix and would trivially resolve identical, non-interacting replica sub-economies together.
