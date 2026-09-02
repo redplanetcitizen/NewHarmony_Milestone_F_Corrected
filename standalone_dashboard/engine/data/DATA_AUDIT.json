@@ -1,0 +1,141 @@
+{
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "n_sectors": 71,
+  "gross_output_nominal_sum": [
+    37657954.0,
+    36714631.0,
+    41833269.0,
+    46611240.0,
+    48540270.0
+  ],
+  "gross_output_real_2019_price_sum": [
+    37657954.0,
+    36455308.82220587,
+    39005228.98661136,
+    40214441.00726878,
+    41278486.467013575
+  ],
+  "nominal_identity_mean_abs_rel_error": 3.5208729139929373e-06,
+  "nominal_identity_max_abs_rel_error": 3.2994293473032066e-05,
+  "fte_sum": [
+    141249.0,
+    133374.0,
+    137561.0,
+    143395.0,
+    146061.0
+  ],
+  "fte_domestic_table": [
+    141249.0,
+    133370.0,
+    137562.0,
+    143395.0,
+    146061.0
+  ],
+  "fte_mapping_rel_error": [
+    0.0,
+    2.9991752268126265e-05,
+    -7.269449411901543e-06,
+    0.0,
+    0.0
+  ],
+  "requirements": [
+    {
+      "year": 2019,
+      "negative_cells_raw_A": 256,
+      "min_raw_A": -0.0009536768881140752,
+      "reconstruction_rel_error": 0.00016429623219601627,
+      "spectral_radius_A_nominal": 0.48820225862094735,
+      "spectral_radius_A_real": 0.48820225862094735
+    },
+    {
+      "year": 2020,
+      "negative_cells_raw_A": 253,
+      "min_raw_A": -0.0018036628849084264,
+      "reconstruction_rel_error": 0.0002449182272107077,
+      "spectral_radius_A_nominal": 0.472905290901526,
+      "spectral_radius_A_real": 0.4729052909015258
+    },
+    {
+      "year": 2021,
+      "negative_cells_raw_A": 247,
+      "min_raw_A": -0.001769651458095229,
+      "reconstruction_rel_error": 0.00021566091687159008,
+      "spectral_radius_A_nominal": 0.49247373403182504,
+      "spectral_radius_A_real": 0.49247373403182587
+    },
+    {
+      "year": 2022,
+      "negative_cells_raw_A": 225,
+      "min_raw_A": -0.001120373860866788,
+      "reconstruction_rel_error": 0.00016185917450087052,
+      "spectral_radius_A_nominal": 0.4958509564729021,
+      "spectral_radius_A_real": 0.49585095647290045
+    },
+    {
+      "year": 2023,
+      "negative_cells_raw_A": 242,
+      "min_raw_A": -0.000829980257598624,
+      "reconstruction_rel_error": 0.0001077943619711221,
+      "spectral_radius_A_nominal": 0.47919212727975036,
+      "spectral_radius_A_real": 0.4791921272797509
+    }
+  ],
+  "fixed_asset_accounting": [
+    {
+      "year": 2019,
+      "aggregate_stock_real": 65316424.0,
+      "aggregate_depreciation_real": 3477354.0,
+      "aggregate_investment_real": 4537223.0,
+      "aggregate_residual_real": 11989.161864999682,
+      "weighted_abs_residual_over_stock": 0.0001945226861499122
+    },
+    {
+      "year": 2020,
+      "aggregate_stock_real": 66229000.02626537,
+      "aggregate_depreciation_real": 3581926.7253738064,
+      "aggregate_investment_real": 4488663.290851982,
+      "aggregate_residual_real": 5839.460787188502,
+      "weighted_abs_residual_over_stock": 0.0001743710144782525
+    },
+    {
+      "year": 2021,
+      "aggregate_stock_real": 67204759.24157773,
+      "aggregate_depreciation_real": 3689370.5702618575,
+      "aggregate_investment_real": 4727799.733903213,
+      "aggregate_residual_real": -62669.94832898442,
+      "weighted_abs_residual_over_stock": 0.0009520949757490685
+    },
+    {
+      "year": 2022,
+      "aggregate_stock_real": 68143758.86400416,
+      "aggregate_depreciation_real": 3815845.3351203594,
+      "aggregate_investment_real": 4830576.454421194,
+      "aggregate_residual_real": -75731.49687439972,
+      "weighted_abs_residual_over_stock": 0.0011830401567327741
+    },
+    {
+      "year": 2023,
+      "aggregate_stock_real": 69193614.52642632,
+      "aggregate_depreciation_real": 3945553.5080099627,
+      "aggregate_investment_real": 5039092.11362318,
+      "aggregate_residual_real": -43682.94319106253,
+      "weighted_abs_residual_over_stock": 0.0008861661820364521
+    }
+  ],
+  "initial_real_stock_sum": 64244565.838135004,
+  "capital_weights_column_max_error": 6.661338147750939e-16,
+  "capital_matrix_column_reconstruction_max_abs": 3.725290298461914e-09,
+  "goals_real_sum": [
+    17543938.25928459,
+    17019784.716033217,
+    17989284.039679337,
+    18463542.52515483,
+    19099011.83487909
+  ]
+}

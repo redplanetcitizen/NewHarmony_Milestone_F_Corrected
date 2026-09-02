@@ -1,0 +1,72 @@
+index,bea_code,sector_name
+0,111CA,Farms
+1,113FF,"Forestry, fishing, and related activities"
+2,211,Oil and gas extraction
+3,212,"Mining, except oil and gas"
+4,213,Support activities for mining
+5,22,Utilities
+6,23,Construction
+7,321,Wood products
+8,327,Nonmetallic mineral products
+9,331,Primary metals
+10,332,Fabricated metal products
+11,333,Machinery
+12,334,Computer and electronic products
+13,335,"Electrical equipment, appliances, and components"
+14,3361MV,"Motor vehicles, bodies and trailers, and parts"
+15,3364OT,Other transportation equipment
+16,337,Furniture and related products
+17,339,Miscellaneous manufacturing
+18,311FT,Food and beverage and tobacco products
+19,313TT,Textile mills and textile product mills
+20,315AL,Apparel and leather and allied products
+21,322,Paper products
+22,323,Printing and related support activities
+23,324,Petroleum and coal products
+24,325,Chemical products
+25,326,Plastics and rubber products
+26,42,Wholesale trade
+27,441,Motor vehicle and parts dealers
+28,445,Food and beverage stores
+29,452,General merchandise stores
+30,4A0,Other retail
+31,481,Air transportation
+32,482,Rail transportation
+33,483,Water transportation
+34,484,Truck transportation
+35,485,Transit and ground passenger transportation
+36,486,Pipeline transportation
+37,487OS,Other transportation and support activities
+38,493,Warehousing and storage
+39,511,"Publishing industries, except internet (includes software)"
+40,512,Motion picture and sound recording industries
+41,513,Broadcasting and telecommunications
+42,514,"Data processing, internet publishing, and other information services"
+43,521CI,"Federal Reserve banks, credit intermediation, and related activities"
+44,523,"Securities, commodity contracts, and investments"
+45,524,Insurance carriers and related activities
+46,525,"Funds, trusts, and other financial vehicles"
+47,HS,Housing
+48,ORE,Other real estate
+49,532RL,Rental and leasing services and lessors of intangible assets
+50,5411,Legal services
+51,5415,Computer systems design and related services
+52,5412OP,"Miscellaneous professional, scientific, and technical services"
+53,55,Management of companies and enterprises
+54,561,Administrative and support services
+55,562,Waste management and remediation services
+56,61,Educational services
+57,621,Ambulatory health care services
+58,622,Hospitals
+59,623,Nursing and residential care facilities
+60,624,Social assistance
+61,711AS,"Performing arts, spectator sports, museums, and related activities"
+62,713,"Amusements, gambling, and recreation industries"
+63,721,Accommodation
+64,722,Food services and drinking places
+65,81,"Other services, except government"
+66,GFGD,Federal general government (defense)
+67,GFGN,Federal general government (nondefense)
+68,GFE,Federal government enterprises
+69,GSLG,State and local general government
+70,GSLE,State and local government enterprises

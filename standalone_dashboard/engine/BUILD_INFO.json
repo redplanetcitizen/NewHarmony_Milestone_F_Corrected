@@ -1,0 +1,38 @@
+{
+  "milestone": "F Corrected",
+  "built_utc": "2026-08-25T02:58:13.1101664Z",
+  "predecessor": "Milestone E Corrected",
+  "predecessor_sha256": "802843aeb973c26e3ccd02db9c68c3b5c7878f8cd99dafe9d4291c33c5b8cfe9",
+  "final_variant": "F_corrected_5plus3_shadow",
+  "published_horizon": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "shadow_horizon": [
+    2024,
+    2025,
+    2026
+  ],
+  "harmony": "H(f)=f/(1.1+f)",
+  "objective_order": [
+    "maximize minimum fulfillment",
+    "maximize PWL Harmony",
+    "minimize investment"
+  ],
+  "capital_final": "sector-effective bundle; new investment restricted to asset-bearing source sectors",
+  "dynamic_C": "Historical diagnostic only; Frozen remains 2019-fixed",
+  "terminal_treatment": "three stationary shadow years; E Corrected terminal equation not combined",
+  "maintenance_floor": "none; no 70% replacement rule",
+  "annual_audit": [
+    "flow balance",
+    "stock recurrence",
+    "capital",
+    "labour",
+    "imports",
+    "net output positivity",
+    "investment positivity"
+  ]
+}

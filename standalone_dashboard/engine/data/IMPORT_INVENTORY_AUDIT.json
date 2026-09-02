@@ -1,0 +1,147 @@
+{
+  "status": "M08_M09_DATA_LAYER_BUILT",
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "sectors": 71,
+  "source_sha256": {
+    "Use_Summary.xlsx": "98dd61d7c2a8df7c9678b1ebff9015372ac5ed082df33f9b15e8d7bf9408f341",
+    "ImportMatrices_Before_Redefinitions_Summary.xlsx": "37dc9a1cd9de575d71c50a24f17018d5b7ff84bdf6dc1c4a9c69badfddaf8d17"
+  },
+  "source_hashes_match_locked_manifest": true,
+  "final_target_definitions": {
+    "legacy_core_except_inventory": [
+      "F010",
+      "F02S",
+      "F02E",
+      "F02N",
+      "F02R",
+      "F040",
+      "F06C",
+      "F06S",
+      "F06E",
+      "F06N",
+      "F07C",
+      "F07S",
+      "F07E",
+      "F07N",
+      "F10C",
+      "F10S",
+      "F10E",
+      "F10N"
+    ],
+    "social_core_no_fixed_investment": [
+      "F010",
+      "F040",
+      "F06C",
+      "F07C",
+      "F10C"
+    ],
+    "inventory": "F030 kept separate in M09"
+  },
+  "annual": [
+    {
+      "year": 2019,
+      "intermediate_import_nominal_musd_71": 1343973.0,
+      "intermediate_domestic_nominal_musd_71": 14537386.0,
+      "legacy_final_total_nominal_musd_71": 23966244.0,
+      "legacy_final_import_nominal_musd_71": 1231683.0,
+      "legacy_final_domestic_nominal_musd_71": 22734561.0,
+      "social_final_total_nominal_musd_71": 19254191.0,
+      "social_final_import_nominal_musd_71": 721606.0,
+      "social_final_domestic_nominal_musd_71": 18532585.0
+    },
+    {
+      "year": 2020,
+      "intermediate_import_nominal_musd_71": 1212055.0,
+      "intermediate_domestic_nominal_musd_71": 13894466.0,
+      "legacy_final_total_nominal_musd_71": 23702686.0,
+      "legacy_final_import_nominal_musd_71": 1174913.0,
+      "legacy_final_domestic_nominal_musd_71": 22527773.0,
+      "social_final_total_nominal_musd_71": 18967781.0,
+      "social_final_import_nominal_musd_71": 721723.0,
+      "social_final_domestic_nominal_musd_71": 18246058.0
+    },
+    {
+      "year": 2021,
+      "intermediate_import_nominal_musd_71": 1556615.0,
+      "intermediate_domestic_nominal_musd_71": 16284175.0,
+      "legacy_final_total_nominal_musd_71": 26483703.0,
+      "legacy_final_import_nominal_musd_71": 1345821.0,
+      "legacy_final_domestic_nominal_musd_71": 25137882.0,
+      "social_final_total_nominal_musd_71": 21263480.0,
+      "social_final_import_nominal_musd_71": 845144.0,
+      "social_final_domestic_nominal_musd_71": 20418336.0
+    },
+    {
+      "year": 2022,
+      "intermediate_import_nominal_musd_71": 1855109.0,
+      "intermediate_domestic_nominal_musd_71": 18418955.0,
+      "legacy_final_total_nominal_musd_71": 29116475.0,
+      "legacy_final_import_nominal_musd_71": 1497326.0,
+      "legacy_final_domestic_nominal_musd_71": 27619149.0,
+      "social_final_total_nominal_musd_71": 23400816.0,
+      "social_final_import_nominal_musd_71": 941812.0,
+      "social_final_domestic_nominal_musd_71": 22459004.0
+    },
+    {
+      "year": 2023,
+      "intermediate_import_nominal_musd_71": 1679327.0,
+      "intermediate_domestic_nominal_musd_71": 18760246.0,
+      "legacy_final_total_nominal_musd_71": 30839665.0,
+      "legacy_final_import_nominal_musd_71": 1525171.0,
+      "legacy_final_domestic_nominal_musd_71": 29314494.0,
+      "social_final_total_nominal_musd_71": 24734413.0,
+      "social_final_import_nominal_musd_71": 945295.0,
+      "social_final_domestic_nominal_musd_71": 23789118.0
+    }
+  ],
+  "inventory_summary": [
+    {
+      "year": 2019,
+      "total_change_nominal_musd_71": 69750.0,
+      "import_change_nominal_musd_71": 3857.0,
+      "domestic_change_nominal_musd_71": 65893.0
+    },
+    {
+      "year": 2020,
+      "total_change_nominal_musd_71": -24475.0,
+      "import_change_nominal_musd_71": -15179.0,
+      "domestic_change_nominal_musd_71": -9296.0
+    },
+    {
+      "year": 2021,
+      "total_change_nominal_musd_71": 38449.0,
+      "import_change_nominal_musd_71": 15935.0,
+      "domestic_change_nominal_musd_71": 22514.0
+    },
+    {
+      "year": 2022,
+      "total_change_nominal_musd_71": 171713.0,
+      "import_change_nominal_musd_71": 41303.0,
+      "domestic_change_nominal_musd_71": 130410.0
+    },
+    {
+      "year": 2023,
+      "total_change_nominal_musd_71": 41209.0,
+      "import_change_nominal_musd_71": -3536.0,
+      "domestic_change_nominal_musd_71": 44745.0
+    }
+  ],
+  "diagnostics": {
+    "max_use_domestic_plus_import_identity_error": 0.0,
+    "max_final_domestic_plus_import_identity_error": 0.0,
+    "negative_import_adjustment_cells_excluded_from_productive_ratio": 8,
+    "import_cells_with_nonpositive_domestic_denominator_excluded_from_ratio": 23
+  },
+  "method": {
+    "M08_intermediate_real_overlay": "A_M_real = (M_nominal / D_nominal) * A_D_real, cell by cell where D_nominal != 0",
+    "M08_final_real_overlay": "m_final_real = (M_final_nominal / D_final_nominal) * g_domestic_real, sector by sector where D_final_nominal != 0",
+    "M09_state": "Inventory is an index/deviation state because BEA F030 supplies changes, not a 71-sector absolute inventory stock."
+  },
+  "acceptance_boundary": "This data-layer build does not by itself replay the frozen Milestone-C solver; full D acceptance requires the accepted Milestone-C archive/code to be available as executable predecessor bytes."
+}

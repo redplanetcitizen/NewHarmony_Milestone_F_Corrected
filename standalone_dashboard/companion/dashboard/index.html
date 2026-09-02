@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Milestone F Corrected — Eco Companion</title>
+  <meta name="description" content="Cruscotto economico ed ecologico ex post di Milestone F Corrected">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">NEW HARMONY · COMPANION ESTERNO</p>
+      <h1>Milestone F Corrected</h1>
+      <p class="subtitle">Piano economico e contabilità ecologica ex post</p>
+    </div>
+    <div class="guard"><span></span> Motore originale non modificato</div>
+  </header>
+
+  <main>
+    <section id="notice" class="notice">
+      <strong>Contabilità fisica diretta.</strong>
+      Le masse sono stime ex post; il semaforo aggregato misura la variazione rispetto al 2019, non la pericolosità intrinseca.
+    </section>
+
+    <section class="controls">
+      <label>Modalità tecnologica<select id="mode"><option value="frozen">Prospettica (Frozen)</option><option value="historical">Storico-diagnostica</option></select></label>
+      <label>Lettura ecologica<select id="ecologyMode"><option value="physical">Masse fisiche</option><option value="qualitative">Associazioni qualitative</option></select></label>
+      <label>Anno<select id="year"></select></label>
+      <label>Settore<select id="sector"></select></label>
+      <label>Inquinante<select id="pollutant"></select></label>
+      <label class="check"><input id="shadows" type="checkbox"> Mostra anni ombra</label>
+    </section>
+
+    <section id="kpis" class="kpis"></section>
+
+    <section class="grid two">
+      <article class="panel">
+        <div class="panel-head"><div><p class="eyebrow">PIANO</p><h2 id="economicTitle">Prestazione economica</h2></div></div>
+        <canvas id="economicChart" height="300"></canvas>
+        <div id="economicLegend" class="legend"><span class="fulfillment">Soddisfacimento</span><span class="harmony">Harmony</span></div>
+      </article>
+      <article class="panel">
+        <div class="panel-head"><div><p class="eyebrow">ECOLOGIA</p><h2 id="pollutantTitle">Massa fisica</h2></div><span id="signal" class="signal"></span></div>
+        <canvas id="ecoChart" height="300"></canvas>
+        <p id="ecoNote" class="axis-note">Gli anni ombra sono esclusi finché non vengono attivati.</p>
+      </article>
+    </section>
+
+    <section class="grid two lower">
+      <article class="panel">
+        <div class="panel-head"><div><p class="eyebrow">CONTRIBUTI</p><h2 id="contributionTitle">Settori principali</h2></div></div>
+        <div id="sectors" class="bars"></div>
+      </article>
+      <article class="panel methodology">
+        <p class="eyebrow">TRACCIABILITÀ</p>
+        <h2>Separazione verificabile</h2>
+        <dl>
+          <div><dt>Repository sorgente</dt><dd id="repo"></dd></div>
+          <div><dt>Commit</dt><dd id="commit"></dd></div>
+          <div><dt>Firma della sorgente</dt><dd id="hash"></dd></div>
+          <div><dt>Copertura del raccordo</dt><dd id="coverage"></dd></div>
+        </dl>
+        <p class="fine">I settori pubblici privi di corrispondenza nella matrice 72×55 sono esclusi e conteggiati nella quota non coperta.</p>
+      </article>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

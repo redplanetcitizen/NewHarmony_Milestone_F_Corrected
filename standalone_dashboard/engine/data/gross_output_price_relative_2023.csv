@@ -1,0 +1,72 @@
+bea_code,sector_name,gross_output_price_relative_to_2019_2023
+111CA,Farms,1.413998772919747
+113FF,"Forestry, fishing, and related activities",1.153354414319455
+211,Oil and gas extraction,1.2406282765994996
+212,"Mining, except oil and gas",1.352471876990957
+213,Support activities for mining,1.0197070281443792
+22,Utilities,1.2208647331963156
+23,Construction,1.327240203476997
+321,Wood products,1.2977659771053989
+327,Nonmetallic mineral products,1.303430679781089
+331,Primary metals,1.228739971684757
+332,Fabricated metal products,1.3386112099477518
+333,Machinery,1.2624499904743762
+334,Computer and electronic products,1.0733833613139425
+335,"Electrical equipment, appliances, and components",1.313231011265416
+3361MV,"Motor vehicles, bodies and trailers, and parts",1.131662393078745
+3364OT,Other transportation equipment,1.1118995686103437
+337,Furniture and related products,1.265847909688624
+339,Miscellaneous manufacturing,1.141417262019695
+311FT,Food and beverage and tobacco products,1.2513087462554633
+313TT,Textile mills and textile product mills,1.1988420861556686
+315AL,Apparel and leather and allied products,1.0983902137748291
+322,Paper products,1.240723477458603
+323,Printing and related support activities,1.2616030909458793
+324,Petroleum and coal products,1.4521880960937716
+325,Chemical products,1.2066380320187426
+326,Plastics and rubber products,1.2864084208905824
+42,Wholesale trade,1.2387706633874345
+441,Motor vehicle and parts dealers,1.4831378007556175
+445,Food and beverage stores,1.2880599288012335
+452,General merchandise stores,1.267553771820449
+4A0,Other retail,1.1726518130187855
+481,Air transportation,1.1215078147789186
+482,Rail transportation,1.1689564993185753
+483,Water transportation,1.2514968954987038
+484,Truck transportation,1.2748367783583254
+485,Transit and ground passenger transportation,1.0409099842767295
+486,Pipeline transportation,1.264732029464059
+487OS,Other transportation and support activities,1.1718205982554004
+493,Warehousing and storage,1.3248132924216984
+511,"Publishing industries, except internet (includes software)",0.9919690060131562
+512,Motion picture and sound recording industries,1.0224520912433854
+513,Broadcasting and telecommunications,1.0242667145221431
+514,"Data processing, internet publishing, and other information services",0.9947513503066797
+521CI,"Federal Reserve banks, credit intermediation, and related activities",1.214761210386646
+523,"Securities, commodity contracts, and investments",1.0911245596942216
+524,Insurance carriers and related activities,1.081062234877099
+525,"Funds, trusts, and other financial vehicles",1.2661471477301087
+HS,Housing,1.2020782087374555
+ORE,Other real estate,1.1235384320490704
+532RL,Rental and leasing services and lessors of intangible assets,1.1656736983058082
+5411,Legal services,1.2005340303306662
+5415,Computer systems design and related services,0.9434448369000623
+5412OP,"Miscellaneous professional, scientific, and technical services",1.0824896119857201
+55,Management of companies and enterprises,1.024572972754956
+561,Administrative and support services,1.1329088160037217
+562,Waste management and remediation services,1.2668297173890806
+61,Educational services,1.128142167868915
+621,Ambulatory health care services,1.0877333750831737
+622,Hospitals,1.1525936308912335
+623,Nursing and residential care facilities,1.170582207556571
+624,Social assistance,1.2005073721555688
+711AS,"Performing arts, spectator sports, museums, and related activities",1.1143818090179507
+713,"Amusements, gambling, and recreation industries",1.2069532843833142
+721,Accommodation,1.1768459434822243
+722,Food services and drinking places,1.2539899421197456
+81,"Other services, except government",1.240603785034323
+GFGD,Federal general government (defense),1.1754028399739733
+GFGN,Federal general government (nondefense),1.1503281611593763
+GFE,Federal government enterprises,1.2171003016591253
+GSLG,State and local general government,1.185068728685558
+GSLE,State and local government enterprises,1.2132789282062553

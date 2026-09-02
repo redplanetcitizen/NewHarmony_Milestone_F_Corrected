@@ -1,0 +1,154 @@
+{
+  "source": {
+    "repository": "https://github.com/redplanetcitizen/NewHarmony_Milestone_F_Corrected",
+    "commit": "d71a68c6f02cde756ed814b8e209b23177ab56e0",
+    "tree_sha256": "e376d36cfddb46d54a9d98157244fe2fd11fc62c48e7456096c677ed6309ce1c"
+  },
+  "source_unchanged": true,
+  "source_file_count": 128,
+  "published_numeric_checks": 96,
+  "published_numeric_checks_passed": true,
+  "economic_sector_rows": 1136,
+  "economic_annual_rows": 16,
+  "ecological_summary_rows": 880,
+  "ecological_contribution_rows": 13808,
+  "physical_ecological_summary_rows": 880,
+  "physical_ecological_contribution_rows": 51744,
+  "mapping_coverage": [
+    {
+      "technology_mode": "frozen",
+      "year": 2019,
+      "gross_total_real_musd": 32221012.977637388,
+      "gross_mapped_real_musd": 28619347.997855827,
+      "coverage_ratio": 0.8882199953713046,
+      "unmapped_ratio": 0.11178000462869542
+    },
+    {
+      "technology_mode": "frozen",
+      "year": 2020,
+      "gross_total_real_musd": 33552544.34724205,
+      "gross_mapped_real_musd": 29901423.532708324,
+      "coverage_ratio": 0.89118199869591,
+      "unmapped_ratio": 0.10881800130409003
+    },
+    {
+      "technology_mode": "frozen",
+      "year": 2021,
+      "gross_total_real_musd": 36126740.97719723,
+      "gross_mapped_real_musd": 32402318.36498172,
+      "coverage_ratio": 0.896906764588416,
+      "unmapped_ratio": 0.103093235411584
+    },
+    {
+      "technology_mode": "frozen",
+      "year": 2022,
+      "gross_total_real_musd": 35667651.167775586,
+      "gross_mapped_real_musd": 31951539.61803739,
+      "coverage_ratio": 0.8958128324105747,
+      "unmapped_ratio": 0.10418716758942526
+    },
+    {
+      "technology_mode": "frozen",
+      "year": 2023,
+      "gross_total_real_musd": 30929427.4861995,
+      "gross_mapped_real_musd": 27166817.68981681,
+      "coverage_ratio": 0.8783485469279527,
+      "unmapped_ratio": 0.12165145307204728
+    },
+    {
+      "technology_mode": "frozen",
+      "year": 2024,
+      "gross_total_real_musd": 30850754.812882293,
+      "gross_mapped_real_musd": 27088843.12699125,
+      "coverage_ratio": 0.8780609515485764,
+      "unmapped_ratio": 0.12193904845142356
+    },
+    {
+      "technology_mode": "frozen",
+      "year": 2025,
+      "gross_total_real_musd": 30792919.083477072,
+      "gross_mapped_real_musd": 27031396.05528132,
+      "coverage_ratio": 0.8778445454294679,
+      "unmapped_ratio": 0.12215545457053212
+    },
+    {
+      "technology_mode": "frozen",
+      "year": 2026,
+      "gross_total_real_musd": 29714222.84561197,
+      "gross_mapped_real_musd": 25961720.200074114,
+      "coverage_ratio": 0.8737135860818246,
+      "unmapped_ratio": 0.1262864139181754
+    },
+    {
+      "technology_mode": "historical",
+      "year": 2019,
+      "gross_total_real_musd": 32716554.09423697,
+      "gross_mapped_real_musd": 28879055.0034872,
+      "coverage_ratio": 0.882704667499633,
+      "unmapped_ratio": 0.11729533250036706
+    },
+    {
+      "technology_mode": "historical",
+      "year": 2020,
+      "gross_total_real_musd": 34489834.80240457,
+      "gross_mapped_real_musd": 30585980.04552899,
+      "coverage_ratio": 0.8868114393924725,
+      "unmapped_ratio": 0.11318856060752747
+    },
+    {
+      "technology_mode": "historical",
+      "year": 2021,
+      "gross_total_real_musd": 36885282.9419844,
+      "gross_mapped_real_musd": 32906310.70406457,
+      "coverage_ratio": 0.8921257498775808,
+      "unmapped_ratio": 0.10787425012241925
+    },
+    {
+      "technology_mode": "historical",
+      "year": 2022,
+      "gross_total_real_musd": 37841708.823839396,
+      "gross_mapped_real_musd": 33856621.34094709,
+      "coverage_ratio": 0.8946906044480266,
+      "unmapped_ratio": 0.10530939555197338
+    },
+    {
+      "technology_mode": "historical",
+      "year": 2023,
+      "gross_total_real_musd": 38133288.7545093,
+      "gross_mapped_real_musd": 34080766.13866664,
+      "coverage_ratio": 0.8937274295450468,
+      "unmapped_ratio": 0.1062725704549532
+    },
+    {
+      "technology_mode": "historical",
+      "year": 2024,
+      "gross_total_real_musd": 36763307.441392265,
+      "gross_mapped_real_musd": 32721275.584003832,
+      "coverage_ratio": 0.890052551342607,
+      "unmapped_ratio": 0.10994744865739303
+    },
+    {
+      "technology_mode": "historical",
+      "year": 2025,
+      "gross_total_real_musd": 35700501.18622428,
+      "gross_mapped_real_musd": 31666712.210244887,
+      "coverage_ratio": 0.8870102984006312,
+      "unmapped_ratio": 0.11298970159936883
+    },
+    {
+      "technology_mode": "historical",
+      "year": 2026,
+      "gross_total_real_musd": 32186849.273251586,
+      "gross_mapped_real_musd": 28174774.969315093,
+      "coverage_ratio": 0.8753505113260444,
+      "unmapped_ratio": 0.12464948867395564
+    }
+  ],
+  "solver_modified": false,
+  "ecological_accounting_modes": [
+    "qualitative_association",
+    "physical_direct_mass"
+  ],
+  "physical_coefficient_year": 2012,
+  "physical_rebase": "activity_ratio_to_observed_real_2019"
+}

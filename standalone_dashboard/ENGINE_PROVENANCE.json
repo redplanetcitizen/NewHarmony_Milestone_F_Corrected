@@ -1,0 +1,20 @@
+{
+  "source_repository": "https://github.com/redplanetcitizen/NewHarmony_Milestone_F_Corrected",
+  "source_commit": "d71a68c6f02cde756ed814b8e209b23177ab56e0",
+  "vendoring_policy": "Runtime-complete snapshot. Every included engine file is byte-identical to the source commit.",
+  "excluded_non_runtime_archives": [
+    {
+      "path": "reference/NewHarmony_Milestone_E_Corrected.zip",
+      "size": 19764526,
+      "sha256": "802843aeb973c26e3ccd02db9c68c3b5c7878f8cd99dafe9d4291c33c5b8cfe9",
+      "reason": "archival predecessor; not imported or read at runtime"
+    },
+    {
+      "path": "reference/NewHarmony_Milestone_E.zip",
+      "size": 19715222,
+      "sha256": "b1676b5bf363ed59bc769b88010fa173920d7ab5598108c031ffbfd9aa2ca54b",
+      "reason": "archival predecessor; not imported or read at runtime"
+    }
+  ]
+}
+

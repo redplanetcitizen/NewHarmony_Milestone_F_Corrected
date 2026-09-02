@@ -1,0 +1,80 @@
+f_bea_code,f_sector_name,eco_id,eco_sector_name,allocation_share,mapping_status,note
+111CA,Farms,1,Farms,1,mapped,direct
+113FF,"Forestry, fishing, and related activities",2,"Forestry, fishing, and related activities",1,mapped,direct
+211,Oil and gas extraction,3,Oil and gas extraction,1,mapped,direct
+212,"Mining, except oil and gas",4,"Mining, except oil and gas",1,mapped,direct
+213,Support activities for mining,5,Support activities for mining,1,mapped,direct
+22,Utilities,6,Electric power,0.3333333333333333,mapped,equal-share proxy
+22,Utilities,7,Natural gas distribution,0.3333333333333333,mapped,equal-share proxy
+22,Utilities,8,"Water, sewage, and other systems",0.3333333333333334,mapped,equal-share proxy
+23,Construction,9,Construction,1,mapped,direct
+321,Wood products,10,Wood products,1,mapped,direct
+327,Nonmetallic mineral products,11,Nonmetallic mineral products,1,mapped,direct
+331,Primary metals,12,Primary metals,1,mapped,direct
+332,Fabricated metal products,13,Fabricated metal products,1,mapped,direct
+333,Machinery,14,Machinery,1,mapped,direct
+334,Computer and electronic products,15,Computer and electronic products,1,mapped,direct
+335,"Electrical equipment, appliances, and components",16,"Electrical equipment, appliances, and components",1,mapped,direct
+3361MV,"Motor vehicles, bodies and trailers, and parts",17,"Motor vehicles, bodies and trailers, and parts",1,mapped,direct
+3364OT,Other transportation equipment,18,Other transportation equipment,1,mapped,direct
+337,Furniture and related products,19,Furniture and related products,1,mapped,direct
+339,Miscellaneous manufacturing,20,Medical equipment and supplies,0.5,mapped,equal-share proxy
+339,Miscellaneous manufacturing,21,Other manufacturing,0.5,mapped,equal-share proxy
+311FT,Food and beverage and tobacco products,22,Food manufacturing,0.5,mapped,equal-share proxy
+311FT,Food and beverage and tobacco products,23,Beverage and tobacco product manufacturing,0.5,mapped,equal-share proxy
+313TT,Textile mills and textile product mills,24,Textile mills and textile product mills,1,mapped,direct
+315AL,Apparel and leather and allied products,25,Apparel and leather and allied products,1,mapped,direct
+322,Paper products,26,Paper products,1,mapped,direct
+323,Printing and related support activities,27,Printing and related support activities,1,mapped,direct
+324,Petroleum and coal products,28,Petroleum and coal products,1,mapped,direct
+325,Chemical products,29,Chemical products,1,mapped,direct
+326,Plastics and rubber products,30,Plastics and rubber products,1,mapped,direct
+42,Wholesale trade,31,"Wholesale trade, durable goods",0.5,mapped,equal-share proxy
+42,Wholesale trade,32,"Wholesale trade, nondurable goods",0.5,mapped,equal-share proxy
+441,Motor vehicle and parts dealers,33,Motor vehicle and parts dealers,1,mapped,direct
+445,Food and beverage stores,34,Food and beverage stores,1,mapped,direct
+452,General merchandise stores,35,General merchandise stores,1,mapped,direct
+4A0,Other retail,36,Other retail,1,mapped,direct
+481,Air transportation,37,Air transportation,1,mapped,direct
+482,Rail transportation,38,Railroad transportation,1,mapped,direct
+483,Water transportation,39,Water transportation,1,mapped,direct
+484,Truck transportation,40,Truck transportation,1,mapped,direct
+485,Transit and ground passenger transportation,41,Transit and ground passenger transportation,1,mapped,direct
+486,Pipeline transportation,42,Pipeline transportation,1,mapped,direct
+487OS,Other transportation and support activities,43,Other transportation and support activities,1,mapped,direct
+493,Warehousing and storage,44,Warehousing and storage,1,mapped,direct
+511,"Publishing industries, except internet (includes software)",45,Publishing industries (includes software),1,mapped,closest category
+512,Motion picture and sound recording industries,46,Motion picture and sound recording industries,1,mapped,direct
+513,Broadcasting and telecommunications,47,Broadcasting and telecommunications,1,mapped,direct
+514,"Data processing, internet publishing, and other information services",48,Information and data processing services,1,mapped,closest category
+521CI,"Federal Reserve banks, credit intermediation, and related activities",49,Federal Reserve banks + Depository credit intermediation,0.5,mapped,equal-share proxy
+521CI,"Federal Reserve banks, credit intermediation, and related activities",50,Other intermediation + Nondepository credit intermediation,0.5,mapped,equal-share proxy
+523,"Securities, commodity contracts, and investments",51,"Securities, commodity contracts, and investments",1,mapped,direct
+524,Insurance carriers and related activities,52,Insurance carriers,0.5,mapped,equal-share proxy
+524,Insurance carriers and related activities,53,Insurance agencies and brokers and related services,0.5,mapped,equal-share proxy
+525,"Funds, trusts, and other financial vehicles",54,"Funds, trusts, and other financial vehicles",1,mapped,direct
+HS,Housing,55,Real estate,1,mapped,shared ecological category
+ORE,Other real estate,55,Real estate,1,mapped,shared ecological category
+532RL,Rental and leasing services and lessors of intangible assets,56,Rental and leasing services and lessors of intangible assets,1,mapped,direct
+5411,Legal services,57,Legal services,1,mapped,direct
+5415,Computer systems design and related services,58,Computer systems design and related services,1,mapped,direct
+5412OP,"Miscellaneous professional, scientific, and technical services",59,"Miscellaneous professional, scientific, and technical services",1,mapped,direct
+55,Management of companies and enterprises,60,Management of companies and enterprises,1,mapped,direct
+561,Administrative and support services,61,Administrative and support services,1,mapped,direct
+562,Waste management and remediation services,62,Waste management and remediation services,1,mapped,direct
+61,Educational services,63,Educational services,1,mapped,direct
+621,Ambulatory health care services,64,Ambulatory health care services,1,mapped,direct
+622,Hospitals,65,Hospitals,1,mapped,direct
+623,Nursing and residential care facilities,66,Nursing and residential care facilities,1,mapped,direct
+624,Social assistance,67,Social assistance,1,mapped,direct
+711AS,"Performing arts, spectator sports, museums, and related activities",68,"Performing arts, spectator sports, museums, and related activities",1,mapped,direct
+713,"Amusements, gambling, and recreation industries",69,"Amusements, gambling, and recreation industries",1,mapped,direct
+721,Accommodation,70,Accommodation,1,mapped,direct
+722,Food services and drinking places,71,Food services and drinking places,1,mapped,direct
+81,"Other services, except government",72,"Other services, except government",1,mapped,direct
+GFGD,Federal general government (defense),,,0,unmapped,no ecological counterpart
+GFGN,Federal general government (nondefense),,,0,unmapped,no ecological counterpart
+GFE,Federal government enterprises,,,0,unmapped,no ecological counterpart
+GSLG,State and local general government,,,0,unmapped,no ecological counterpart
+GSLE,State and local government enterprises,,,0,unmapped,no ecological counterpart
+

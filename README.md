@@ -4,6 +4,12 @@ Milestone F Corrected is a controlled extension of Milestone E Corrected. It rep
 
 Neither predecessor is modified. `reference/` contains both the legacy Milestone E archive and the autonomous Milestone E Corrected archive.
 
+## Versione standalone con cruscotto
+
+La directory [`standalone_dashboard/`](standalone_dashboard/) archivia **Milestone F Corrected con cruscotto**. Il pacchetto incorpora una copia verificata del motore al commit `d71a68c6f02cde756ed814b8e209b23177ab56e0` e aggiunge il cruscotto economico-ecologico, gli indicatori fisici e l'armonia settoriale. È una distribuzione autonoma: comprende codice, dati, output di riferimento, controlli di integrità e script di avvio.
+
+L'ambiente virtuale Python e la copia annidata del pacchetto locale sono esclusi dall'archivio perché sono contenuti rigenerabili o duplicati. Le dipendenze si ricostruiscono tramite `standalone_dashboard/requirements.txt` e `standalone_dashboard/PREPARA_E_AVVIA.bat`.
+
 ## Experimental sequence
 
 1. **E Corrected baseline.** The accepted corrected solver is replayed with its terminal equation, zero non-terminal maintenance floor, exact flow accounting and complete constraint checks.

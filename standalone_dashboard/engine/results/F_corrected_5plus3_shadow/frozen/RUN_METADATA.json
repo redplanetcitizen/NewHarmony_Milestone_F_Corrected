@@ -1,0 +1,30 @@
+{
+  "variant": "F_corrected_5plus3_shadow",
+  "technology_mode": "frozen",
+  "published_years": 5,
+  "computational_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "theta": 0.8987798880386405,
+  "min_fulfillment_published": 0.8987798880386405,
+  "mean_harmony_published": 0.4499856498597829,
+  "min_fulfillment_all": 0.8987798880386405,
+  "mean_harmony_all": 0.44986513030978104,
+  "investment_published_real_musd": 16967864.979491595,
+  "investment_all_real_musd": 18429008.354003184,
+  "stock_terminal_published_real_musd": 63148882.40292308,
+  "stock_terminal_all_real_musd": 54733749.2078708,
+  "stage1_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "stage2_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "stage3_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "all_constraint_reports_compliant": true,
+  "terminal_treatment": "three_stationary_shadow_years; final computational investment fixed to zero",
+  "terminal_equation_from_e_corrected_applied": false
+}
