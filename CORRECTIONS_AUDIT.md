@@ -33,3 +33,64 @@ F Corrected has no preliminary replacement investment and no 70% depreciation-re
 - Historical F: minimum fulfillment 0.967334949; mean Harmony 0.467913992; investment/BEA 70.8837%; 2023 stock/BEA 91.4697%.
 - All 8 annual constraint reports pass in both final modes.
 - The 14-test corrected F suite passes.
+
+## LP vs. heuristic engines: outcomes, computational cost, and lineage
+
+F's lexicographic LP (`solve_lexicographic_lp` / `_build_lp` in `code/new_harmony_empirical_f.py`) was compared against two fully heuristic, non-LP continuations of the New Harmony search:
+
+- `E+1_final_heuristic_lexicographic` (`code/new_harmony_empirical_eplus1_final.py`) from the standalone `redplanetcitizen/NewHarmony_Eplus1_Final_Economic` repository, which shares `new_harmony_empirical_c.py`/`d.py`/`e_corrected.py` with this package but contains no LP solver (verified free of `linprog`/`scipy.optimize` both by inspection and by that repository's own guard test and `verify_package.py` check). This repository's `main` branch also carries `candidate_engines/Motore_Normale_Social_MaxMin/`, an independent, differently-structured heuristic (below).
+- `Motore Normale (Social Max-Min)`, in the same repository under `candidate_engines/Motore_Normale_Social_MaxMin/motore_normale.py`. It also depends on nothing but `numpy` (verified: no `scipy`/`linprog` reference anywhere in its source), reads the identical Milestone E/F `data/` directory (its own `SHA256SUMS.txt` and `README.md` record 81/81 files with identical SHA-256 against the Milestone E and F datasets), and computes its own max-min stage by monotone bisection on material feasibility rather than any solver.
+
+Both heuristics, and the corrected E/F family generally, trace to `redplanetcitizen/csvplan-corrected` — a standalone package (5 sectors: Agriculture, Industry, Construction, Services, foreigntrade; `requirements.txt`: `numpy>=1.24` only) reproducing the original `csvplan.jl` (Cockshott) New Harmony heuristic. `csvplan_corrected/solver.py`'s `solve_problem`/`_candidate_for_destination`/`additional_capital_for_scale` and `e_corrected.py`'s `solve_capital`/`_candidate_for_destination`/`_capital_gap_for_scale` match structurally line-for-line, including the identical objective definition `objective=float(np.sum(annual_harmony))` (solver.py line 453, e_corrected.py line 439) and the same adaptive-step/oscillation-detection control flow — `e_corrected.py`'s search engine (used by `E_corrected_baseline`) is this same algorithm extended from 5 to 71 sectors, with import constraints, inventory transfers, and full per-year constraint auditing added. `E+1_final_heuristic_lexicographic` reuses this evaluation/gap core unchanged but replaces the outer acceptance rule with its own lexicographic (max-min fulfillment, then mean Harmony) criterion via `lexicographic_score`/`_strict_lexicographic_improvement`, rather than the inherited single-objective "sum of annual Harmony improves" rule. `Motore Normale` is not part of this lineage: no shared function names or module reuse with csvplan-corrected or `e_corrected.py` were found.
+
+### Economic outcome
+
+| Indicator | F Corrected LP — Frozen | F Corrected LP — Historical | E+1 Final (greedy) — Frozen | E+1 Final (greedy) — Historical |
+|---|---:|---:|---:|---:|
+| Minimum fulfillment | 89.88% | 96.73% | 62.44% | 63.05% |
+| Mean Harmony | 0.4500 | 0.4679 | 0.3960 | 0.4166 |
+| Gross output/BEA | 86.58% | 92.53% | 63.15% | 69.51% |
+| Terminal stock/BEA | 91.26% | 91.47% | 77.60% | 78.33% |
+| Investment/BEA | 71.83% | 70.88% | 22.86% | 25.63% |
+
+A near-apples-to-apples check holds the capital representation fixed: `E+2_forward_cell` (LP, `cap_mode='cell'`, the same source×user cell minimum used by `E_corrected_baseline`) reaches 86.52%/85.38% minimum fulfillment (Frozen/Historical) against the heuristic baseline's 62.44%/63.05% under the *identical* capital constraint — isolating the search method, not the capital model, as the source of the gap. Independently, `E+1_final_heuristic_lexicographic`'s minimum fulfillment (Frozen) is bit-identical to `E_corrected_baseline`'s (`0.6244433352664022`) despite exploring 9,457 simulated candidates: the heuristic's max-min phase never improved the top-priority objective past the simple baseline's value, while the LP proves under the same constraints that 86.52% is reachable. Every LP variant's per-year constraint audit (flow balance, stock recurrence, capital, labour, imports, non-negativity) is compliant, so this is not an artifact of an infeasible LP plan.
+
+### Computational cost (measured, this environment)
+
+| | LP (F Corrected, 3-stage) | Greedy (E+1 Final) | Motore Normale (Social Max-Min) |
+|---|---:|---:|---:|
+| Wall time, both modes | ~4.7 s | ~24-25 s | ~22.0 s |
+| Peak RSS, both modes | ~164 MB | ~35.5 MB | ~33.9 MB |
+| Peak RSS net of library import baseline (numpy: 24.7 MB; numpy+scipy: 75.0 MB) | ~89 MB | ~10.8 MB | ~9.2 MB |
+| Problem/search size | 3 `linprog` calls/mode; 40,913 variables, 2,368 constraints each; 6,376-6,755 total HiGHS iterations/mode | 659-1,230 accepted transfers/mode; 5,436-9,457 `evaluate()` calls/mode (run-to-run variable — see below) | monotone bisection per year, fixed 60 iterations per max-min call |
+
+Net of the fixed library-import cost, the LP's memory disadvantage is larger, not smaller, than the raw figures suggest (~8.2x vs ~4.6x) — `_build_lp`'s scipy dependency does not bias the comparison in the LP's favor. Motore Normale sits close to the greedy engine on both axes, consistent with its own non-LP, numpy-only nature; it produced bit-identical results across repeated runs (unlike E+1 Final, whose accepted-transfer count is not run-to-run stable — see Scaling below).
+
+Motore Normale's economic outcome under the invocation tested here (`PianoNormale.da_milestone(...)`, no `min_values`, `maxiter=2000`) was `stop_reason=scarsita_strutturale` with minimum fulfillment 34.08%/27.11% (Frozen/Historical) — lower than `E_corrected_baseline`. This has not been confirmed as an apples-to-apples comparison (no social floor was configured, and the two engines' fulfillment definitions differ structurally — see below) and should not be read as a performance ranking without further configuration work.
+
+### Scaling
+
+Both engines share the same dominant cost per model evaluation — a dense Leontief `L @ vector` product, O(N²) per year — confirmed empirically for the greedy engine via block-diagonal synthetic economies (N=71→1,136: per-call time 0.00201s→0.25106s, consistent with the O(N²) trend derived analytically for `_build_lp`'s variable count, `nvar ≈ T·N²` dominated by the `I[T,N,N]` investment tensor). The asymptotic exponent is not what separates the two engines; the multiplier is: the LP pays this cost O(1) times per lexicographic stage (3 stages), the greedy heuristic pays it once per simulated candidate (thousands, and the count is data-dependent, not a closed-form function of N, and not shown to be independent of N).
+
+| Scale | Sectors (N) | LP, current code | Greedy, optimistic extrapolation (constant ~7,000 calls) |
+|---|---:|---|---|
+| National accounts (BEA) | 71 | ~4.7 s (measured) | ~25 s (measured) |
+| Multi-region trade (GTAP-scale) | ~4,000 | heavy but tractable (~1.3×10^8 variables) | ~6 hours |
+| Global multi-region (EORA-scale) | ~15,000-20,000 | at the edge; tractable if the investment tensor is restricted to asset-bearing source sectors only (`nvar≈T·18·N`, linear in N) | ~3.5-6 days |
+| Hypothetical extreme | 2,000,000 | infeasible: ~3.2×10^13 variables (~512 PB for bounds alone) regardless of parallel hardware, unless restructured to the linear-in-N form (~2.9×10^8 variables, comparable to large HPC power-grid LPs) | infeasible: ~9 days per single `evaluate()` call, ~1.7×10^5 years at constant call count — and call count plausibly grows with N, not shrinks |
+
+The greedy engine's extrapolation assumes the number of accepted transfers stays at its N=71 order of magnitude, which is optimistic and not established: unlike the LP's variable count, the heuristic's iteration count has no closed-form dependence on N in this codebase, and block-diagonal replication (used to measure the O(N²) per-call cost above) cannot validly stress-test iteration-count growth, because a single transfer already spans the full N×N gap matrix and would trivially resolve identical, non-interacting replica sub-economies together.
+
+**Dense-vs-sparse scope note.** The table above assumes dense linear algebra throughout, matching every engine actually read in this project: `legacy.py`/`csvplan.jl`'s `grossOutputForDemandf` calls `inv(I-A)` on a dense matrix, `solver.py`'s `read_problem` builds `leontief = np.linalg.inv(identity - A)` the same way, and `_build_lp`'s investment tensor is a dense `[T,N,N]` object with no exploited sparsity. External sources on real input-output tables (Cockshott, Dapprich & Cottrell 2022, ch. 7; Reifferscheidt & Cockshott 2014 — cited by the user, not independently verified here) report a "small-world" structure where non-zero cells grow roughly as NNZ≈x^a (1<a≤2) or NNZ≲x·log(x) rather than x², with a reported benchmark of ~2.6×10⁻⁷s per non-zero on a sparse solver — implying the *static* Leontief solve `(I-A)x=f` alone could be far cheaper at large N than the dense figures above suggest (their own extrapolation: ~70s for a million products on ordinary hardware). This would not by itself revise the table's LP/greedy figures, because sparsity in `A` does not imply sparsity in the investment-allocation decision space: the `T·N²` investment tensor and the greedy engine's per-candidate full-scenario `deepcopy` (measured at ~79% of wall time at N=6 in `legacy.py`, see `CSVPLAN_SOLVER_STUDY.md`) are dense by construction in every engine examined, independent of how sparse the underlying technology matrix is. The scaling table above should therefore be read as an upper bound specific to these dense implementations, not as evidence against the tractability of a sparse-aware reformulation of the static allocation sub-problem — while the dynamic capital-accumulation problem's tractability at that scale remains untested either way.
+
+### Whether the lexicographic max-min has a sector dimension
+
+Motore Normale's `alloca_anno_normale` runs a genuinely two-tier lexicographic order: a social floor restricted to a caller-defined priority subset (`pavimento[:q] = min_values`, `q = len(min_values)`) is solved to its own max-min first (`attivi=pavimento > EPS`), and only then does a second max-min stage extend to all sectors with a positive target (`attivi = g_vec > EPS`). Wall time was measured (`frozen`, `maxiter=2000`, floor set to 5% of year-1 targets for the first `q` sectors) at increasing `q`:
+
+| q (priority-floor sectors) | 0 | 1 | 5 | 20 | 35 | 55 | 71 |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Wall time | ~8.9-11.0 s | ~9.0 s | ~10.8 s | ~10.1 s | ~12.3 s | ~17.0 s | ~16.6-18.6 s |
+
+Time grows roughly linearly with `q`, about 1.7-2.1x from `q=0` to `q=71` (repeated at the two extremes to confirm this is a real trend, not run noise). `worst_satisfaction` was identical across every `q` tested, so this specific floor (5%) was never binding; the measured growth is the fixed bookkeeping cost of running the extra lexicographic stage, not the cost of a binding priority constraint reshaping the allocation.
+
+`E+1_final_heuristic_lexicographic` (and `e_corrected.py`/`c.py` generally) has no analogous sector-restricted stage, and — this is a stronger claim than "not implemented" — **has no sector dimension in its max-min at all**. In `evaluate()` (`e_corrected.py`, disabled-inventory case, which is how `solve_eplus1_final` always calls it), substituting `gross_realized[t] = gross_fixed + production_scale[t]*gross_social` into `consumption = (I-A_t)@gross_realized[t] - investment_vector - accumulation[t] + release[t]` and using `(I-A_t)@L_t = I` collapses algebraically to `consumption[i] = production_scale[t] * goals[t,i]` for every sector `i` (accumulation/release are zero throughout, since `solve_eplus1_final` always calls `evaluate` with `inventories_enabled=False`). Every sector's `ratios[i] = consumption[i]/goals[t,i]` therefore equals the same scalar `production_scale[t]` by construction; `feasible_ratio[t] = min(ratios)` is the minimum of N identical numbers. The lexicographic max-min in this family compares across **years**, never across sectors — sectors cannot be individually prioritized or differentiated by it, because the plan-ray formulation forces them equal before the comparison happens.

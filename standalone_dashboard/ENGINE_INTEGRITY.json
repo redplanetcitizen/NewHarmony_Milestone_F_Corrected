@@ -6,643 +6,643 @@
   "files": [
     {
       "path": ".gitignore",
-      "size": 63,
-      "sha256": "944bb0453adf6aa965a678ef96e3d7fd3f24f75d1111b4a68bcae732efe85001"
+      "size": 58,
+      "sha256": "eda3ce3097a5a44d1f7c290d75e06677fcc2aa10e19049b63aa2f44379ec572a"
     },
     {
       "path": "BUILD_INFO.json",
-      "size": 1088,
-      "sha256": "8aa62f616c077b19ed7efd3e52131d7223846b5b05cd6d0c3b4ed609d7208697"
+      "size": 1050,
+      "sha256": "b527d1b2a8a9b29442c7eb5340b622e81ae15e05314fd2731fcd8481910b0f5b"
     },
     {
       "path": "CHANGELOG_E_TO_F.md",
-      "size": 1386,
-      "sha256": "43ba5116eb9775fa39799b4a2a5ddc3225a63caf05a799f9da84f924f8fb6de4"
+      "size": 1372,
+      "sha256": "0797a918d5f226ff71f85f1b7e57fe0785ee14d2a2924b9fdd2c58408c9984d3"
     },
     {
       "path": "CHANGELOG_F_CORRECTED.md",
-      "size": 1266,
-      "sha256": "a7e16dd49e8582319ef5f550c7f15454d56602314f362cef662b69fa6e260589"
-    },
-    {
-      "path": "code/new_harmony_empirical_c.py",
-      "size": 15222,
-      "sha256": "c4fd31cc46416d2784ff2ae580996f3980e1ded1a2a4fb62283492cd02de8f36"
-    },
-    {
-      "path": "code/new_harmony_empirical_d.py",
-      "size": 26057,
-      "sha256": "40fcde68233698375277b55d8c7ee86e833001081deb8a06563c24289878965d"
-    },
-    {
-      "path": "code/new_harmony_empirical_e_corrected.py",
-      "size": 36362,
-      "sha256": "8fa9d43173cb4f15c01807f24c2a104584b3d8b5329141876942571bc0f9208e"
-    },
-    {
-      "path": "code/new_harmony_empirical_f.py",
-      "size": 37061,
-      "sha256": "f3ce17998e5d0681b1f7582962ba6d08d97592f02476ef433add11e5748e03a5"
+      "size": 1252,
+      "sha256": "fa44c59d35f059dacd105fbf0a49a0115b2a0fdd79169dd273852b87d4b87065"
     },
     {
       "path": "CORRECTIONS_AUDIT.md",
-      "size": 3022,
-      "sha256": "70fe0ad36da0c661af43f29f20f5fe87fbbae93913c5d74b511c742038ccae7f"
-    },
-    {
-      "path": "data/A_nominal_2019.csv",
-      "size": 102953,
-      "sha256": "9dd2429789bfc26f66cd2e07a41f300918c3beb073512962e3573e12159f7423"
-    },
-    {
-      "path": "data/A_nominal_2020.csv",
-      "size": 103040,
-      "sha256": "2096c1634aa96e7dd50d3dd2056646718c24589e20580e4da570aefb2b81174e"
-    },
-    {
-      "path": "data/A_nominal_2021.csv",
-      "size": 103169,
-      "sha256": "115f58f93c11ec3aac6255de589f6d7e726fbf24ed62da76ddc7a0d19a028a5e"
-    },
-    {
-      "path": "data/A_nominal_2022.csv",
-      "size": 103552,
-      "sha256": "aeb06236711dfac8259e233e9b9bed825a1329d823b180bfb30d961ab4d00342"
-    },
-    {
-      "path": "data/A_nominal_2023.csv",
-      "size": 103282,
-      "sha256": "212ce05b0f36ad6d641d5f5b9b3579482f5c93505c021fc0bb73b0326cd12a42"
-    },
-    {
-      "path": "data/A_real_2019.csv",
-      "size": 102953,
-      "sha256": "9dd2429789bfc26f66cd2e07a41f300918c3beb073512962e3573e12159f7423"
-    },
-    {
-      "path": "data/A_real_2020.csv",
-      "size": 103101,
-      "sha256": "84095eb28cca4a8805a7eef0a1b06a5358d370ddb31f6022fcd74749d1a1a91a"
-    },
-    {
-      "path": "data/A_real_2021.csv",
-      "size": 103191,
-      "sha256": "f9da31e3bf01df9587d78d5ba8dabd7f0944d31cf7e6f06c9e27b1e42d20a256"
-    },
-    {
-      "path": "data/A_real_2022.csv",
-      "size": 103505,
-      "sha256": "de9f70621814b7e92dcb65c8e2ceb0b61fa4867ac22bfa72d3f1f2ff1f416b4e"
-    },
-    {
-      "path": "data/A_real_2023.csv",
-      "size": 103332,
-      "sha256": "3e76e3f0099c254259c1305574b6cfc318180ed4d0a307837cf24328c4fdf2ec"
-    },
-    {
-      "path": "data/capital_coefficients_C_real_2018_2019.csv",
-      "size": 43272,
-      "sha256": "6d55c0cf8bbebfc4f11102d365d2be224053eba153b39a7da0f9658a316b8575"
-    },
-    {
-      "path": "data/capital_stock_matrix_real_2018.csv",
-      "size": 39936,
-      "sha256": "460bf24f707df932def7727a33f74596421eaf0f2f825e4b5be88131fea01660"
-    },
-    {
-      "path": "data/capital_stock_real_2018.csv",
-      "size": 4065,
-      "sha256": "c383a3ddd026caecf042583c5f096ee53d38bf479807f1b5f09e1df6284bcf8f"
-    },
-    {
-      "path": "data/capital_stock_real_2019.csv",
-      "size": 3427,
-      "sha256": "242b93b27fefc920ca09356197e463cf55aa821561c0ea1165f0c796ac275f73"
-    },
-    {
-      "path": "data/capital_stock_real_2020.csv",
-      "size": 4059,
-      "sha256": "88f5577ee55569930823bd1b30a2a7e88a532357c5912c97fd1dd69dd22a1f18"
-    },
-    {
-      "path": "data/capital_stock_real_2021.csv",
-      "size": 4062,
-      "sha256": "67e5325e05f399fdffc7e5f111170a8d01a360a7ef481117cc23e1eca0efd62e"
-    },
-    {
-      "path": "data/capital_stock_real_2022.csv",
-      "size": 4053,
-      "sha256": "ec232c4e28863a41bf13b4d632af387a33facc3e59e95976f71cd38fca81b96f"
-    },
-    {
-      "path": "data/capital_stock_real_2023.csv",
-      "size": 4060,
-      "sha256": "1fd41d794886398177231a18dcf0bedbf0c46c256d8c71ec2cd91149764fbc84"
-    },
-    {
-      "path": "data/DATA_AUDIT.json",
-      "size": 4213,
-      "sha256": "4c090bbf129f596ef952a49409f48e47e77eeb6c100a023178a3fa78e1a01f93"
-    },
-    {
-      "path": "data/depreciation_rate_2019.csv",
-      "size": 4177,
-      "sha256": "5715518d3e3fff20a519dccc83454e7d2a7c1803320c0f70e95841254a0610dd"
-    },
-    {
-      "path": "data/depreciation_rate_2020.csv",
-      "size": 4177,
-      "sha256": "5266807fef0d27725d625222a1ff489a77657b2c627237d87dfb4c5c9571335e"
-    },
-    {
-      "path": "data/depreciation_rate_2021.csv",
-      "size": 4178,
-      "sha256": "1e09c35545afa66f2588ba0f310950a8ad125331f03806900c72060845da2da5"
-    },
-    {
-      "path": "data/depreciation_rate_2022.csv",
-      "size": 4172,
-      "sha256": "6063bfcbca6153fe8e90e0e7b00fd4d6d22eaaa368cabd7aad334ed170dbded0"
-    },
-    {
-      "path": "data/depreciation_rate_2023.csv",
-      "size": 4174,
-      "sha256": "5357ecd7e924f0bb8f3873b18c6cc47bb067b47d13d8a187dd7714bd987df7ea"
-    },
-    {
-      "path": "data/depreciation_rate_matrix_2019.csv",
-      "size": 101237,
-      "sha256": "57886ec1a7a82d490c9b27f26218b3008f09c08a644c918bdeda598ede6ee100"
-    },
-    {
-      "path": "data/depreciation_rate_matrix_2020.csv",
-      "size": 101237,
-      "sha256": "65a948476fd2938fe5f43d2f8784654859d5b20178fbfca9216b524e98bf7b75"
-    },
-    {
-      "path": "data/depreciation_rate_matrix_2021.csv",
-      "size": 101308,
-      "sha256": "a2d3f73aebbe9ee089320274b883f1c704998f7a10ac70dfb38bd67af7e15376"
-    },
-    {
-      "path": "data/depreciation_rate_matrix_2022.csv",
-      "size": 100882,
-      "sha256": "acd8dfab750063b9b9d596d081c379a908f44eb06fa15428a886a0cb0ba476f4"
-    },
-    {
-      "path": "data/depreciation_rate_matrix_2023.csv",
-      "size": 101024,
-      "sha256": "729b0e4c54ed3c6f620cb7924ef876ae6dea83ba115be432dde6138649001ac8"
-    },
-    {
-      "path": "data/depreciation_real_2019.csv",
-      "size": 3356,
-      "sha256": "81dc5b380c7a102d627a2070b42e50ffafc51d499ae16927af1e780f11f3749d"
-    },
-    {
-      "path": "data/depreciation_real_2020.csv",
-      "size": 4060,
-      "sha256": "97f6b7086ff25774bf87f35f4f5d61f7d73f8b7655e5c94fccd35d1f7e07f396"
-    },
-    {
-      "path": "data/depreciation_real_2021.csv",
-      "size": 4062,
-      "sha256": "3c8b0f9a00cb763d2fa6dfe5ff135517ed81e615c530c456bfdd83618b72a8e9"
-    },
-    {
-      "path": "data/depreciation_real_2022.csv",
-      "size": 4058,
-      "sha256": "54791066b7fd9b85a2d87347143d16856a5736dfbb7a5055fe78213c06e126bd"
-    },
-    {
-      "path": "data/depreciation_real_2023.csv",
-      "size": 4057,
-      "sha256": "69f6ee774374fca2e3a3abd084c6737b45236483bd0498d3bfd7969e4889e2c5"
-    },
-    {
-      "path": "data/final_import_overlay_nominal.csv",
-      "size": 79791,
-      "sha256": "6f0ee1adc57eebac1c7d901e208494d04f736c566185d18110d383d42d8162f2"
-    },
-    {
-      "path": "data/fixed_asset_composition_2019_2023.csv",
-      "size": 5422,
-      "sha256": "41e7f3441348f09587acb71511d4f2f597b04e919ee546abeb261c47f2988609"
-    },
-    {
-      "path": "data/FIXED_ASSET_COMPOSITION_AUDIT.json",
-      "size": 1196,
-      "sha256": "92fad2d67c8e4e9cdee947098108d9e69d2c724a9f6a9952068eb7790083f8fb"
-    },
-    {
-      "path": "data/fte_2019.csv",
-      "size": 3213,
-      "sha256": "2b71917b08537e776fb874875027861be286fbf42f5fce5bc47b3a086093bb44"
-    },
-    {
-      "path": "data/fte_2020.csv",
-      "size": 3212,
-      "sha256": "e67dcd1d83aa850999d2605290b12af5be385ed9d4c8561f198ad324a3a3bcc4"
-    },
-    {
-      "path": "data/fte_2021.csv",
-      "size": 3213,
-      "sha256": "232c65307d621b0bd8377efa06be3c4c2c69a9554977c28688c8ca699c532d39"
-    },
-    {
-      "path": "data/fte_2022.csv",
-      "size": 3213,
-      "sha256": "04bb5721cd4d825c847b95c221210fd4d4208e2134f7b342c2f349dc3d1eb5bd"
-    },
-    {
-      "path": "data/fte_2023.csv",
-      "size": 3213,
-      "sha256": "bb6ddd24c2998134462bc53cb5317bdbe6dddaf03e2dc3c7b4b587c97c878909"
-    },
-    {
-      "path": "data/gross_output_nominal_2019.csv",
-      "size": 3386,
-      "sha256": "28c359b2599992d3aa536f9ef980a93ee79660c8f79b833c2c383b69cd14feea"
-    },
-    {
-      "path": "data/gross_output_nominal_2020.csv",
-      "size": 3385,
-      "sha256": "a3c6df414747682ccf4554fa1cc20609b0246fe76844da4ddd3a2c8ea0d35060"
-    },
-    {
-      "path": "data/gross_output_nominal_2021.csv",
-      "size": 3388,
-      "sha256": "58fa1ac586dfe9367e4c2479de4c48e3a5265c55800c7bd599a94ef42dc8a6e4"
-    },
-    {
-      "path": "data/gross_output_nominal_2022.csv",
-      "size": 3389,
-      "sha256": "611295d9a86fc5966560593a5c4372e7c5102508477122e0759cdea522eca3ba"
-    },
-    {
-      "path": "data/gross_output_nominal_2023.csv",
-      "size": 3391,
-      "sha256": "d5500bd0ec74cc6883f98636eddd490dd43aef5d66cb8beb164488e1636dd443"
-    },
-    {
-      "path": "data/gross_output_price_relative_2019.csv",
-      "size": 3039,
-      "sha256": "fff72a65458fc268eb7997b7a65cec294142ea2b824283e340ac67d901445d26"
-    },
-    {
-      "path": "data/gross_output_price_relative_2020.csv",
-      "size": 4088,
-      "sha256": "013e06c6d22d21eab7e1095539c2c2ced5f659fac6d9767270e59ffc4fe08f1f"
-    },
-    {
-      "path": "data/gross_output_price_relative_2021.csv",
-      "size": 4088,
-      "sha256": "d247bcee2a5552064e0307223feb01e15d4dac0d7af29992293e953fd00ae5f2"
-    },
-    {
-      "path": "data/gross_output_price_relative_2022.csv",
-      "size": 4092,
-      "sha256": "915933970b3bf4c41591ce509e1e0ecebccd9c38d9c45acab94ff595d72919e5"
-    },
-    {
-      "path": "data/gross_output_price_relative_2023.csv",
-      "size": 4084,
-      "sha256": "5d7fc2d3e18979db8d7a1f8ad7c542ff6a471ff87e830c892c7a8c78e5cc7a52"
-    },
-    {
-      "path": "data/gross_output_real_2019.csv",
-      "size": 3394,
-      "sha256": "bef5d495b62d77596bb8c9f16613977acfdba52e8607a6671e960e06e881148c"
-    },
-    {
-      "path": "data/gross_output_real_2020.csv",
-      "size": 4050,
-      "sha256": "fa8b75b083f08bf26af81bf355ba86c98008c80c727168d876f43fb0f6008943"
-    },
-    {
-      "path": "data/gross_output_real_2021.csv",
-      "size": 4049,
-      "sha256": "1991936c0091839cb1667cf150faf7c7de898f9d1f3adee41358f5ed1b3738f0"
-    },
-    {
-      "path": "data/gross_output_real_2022.csv",
-      "size": 4046,
-      "sha256": "d1bf3d064193f5a992900c84a0018c101a11fe1fa11d8ca29d1f443c8b1691f3"
-    },
-    {
-      "path": "data/gross_output_real_2023.csv",
-      "size": 4049,
-      "sha256": "d598358738cad6d64529195c4e19cc846fff25a265a39ed742d36532f99a22e9"
-    },
-    {
-      "path": "data/IMPORT_INVENTORY_AUDIT.json",
-      "size": 5365,
-      "sha256": "96f390cdd61e9879d4454275aa06d962f6fb0fde359821355765c953312a40fb"
-    },
-    {
-      "path": "data/import_nonpositive_domestic_denominator_cells_nominal.csv",
-      "size": 756,
-      "sha256": "f0adfe1bfbb800dd33d33668dbb2164186ecc8f7242f8f273100aede83586732"
-    },
-    {
-      "path": "data/intermediate_import_to_domestic_ratio_2019.csv",
-      "size": 48055,
-      "sha256": "5d544480c8bd4391f942e04d9cf449246b41141c276a982ebf25f79291ff740b"
-    },
-    {
-      "path": "data/intermediate_import_to_domestic_ratio_2020.csv",
-      "size": 46797,
-      "sha256": "fca93f43212e6fdffd9354af72376652076a8a999fb7a77ab9b3dacf8c038929"
-    },
-    {
-      "path": "data/intermediate_import_to_domestic_ratio_2021.csv",
-      "size": 47470,
-      "sha256": "2a9d0d7a3a222f258ea7df1abb04f5ee25a9580415f75fe3ae7d907c111903ca"
-    },
-    {
-      "path": "data/intermediate_import_to_domestic_ratio_2022.csv",
-      "size": 46722,
-      "sha256": "53425368a2ae78c7266e89672f07d1b704365a36a7cbeec4c1b8ba7ffe73b716"
-    },
-    {
-      "path": "data/intermediate_import_to_domestic_ratio_2023.csv",
-      "size": 46677,
-      "sha256": "dc2f79c95741e699079b01d126919760ade963712dd95250908262132be90eb6"
-    },
-    {
-      "path": "data/inventory_change_F030_nominal.csv",
-      "size": 20678,
-      "sha256": "b09a36a0e215c50ce653caae374390d6054dd956dca02437a25e01573d663c32"
-    },
-    {
-      "path": "data/inventory_change_F030_real_2019price.csv",
-      "size": 21298,
-      "sha256": "6dc84bc4b96e811f5a44faa9c3f57612ef3999ea2dfe5b4870cc2f17437d00ac"
-    },
-    {
-      "path": "data/investment_real_2019.csv",
-      "size": 3359,
-      "sha256": "523c7bf665b27d75ddc55dc3b8734bc52eba662761b279c1112e722c09914b29"
-    },
-    {
-      "path": "data/investment_real_2020.csv",
-      "size": 4058,
-      "sha256": "cf54a6e8fba252de76154eb2e86cf3d10d6d4f62354b3ad4fe7a73c6f4f592cf"
-    },
-    {
-      "path": "data/investment_real_2021.csv",
-      "size": 4063,
-      "sha256": "cfc8f00765d621b6dfff434ed110a0603e53b729aa1968c9b6ffe67d11a1f03b"
-    },
-    {
-      "path": "data/investment_real_2022.csv",
-      "size": 4058,
-      "sha256": "538cc93c571a7b0885926e86cd1ecf11e011b33d9f37bfc3fc3b2559fdc26a4b"
-    },
-    {
-      "path": "data/investment_real_2023.csv",
-      "size": 4060,
-      "sha256": "3058ebba3e69cf3dd923c80b24ffc3c8d3ded597e39b5172495d05bdcf24ba65"
-    },
-    {
-      "path": "data/labour_coeff_fte_2019.csv",
-      "size": 4264,
-      "sha256": "28f288d22198ac022b058e552360b8a4eca9232f34919828d0a5a15afe1f2df8"
-    },
-    {
-      "path": "data/labour_coeff_fte_2020.csv",
-      "size": 4266,
-      "sha256": "53281aa13857d8d56a17f3e57f496df852307a456bc561d5842d5b5d616a54d1"
-    },
-    {
-      "path": "data/labour_coeff_fte_2021.csv",
-      "size": 4264,
-      "sha256": "81620237f6e207b324fb4d77159aa4955386dd9e332b34dd41db48472ba0787a"
-    },
-    {
-      "path": "data/labour_coeff_fte_2022.csv",
-      "size": 4268,
-      "sha256": "5df0bd022d559b9de779e6557ae67a21830ac9c68626bd4ad8f1794482892bce"
-    },
-    {
-      "path": "data/labour_coeff_fte_2023.csv",
-      "size": 4266,
-      "sha256": "e342d18e5b0d354bc008f57977da5ab7a280d34f9cce28bb0d8ff5c1e21333a6"
-    },
-    {
-      "path": "data/negative_import_adjustments_nominal.csv",
-      "size": 358,
-      "sha256": "4c92f6a6dd1f514a281bf41b7408e8405c81b31cfd0bb7d6945575d3551c41f4"
-    },
-    {
-      "path": "data/plan_targets_real_2019_2023.csv",
-      "size": 6446,
-      "sha256": "2fc88df228610bdf35478841396425b81fd65b3ef8d3ddbb112576c00141db61"
-    },
-    {
-      "path": "data/sectors_71.csv",
-      "size": 2923,
-      "sha256": "f599fef5198bec3bacfe9b3b37edc1551ef676c9eb85df74276737eae00ee675"
-    },
-    {
-      "path": "data/social_shares_2019_2023.csv",
-      "size": 4956,
-      "sha256": "d87ba998c01c970aa5efc0bf78d8144fc776830945b0d5897bea4049d863770b"
-    },
-    {
-      "path": "data/special_import_rows_nominal.csv",
-      "size": 1446,
-      "sha256": "db0bdef05c5cc8ce3d849a73ca9d24ef43b5e893d65dd1e0831483dc45d99c6b"
+      "size": 2987,
+      "sha256": "a208c95bfc00e0b3840b7241c4faaa1395cf2a221441a00654d39db222d8a105"
     },
     {
       "path": "F_RESULTS_INTERPRETATION.md",
-      "size": 5014,
-      "sha256": "5196f192840bb689a59eabb3c496051aae3458d16c63238b68fc889fbddcaddb"
+      "size": 4970,
+      "sha256": "06e9be6e5206c2ce2d3dcdc04f1274fabef35ed0acf8230dc43a54e177fadd91"
     },
     {
       "path": "MILESTONE_F_ACCEPTANCE.md",
-      "size": 1662,
-      "sha256": "3bd835da823b8cf1517fcc39fc582156316fc5f1fb285ac26a76a7f2c254f778"
+      "size": 1643,
+      "sha256": "5a910a87bece8cede893b6c07400423a9bbafd9420b755fc7ba4143ab0443557"
     },
     {
       "path": "MILESTONE_F_SPEC.md",
-      "size": 3553,
-      "sha256": "7d6de766e4c0d87fffaacf033eb4d0233bc2ab43458cef3d9f597f6cfee7aeca"
+      "size": 3501,
+      "sha256": "de4d72b03aa4c0445aa7e8a649bc350356e00366474870a60c55638e1ee7d07d"
     },
     {
       "path": "PACKAGE_MANIFEST.csv",
-      "size": 13785,
-      "sha256": "9d23d4081cee64f07676958a082f4f53a354eee417a0a8cc05ff4421f066d6bf"
+      "size": 13656,
+      "sha256": "37f12905eff9e8627a44f8866a3e7abb38b17aba8fe177f3fae18711c17fc93e"
     },
     {
       "path": "README.md",
-      "size": 4335,
-      "sha256": "7083cb37dc39c191c86cb593a42bb6db48972664686eefdfa7c36c8a459eb088"
+      "size": 4289,
+      "sha256": "54ae418b2460477e5b0f0fa374a57a01e61b383f819ee409895b659fb936b96a"
+    },
+    {
+      "path": "code/new_harmony_empirical_c.py",
+      "size": 14954,
+      "sha256": "8914648826faa2be586b07ca7f2b1426f03f7bc0a05984a4f2219c1344c1e599"
+    },
+    {
+      "path": "code/new_harmony_empirical_d.py",
+      "size": 25607,
+      "sha256": "d63ef3a9de1d102ad2657a45e979e5f69095b2a18e123cecbc9caa1009c27789"
+    },
+    {
+      "path": "code/new_harmony_empirical_e_corrected.py",
+      "size": 35462,
+      "sha256": "6c36f01074fa49a2ab8cff457ecf0b9630952250f05d396faa5b4dc30ff56cc3"
+    },
+    {
+      "path": "code/new_harmony_empirical_f.py",
+      "size": 36271,
+      "sha256": "6f5a78acf38ffc9784df5584ba8e1f866a7187ccff6920a279bd3a77049f24e6"
+    },
+    {
+      "path": "data/A_nominal_2019.csv",
+      "size": 102881,
+      "sha256": "afc8e850b8da5f70bf3f3739b972042a8a82feb2dff7a7e68dca0f2dc2c1ae07"
+    },
+    {
+      "path": "data/A_nominal_2020.csv",
+      "size": 102968,
+      "sha256": "4f43a7e4c0ee6c1cf6b2096f867c3600285a2657b11a5a7959429e119686ff3d"
+    },
+    {
+      "path": "data/A_nominal_2021.csv",
+      "size": 103097,
+      "sha256": "4fbf993e157059aafb380718d51baa465b2ee4ef4f007d0f935324ceaf532513"
+    },
+    {
+      "path": "data/A_nominal_2022.csv",
+      "size": 103480,
+      "sha256": "0232e06750fa1caa36feaa3051e3cb6581a115d112f3bc8a7167fb8bba092d9a"
+    },
+    {
+      "path": "data/A_nominal_2023.csv",
+      "size": 103210,
+      "sha256": "ce4ac5fca0b05243c3e16d3ad5674ee7e6dfbd2fcee87e59bc20a4329dadd567"
+    },
+    {
+      "path": "data/A_real_2019.csv",
+      "size": 102881,
+      "sha256": "afc8e850b8da5f70bf3f3739b972042a8a82feb2dff7a7e68dca0f2dc2c1ae07"
+    },
+    {
+      "path": "data/A_real_2020.csv",
+      "size": 103029,
+      "sha256": "aef82642ce987f9a5ae1babb8fd4e4dcb51b922b3f83c6f3ca78dac7f3bc0886"
+    },
+    {
+      "path": "data/A_real_2021.csv",
+      "size": 103119,
+      "sha256": "1c440887e0263b47108fbb2134606bd3e81b7847ca76d194af3b4f7a3947341d"
+    },
+    {
+      "path": "data/A_real_2022.csv",
+      "size": 103433,
+      "sha256": "3f286c8d1b5216ea40e246c88092c142bf5a2792072ee507cb985a2e0c4ff106"
+    },
+    {
+      "path": "data/A_real_2023.csv",
+      "size": 103260,
+      "sha256": "800b9351c4c03cb272b852af4f882c679242b969188624cb34881c0271ec990a"
+    },
+    {
+      "path": "data/DATA_AUDIT.json",
+      "size": 4073,
+      "sha256": "7e5b056c1a8c8ee8a7917f61682f064671977d73bc6bdd36a6eea9b1f7011a39"
+    },
+    {
+      "path": "data/FIXED_ASSET_COMPOSITION_AUDIT.json",
+      "size": 1170,
+      "sha256": "a1072ad71fe9ec2a7e69d4484c5d34e7df06249c062c7763d56c3e716c2297a0"
+    },
+    {
+      "path": "data/IMPORT_INVENTORY_AUDIT.json",
+      "size": 5219,
+      "sha256": "7ff67058991ea107d6f03cd4814e07b625889f22ff6488c149073212499d6742"
+    },
+    {
+      "path": "data/capital_coefficients_C_real_2018_2019.csv",
+      "size": 43200,
+      "sha256": "430051c18b053d1deb89f4415155484f2c6bfac677cc7e6e402cc857baa31ed3"
+    },
+    {
+      "path": "data/capital_stock_matrix_real_2018.csv",
+      "size": 39864,
+      "sha256": "a379f70b07edbedc3f0067b5cf9557901ec258bf8941915cf134867321434a8d"
+    },
+    {
+      "path": "data/capital_stock_real_2018.csv",
+      "size": 3993,
+      "sha256": "89fd3b883d0731d72fb6545ac3a274b8db9adc10fdb54800a8af77a5e27e7642"
+    },
+    {
+      "path": "data/capital_stock_real_2019.csv",
+      "size": 3355,
+      "sha256": "5a58cd6a57c665f3bb1c41a11de1f602af6cd8cc3351f4c693fb5273537ad2fe"
+    },
+    {
+      "path": "data/capital_stock_real_2020.csv",
+      "size": 3987,
+      "sha256": "0ed5a7d42d9ac15e9fe7fa42ab0b451807773c1c0184e4cad469417d72f1974f"
+    },
+    {
+      "path": "data/capital_stock_real_2021.csv",
+      "size": 3990,
+      "sha256": "70246a86a3a3724a388339d5047bb4041b80327d70d33c101a0bd939b867ee6b"
+    },
+    {
+      "path": "data/capital_stock_real_2022.csv",
+      "size": 3981,
+      "sha256": "1143833b114bb58d4bdbc0ab75ce6b99d02d6afc76413cdf633afc037879aa98"
+    },
+    {
+      "path": "data/capital_stock_real_2023.csv",
+      "size": 3988,
+      "sha256": "2828fd899579116c1de66b3a5db0a991cd764ac3a8cd41152527df74524eab42"
+    },
+    {
+      "path": "data/depreciation_rate_2019.csv",
+      "size": 4105,
+      "sha256": "3aad553c3d8190ad9e291e82e4026382bc5a004eced4638173e54bfc8e0fb6c4"
+    },
+    {
+      "path": "data/depreciation_rate_2020.csv",
+      "size": 4105,
+      "sha256": "8ca5bdac3f87511a6e32fa0a40fb82327d4ed9419a8b56b43703ad22751bf0a1"
+    },
+    {
+      "path": "data/depreciation_rate_2021.csv",
+      "size": 4106,
+      "sha256": "7274a08e7f90ad551b89c76e0e6d2e2f99736187b12d41ac1f2c62cc4d270070"
+    },
+    {
+      "path": "data/depreciation_rate_2022.csv",
+      "size": 4100,
+      "sha256": "660bb42406f6b790be994469f05824c3070f42ed05f47500b02e75e4203fff32"
+    },
+    {
+      "path": "data/depreciation_rate_2023.csv",
+      "size": 4102,
+      "sha256": "9c80565b9f43eed26c033899327284b81286842fcf01365074bc2f9470af4470"
+    },
+    {
+      "path": "data/depreciation_rate_matrix_2019.csv",
+      "size": 101165,
+      "sha256": "2de0af2254201311aed3118eb140af688de5de7088bd40d01c7cc458f4c2adc3"
+    },
+    {
+      "path": "data/depreciation_rate_matrix_2020.csv",
+      "size": 101165,
+      "sha256": "bcb356b55e78c2cb583d0bb722532e559c6e68f9da1989254db6887967e229c3"
+    },
+    {
+      "path": "data/depreciation_rate_matrix_2021.csv",
+      "size": 101236,
+      "sha256": "1fe5894340dc6a72a346b986888784a8f85e15aa3cd7552578954626c9241d41"
+    },
+    {
+      "path": "data/depreciation_rate_matrix_2022.csv",
+      "size": 100810,
+      "sha256": "de2826d990bab0081718ba30f107a3543fed43d18c1d459382f5ecedf159df88"
+    },
+    {
+      "path": "data/depreciation_rate_matrix_2023.csv",
+      "size": 100952,
+      "sha256": "09a27e9f2488d42753783e13d1d5b513816d5abb1277c84736e9d75fbea9b86f"
+    },
+    {
+      "path": "data/depreciation_real_2019.csv",
+      "size": 3284,
+      "sha256": "6924d9ee95201a59112ade0e7bfd49f066f16d50a618f19f1715f2d691de4551"
+    },
+    {
+      "path": "data/depreciation_real_2020.csv",
+      "size": 3988,
+      "sha256": "1cd99f0092e5c90d36e4d46af23a74c0391cc210232aa383d75e02382b898a70"
+    },
+    {
+      "path": "data/depreciation_real_2021.csv",
+      "size": 3990,
+      "sha256": "7cba6ccafbfcc77ebc238fee4400d2aeaf19c3b8207a454b46e0c3eff07b2a9d"
+    },
+    {
+      "path": "data/depreciation_real_2022.csv",
+      "size": 3986,
+      "sha256": "9bf860e274380d9d1608907edabf454850133efffdca6955726207af31f8572b"
+    },
+    {
+      "path": "data/depreciation_real_2023.csv",
+      "size": 3985,
+      "sha256": "7f1e2b686dbfe7a4c4089de821decc0c6eae56be0c2a2b31f3e7590dc6d15438"
+    },
+    {
+      "path": "data/final_import_overlay_nominal.csv",
+      "size": 79080,
+      "sha256": "bd1e95e0aacea8378b22f1d3f322c2ec5f5a1a3d1268a79a5c15e29dd0ba874c"
+    },
+    {
+      "path": "data/fixed_asset_composition_2019_2023.csv",
+      "size": 5361,
+      "sha256": "a9d4844b1dbd6ef9f5ec0022b29c5af2446b0b78357d98f6f4bb7cae88fe80f7"
+    },
+    {
+      "path": "data/fte_2019.csv",
+      "size": 3141,
+      "sha256": "f491fff289122256e38169b30a40a6d78d0d089089946967c6044a188ab1a65a"
+    },
+    {
+      "path": "data/fte_2020.csv",
+      "size": 3140,
+      "sha256": "3b1d64917241c51863119badaeef870148c18c84783721d7e044aad7961bb677"
+    },
+    {
+      "path": "data/fte_2021.csv",
+      "size": 3141,
+      "sha256": "b17ce48ea28754a0485d525f97e954c1c58be0eed6e60ba1ab49eae972cb2aa1"
+    },
+    {
+      "path": "data/fte_2022.csv",
+      "size": 3141,
+      "sha256": "fb80a5d08e5664e2e03867aee9053e4075c370a35b093fb079dcfaf6995dfb97"
+    },
+    {
+      "path": "data/fte_2023.csv",
+      "size": 3141,
+      "sha256": "95d3ca5504e9c0bcb5609af53da0286268b11205dae27fcf50839c3d1a3192fc"
+    },
+    {
+      "path": "data/gross_output_nominal_2019.csv",
+      "size": 3314,
+      "sha256": "ecc5f5d9a39c7177d13161f64e642d259402f76c4bd2b534f8ddd73245d2a611"
+    },
+    {
+      "path": "data/gross_output_nominal_2020.csv",
+      "size": 3313,
+      "sha256": "7f3d62fd97f3aa68d46ec7f958c8f61a7f26dafffe746fa4c4836a23eabe383c"
+    },
+    {
+      "path": "data/gross_output_nominal_2021.csv",
+      "size": 3316,
+      "sha256": "19bb8483ab156cbebccbe70c3af299ff3c4b80b0df444ba500527e13108c4252"
+    },
+    {
+      "path": "data/gross_output_nominal_2022.csv",
+      "size": 3317,
+      "sha256": "a6d50f8be4f6ac7d7bee8a56fb705378b879bc8ca9c273ea07c8278c7c8ffa60"
+    },
+    {
+      "path": "data/gross_output_nominal_2023.csv",
+      "size": 3319,
+      "sha256": "d1edc654b2b272f0f425302218057dbed0b919b87e70539761ec5cf4becba3dc"
+    },
+    {
+      "path": "data/gross_output_price_relative_2019.csv",
+      "size": 2967,
+      "sha256": "93a6d94e5657558d465e7aba5486e806553d32e0080b27e3fa7328148747b756"
+    },
+    {
+      "path": "data/gross_output_price_relative_2020.csv",
+      "size": 4016,
+      "sha256": "c9834b0c9b2098a7fd516b4065aeaebdacf8aeaf8fb4ba5a00b07b4e067dd0c4"
+    },
+    {
+      "path": "data/gross_output_price_relative_2021.csv",
+      "size": 4016,
+      "sha256": "c65b02a89611558e26985288f876c985cc94439b0e952fb8097806e425b79495"
+    },
+    {
+      "path": "data/gross_output_price_relative_2022.csv",
+      "size": 4020,
+      "sha256": "b246315f5338f6f61d3fd4230bdb6cf615f3a50ee76361f76bcc48629ff7af37"
+    },
+    {
+      "path": "data/gross_output_price_relative_2023.csv",
+      "size": 4012,
+      "sha256": "bf7613a08fb499820dabd80c5ceed243ee3b52135f1ccd8e6881ddaa835583c7"
+    },
+    {
+      "path": "data/gross_output_real_2019.csv",
+      "size": 3322,
+      "sha256": "02ef6a2017f570f1a6a2da4d2b68282a2fd157dd1b0c1c7d92fe1af0086b073e"
+    },
+    {
+      "path": "data/gross_output_real_2020.csv",
+      "size": 3978,
+      "sha256": "9ebe1a2603fa51366aabf8b182e751166597c11ef22472f23da1dee0d60e2c5a"
+    },
+    {
+      "path": "data/gross_output_real_2021.csv",
+      "size": 3977,
+      "sha256": "5f8563db6f70f7cc42c8a309b28bbe0a34e2aa1eda28d885c61d029fcd856a09"
+    },
+    {
+      "path": "data/gross_output_real_2022.csv",
+      "size": 3974,
+      "sha256": "c4f793e522b2532d0c5f06b45c07dfb0078b3c47445cc4e5b3ba6863301d7566"
+    },
+    {
+      "path": "data/gross_output_real_2023.csv",
+      "size": 3977,
+      "sha256": "87678e0fce6a63409a9f876e7d703d352dd1b3a93126ac3c873f7cea36691b4a"
+    },
+    {
+      "path": "data/import_nonpositive_domestic_denominator_cells_nominal.csv",
+      "size": 732,
+      "sha256": "7d8e5913f53ca3b424cc55a0be7f29c0be43617d2a94d40cf9a5eb6a35a6a7cf"
+    },
+    {
+      "path": "data/intermediate_import_to_domestic_ratio_2019.csv",
+      "size": 47983,
+      "sha256": "c58f5cbc1922053bba7ac16edd9cc01866c39d168930aced72be6da18dc15c02"
+    },
+    {
+      "path": "data/intermediate_import_to_domestic_ratio_2020.csv",
+      "size": 46725,
+      "sha256": "05423249f6d714fdbb75b52923f6b7f6750fcfba9472f6b9aa31fb53efd0d289"
+    },
+    {
+      "path": "data/intermediate_import_to_domestic_ratio_2021.csv",
+      "size": 47398,
+      "sha256": "9f0e7aa3735b10bd360c6c975e211ada72ce5c09f2be7d15fedba07b0bcfeb02"
+    },
+    {
+      "path": "data/intermediate_import_to_domestic_ratio_2022.csv",
+      "size": 46650,
+      "sha256": "00a29b4c662695d55de44f7e7476e25cc3c9f6bc3733833f40a9e05cfb946176"
+    },
+    {
+      "path": "data/intermediate_import_to_domestic_ratio_2023.csv",
+      "size": 46605,
+      "sha256": "d94e37bad8ba9620fc2eff19805fde92c0fc370b05c2736425ce75ebeea60f1f"
+    },
+    {
+      "path": "data/inventory_change_F030_nominal.csv",
+      "size": 20322,
+      "sha256": "3c204b5501c64e96997e94450febd5b9e9b6dc0b4d9670d3d2e7fa8c2497a6a1"
+    },
+    {
+      "path": "data/inventory_change_F030_real_2019price.csv",
+      "size": 20942,
+      "sha256": "0d287c3e0d5a19e5c49356678350af207c500a0c81e19587c97807aa47299b29"
+    },
+    {
+      "path": "data/investment_real_2019.csv",
+      "size": 3287,
+      "sha256": "8da09f0620aee10cdab485b0685a5dd4159c1549ef0b6835980c1cd05e34593b"
+    },
+    {
+      "path": "data/investment_real_2020.csv",
+      "size": 3986,
+      "sha256": "da9a37d24031a4ac8755f3b69c6de854a237a4202ed660c56a2b73423df1b083"
+    },
+    {
+      "path": "data/investment_real_2021.csv",
+      "size": 3991,
+      "sha256": "99e3d0681f287f272f679f086ccaf60af5b9bbf797fccff1558c844a30717225"
+    },
+    {
+      "path": "data/investment_real_2022.csv",
+      "size": 3986,
+      "sha256": "2084e0ab872756c673b7f80d2a9b12dc7d3c4974d974ae1cb98d34a99cf40d21"
+    },
+    {
+      "path": "data/investment_real_2023.csv",
+      "size": 3988,
+      "sha256": "25885ab188097a42dde938531a66cc1e1623334872d7298c36ca0d25672e1c63"
+    },
+    {
+      "path": "data/labour_coeff_fte_2019.csv",
+      "size": 4192,
+      "sha256": "9e586547d274bdb5189795fef1eefaa50ee650aa54c18dba825284f122bc6c79"
+    },
+    {
+      "path": "data/labour_coeff_fte_2020.csv",
+      "size": 4194,
+      "sha256": "db32d0283c8c9406d191f1f6e988b3d8e2f8eb438af5c77daa726f65f8e1a138"
+    },
+    {
+      "path": "data/labour_coeff_fte_2021.csv",
+      "size": 4192,
+      "sha256": "b6fc368b9040527d98989b702c10a7623e6d19a0933436c8a354c7e8cc962ebe"
+    },
+    {
+      "path": "data/labour_coeff_fte_2022.csv",
+      "size": 4196,
+      "sha256": "b1066fb4b9a8cc8a21f4fb021d8db7ca77808c2e5007310b426df0bd53fa7817"
+    },
+    {
+      "path": "data/labour_coeff_fte_2023.csv",
+      "size": 4194,
+      "sha256": "30e90a3b6bdb4f0946aafb1378e34f6fc8e0f8272f60d57684b2edd793e94af7"
+    },
+    {
+      "path": "data/negative_import_adjustments_nominal.csv",
+      "size": 349,
+      "sha256": "290e6f37d24bbf6a3fd33f71077da41775069c9eb130bbaf020625f85f6dadbd"
+    },
+    {
+      "path": "data/plan_targets_real_2019_2023.csv",
+      "size": 6440,
+      "sha256": "5cf76439ce9cc4acd865f7b5bb92962d0f5cc4b743a5a32b6462cb5885706adb"
+    },
+    {
+      "path": "data/sectors_71.csv",
+      "size": 2851,
+      "sha256": "20147bf1dea32275a5857c9a7d55a951f431d0351264b1cd9d2bcd49f5e0d16a"
+    },
+    {
+      "path": "data/social_shares_2019_2023.csv",
+      "size": 4950,
+      "sha256": "38132f2eac412cd7919a13c4f623a321676432942b7b6836c540f1b049372bcc"
+    },
+    {
+      "path": "data/special_import_rows_nominal.csv",
+      "size": 1425,
+      "sha256": "c859f2bb9a798869f1fb15f7b008e26dc5752a19f04a2ba81a2b15f4ab4a512a"
     },
     {
       "path": "reference/NewHarmony_Milestone_E_SHA256.txt",
-      "size": 94,
-      "sha256": "62f0c71405ea785bc647cce16e6347ed98d29121cd43b51b0054e9a8029849ec"
+      "size": 93,
+      "sha256": "c8f8fdb1954e921241000be6b4db44ff061a73ae629d3a6d053a28adc08dafa0"
     },
     {
       "path": "requirements.txt",
-      "size": 14,
-      "sha256": "1d3f2f20358d703407d63268c3bae76605225914c7e3bbd4aa136e37cacdacdf"
-    },
-    {
-      "path": "results/E+2_forward_cell/frozen/annual_path.csv",
-      "size": 1051,
-      "sha256": "46ddf4a54d212caa99741b6eed725779cd871350ec1160a768d23df645c43007"
-    },
-    {
-      "path": "results/E+2_forward_cell/frozen/constraint_audit.csv",
-      "size": 1037,
-      "sha256": "212a6e852663e601131d9507047ebbdbf290fb1370baeeadeacde1b5d94c2832"
+      "size": 27,
+      "sha256": "6afb83d59515deb526c4879fe45c151289c53c8b2bd6c073dfcd3702132e51ac"
     },
     {
       "path": "results/E+2_forward_cell/frozen/RUN_METADATA.json",
-      "size": 1094,
-      "sha256": "14583d470ea588969808ea0db8ec852ec6687b33f099481544d695e17083768f"
+      "size": 1068,
+      "sha256": "1d0d709eae01aa4a5756dbf5aa5694750bcdd64627f02b461545752cad205f34"
     },
     {
-      "path": "results/E+2_forward_cell/historical/annual_path.csv",
-      "size": 1052,
-      "sha256": "b3995ef6539839827059974fbb220176cd5cff1b81bb0b15a8d5cf058b23464b"
+      "path": "results/E+2_forward_cell/frozen/annual_path.csv",
+      "size": 1045,
+      "sha256": "a5d7de0bd97d54b7515cf0d5c709648f44afdeea4faa23e3ca0325887b87389c"
     },
     {
-      "path": "results/E+2_forward_cell/historical/constraint_audit.csv",
-      "size": 1041,
-      "sha256": "e249d57692046c42cf671dc4c230c229c15a632326e95635ba438eba693014c7"
+      "path": "results/E+2_forward_cell/frozen/constraint_audit.csv",
+      "size": 1031,
+      "sha256": "06339b6efadeef29fe62b9fba3aaee5503d36c3676f9d10e7523dccb33a62dd3"
     },
     {
       "path": "results/E+2_forward_cell/historical/RUN_METADATA.json",
-      "size": 1092,
-      "sha256": "cbba2d8d92a1af419308e2123ea066314cd11f973ffe173a635aa2fb7fd4d5d0"
+      "size": 1066,
+      "sha256": "a4ae79aa2e8777e0c5cf521f216bbf7c662a637a24af390f947d08dd7840da53"
     },
     {
-      "path": "results/E+3_dynamic_bundle/frozen/annual_path.csv",
-      "size": 1026,
-      "sha256": "e60a9a276d1c3d2e0076f98bcecae7a5edae62170201f91392a6493a81ea39db"
+      "path": "results/E+2_forward_cell/historical/annual_path.csv",
+      "size": 1046,
+      "sha256": "81fd108e73aed967a4efdf3e2fbb0eb33c37162a95ba2604da469af4048d6947"
     },
     {
-      "path": "results/E+3_dynamic_bundle/frozen/constraint_audit.csv",
-      "size": 1001,
-      "sha256": "49bfad5142136d8b181243536d6a2270e76ca0859a574c479efe704f409f2277"
+      "path": "results/E+2_forward_cell/historical/constraint_audit.csv",
+      "size": 1035,
+      "sha256": "cef9dae1e54dc0f5ba485fae3151a239d3e0fbe998698698c0fd8ef58d941d42"
     },
     {
       "path": "results/E+3_dynamic_bundle/frozen/RUN_METADATA.json",
-      "size": 1089,
-      "sha256": "a303afc1f6b7f323f92f1717402bc191ef200543887a78d820051cb5fd7e00bf"
+      "size": 1063,
+      "sha256": "3fcb1ea21e0ae854be0c23c62df07a08807938ed03bc8265561995e5aa5723e4"
     },
     {
-      "path": "results/E+3_dynamic_bundle/historical/annual_path.csv",
-      "size": 1049,
-      "sha256": "1dfdb3f6350bec3fad6ddf94ce5c30e8b0c47232db617d85f8e61ab18a83c4ab"
+      "path": "results/E+3_dynamic_bundle/frozen/annual_path.csv",
+      "size": 1020,
+      "sha256": "9bb40718bb35872523ea87f6f1542c70f776010d47e28c2809217b8799e376be"
     },
     {
-      "path": "results/E+3_dynamic_bundle/historical/constraint_audit.csv",
-      "size": 980,
-      "sha256": "b4078869ac702b9b2d99cb84cf7acd4a7891767fc4a4fb900f916469b38116cc"
+      "path": "results/E+3_dynamic_bundle/frozen/constraint_audit.csv",
+      "size": 995,
+      "sha256": "fd16b5f8cebbbae3cb58d173087e8556b6dc66ceee7effd2432c248c093cbf26"
     },
     {
       "path": "results/E+3_dynamic_bundle/historical/RUN_METADATA.json",
-      "size": 1100,
-      "sha256": "37fe1c89830cd342b1ba43d22760c768cecf8cc93c6b96a4f1ed846dc2b8fdab"
+      "size": 1074,
+      "sha256": "672d0e4fe09722641539dadbfd0d52955596b6f30e5f04f0f62159a0aaf02e42"
     },
     {
-      "path": "results/F_corrected_5plus3_shadow/frozen/annual_path.csv",
-      "size": 1571,
-      "sha256": "bd3e21e7612394fa0b3cdb6c6fe8c2c11ddd7a64475fc06c7d0c16f618c3b787"
+      "path": "results/E+3_dynamic_bundle/historical/annual_path.csv",
+      "size": 1043,
+      "sha256": "260a0a5f23c254b1ec6e216c189113473b057636d885737f1c8f7f11332057c5"
     },
     {
-      "path": "results/F_corrected_5plus3_shadow/frozen/constraint_audit.csv",
-      "size": 1461,
-      "sha256": "0323071c79cb6e4fbf88832b0e7d72caab889c5a0e88713aa76f95294760c753"
-    },
-    {
-      "path": "results/F_corrected_5plus3_shadow/frozen/RUN_METADATA.json",
-      "size": 1134,
-      "sha256": "542365064f74ea4bbff93c1f0db3864d3f40d1911fefafb8030b6cd220be7139"
-    },
-    {
-      "path": "results/F_corrected_5plus3_shadow/historical/annual_path.csv",
-      "size": 1559,
-      "sha256": "566ac0efb3adde30caa0053501881814787a69d910e10040099db9b0b5c2be05"
-    },
-    {
-      "path": "results/F_corrected_5plus3_shadow/historical/constraint_audit.csv",
-      "size": 1432,
-      "sha256": "471a072169060ee232dbafa70840ea5a6186aa5646c92e7addc29d775a085580"
-    },
-    {
-      "path": "results/F_corrected_5plus3_shadow/historical/RUN_METADATA.json",
-      "size": 1136,
-      "sha256": "e467cc329a27f0700536250c2d0bdf05e7ce00c02a983faf548123657959fa15"
-    },
-    {
-      "path": "results/F_final/frozen/annual_path.csv",
-      "size": 1571,
-      "sha256": "bd3e21e7612394fa0b3cdb6c6fe8c2c11ddd7a64475fc06c7d0c16f618c3b787"
-    },
-    {
-      "path": "results/F_final/frozen/constraint_audit.csv",
-      "size": 1461,
-      "sha256": "0323071c79cb6e4fbf88832b0e7d72caab889c5a0e88713aa76f95294760c753"
-    },
-    {
-      "path": "results/F_final/frozen/RUN_METADATA.json",
-      "size": 1134,
-      "sha256": "542365064f74ea4bbff93c1f0db3864d3f40d1911fefafb8030b6cd220be7139"
-    },
-    {
-      "path": "results/F_final/historical/annual_path.csv",
-      "size": 1559,
-      "sha256": "566ac0efb3adde30caa0053501881814787a69d910e10040099db9b0b5c2be05"
-    },
-    {
-      "path": "results/F_final/historical/constraint_audit.csv",
-      "size": 1432,
-      "sha256": "471a072169060ee232dbafa70840ea5a6186aa5646c92e7addc29d775a085580"
-    },
-    {
-      "path": "results/F_final/historical/RUN_METADATA.json",
-      "size": 1136,
-      "sha256": "e467cc329a27f0700536250c2d0bdf05e7ce00c02a983faf548123657959fa15"
+      "path": "results/E+3_dynamic_bundle/historical/constraint_audit.csv",
+      "size": 974,
+      "sha256": "f675059228a3a18d7d6d146aad4d831142f0b34f7831934d07580b0474bd113b"
     },
     {
       "path": "results/F_FINAL_SUMMARY.csv",
-      "size": 923,
-      "sha256": "0de232a6f40a6a080bf5733adb0bd2c63df9658fd9bfcdf3fa22daef8827f7f6"
+      "size": 920,
+      "sha256": "d5c3a492c31b420b7281556b18c56290c84d42512610182a5ffc91ce282520e8"
     },
     {
       "path": "results/F_SUMMARY.json",
-      "size": 8480,
-      "sha256": "1592d7c2b23a0f8e484161fa062724593b2820964c918bac636885222dec73c6"
+      "size": 8314,
+      "sha256": "0a7e416c9b3e9e6e00011495b49a053a6c38a2b8734dd294d84796e57cb22e93"
+    },
+    {
+      "path": "results/F_corrected_5plus3_shadow/frozen/RUN_METADATA.json",
+      "size": 1105,
+      "sha256": "5aedb35e19dd7607ce5fa25037b1114fa2c0a64cefdd259dd1bc65a82b8c4e5f"
+    },
+    {
+      "path": "results/F_corrected_5plus3_shadow/frozen/annual_path.csv",
+      "size": 1562,
+      "sha256": "e9bfd52881f64d8c1847f52855efdf2a9f69726a29fd323cb85a2008bf44f639"
+    },
+    {
+      "path": "results/F_corrected_5plus3_shadow/frozen/constraint_audit.csv",
+      "size": 1452,
+      "sha256": "032aa6081726b5d0892968f51fa3a2118f37efdcc5fa2ca660d0a86c3910cd1a"
+    },
+    {
+      "path": "results/F_corrected_5plus3_shadow/historical/RUN_METADATA.json",
+      "size": 1107,
+      "sha256": "e63d4bb3c0ca0cf2c38ba55d487f5d887a4167619365336d6327621ec3c7eda0"
+    },
+    {
+      "path": "results/F_corrected_5plus3_shadow/historical/annual_path.csv",
+      "size": 1550,
+      "sha256": "21f8771f0c999963ee0a09cd5b14b5cfdee888c901f53e628b2d082f4d0dec44"
+    },
+    {
+      "path": "results/F_corrected_5plus3_shadow/historical/constraint_audit.csv",
+      "size": 1423,
+      "sha256": "ae9671d9375981ef78e2458dfd05e2e4cfef927b0b39ebb717d5e004d4150fd4"
+    },
+    {
+      "path": "results/F_final/frozen/RUN_METADATA.json",
+      "size": 1105,
+      "sha256": "5aedb35e19dd7607ce5fa25037b1114fa2c0a64cefdd259dd1bc65a82b8c4e5f"
+    },
+    {
+      "path": "results/F_final/frozen/annual_path.csv",
+      "size": 1562,
+      "sha256": "e9bfd52881f64d8c1847f52855efdf2a9f69726a29fd323cb85a2008bf44f639"
+    },
+    {
+      "path": "results/F_final/frozen/constraint_audit.csv",
+      "size": 1452,
+      "sha256": "032aa6081726b5d0892968f51fa3a2118f37efdcc5fa2ca660d0a86c3910cd1a"
+    },
+    {
+      "path": "results/F_final/historical/RUN_METADATA.json",
+      "size": 1107,
+      "sha256": "e63d4bb3c0ca0cf2c38ba55d487f5d887a4167619365336d6327621ec3c7eda0"
+    },
+    {
+      "path": "results/F_final/historical/annual_path.csv",
+      "size": 1550,
+      "sha256": "21f8771f0c999963ee0a09cd5b14b5cfdee888c901f53e628b2d082f4d0dec44"
+    },
+    {
+      "path": "results/F_final/historical/constraint_audit.csv",
+      "size": 1423,
+      "sha256": "ae9671d9375981ef78e2458dfd05e2e4cfef927b0b39ebb717d5e004d4150fd4"
     },
     {
       "path": "results/OUTPUT_AGGREGATE_COMPARISON.csv",
-      "size": 990,
-      "sha256": "45301c5cba71f6cd45a0131e8219d66c417e4764ac6fcd042bdbd5c8d30d1ae1"
+      "size": 979,
+      "sha256": "402fe53e2a79ca23b001674a08f039e8e8536f01cd3c1deb993dc94e2f6cc432"
     },
     {
       "path": "results/TEST_REPORT.txt",
-      "size": 875,
-      "sha256": "e70e7ee4f37c7c2774a1dc540bd890a2900758cc9cbe7e28f4dbe9de323a4b1d"
+      "size": 850,
+      "sha256": "2df28b960c033877ca0cd0c3910df0c903dd694ad3e7e8e266473c581053db4e"
     },
     {
       "path": "results/VARIANT_ANNUAL.csv",
-      "size": 8310,
-      "sha256": "57189e708920bec889a82218128ce4e722685a6e293c5f12b5c9922f6dfbe939"
+      "size": 8253,
+      "sha256": "f85f3448240f45e264f92cd16fec4b9dced3f2a1548d6edfc3bf71d3ea0b1968"
     },
     {
       "path": "results/VARIANT_COMPARISON.csv",
-      "size": 3043,
-      "sha256": "b03c5780caac19bda8d030fe5ac830d5a51a6acdce20b4c375159cc17481b929"
+      "size": 3032,
+      "sha256": "b9f573c899eaf473750037254480b468448a8b8df5049b654a99ee00df3888a3"
     },
     {
       "path": "tests/test_milestone_f.py",
-      "size": 7314,
-      "sha256": "4a41cf2c3a20ab4a9a4bd50a63f8977880c46b2d4b313e0a9eb8b277bd0a1644"
+      "size": 7163,
+      "sha256": "17e84c4d9a14c4f1cdb6fe4a95e9c6dc22ad1b41aa36f33259d2559a46d08ee9"
     }
   ]
 }
